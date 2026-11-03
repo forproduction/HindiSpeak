@@ -1,0 +1,1058 @@
+{
+"collection": {
+"title": "Spoken Hindi Vocabulary Builder",
+"level": "Beginner to Elementary",
+"language": "Hindi",
+"explanationLanguage": "English",
+"totalCategories": 16,
+"batch": "1 of 4 (Categories 1 to 4)"
+},
+"categories": [
+{
+"id": 1,
+"title": "Greetings and Social Expressions 👋🫂",
+"description": "Essential expressions for initiating conversations, showing politeness, and handling everyday social exchanges naturally.",
+"vocabulary": [
+{
+"hindi": "नमस्ते",
+"roman": "Namaste",
+"meaning": "Hello / Greetings",
+"exampleHindi": "नमस्ते, आप कैसे हैं?",
+"exampleRoman": "Namaste, aap kaise hain?",
+"exampleMeaning": "Hello, how are you?",
+"memoryTip": "The most versatile Indian greeting. Combine with hands folded at chest level."
+},
+{
+"hindi": "धन्यवाद",
+"roman": "Dhanyawad",
+"meaning": "Thank you",
+"exampleHindi": "आपकी मदद के लिए धन्यवाद।",
+"exampleRoman": "Aapki madad ke liye dhanyawad.",
+"exampleMeaning": "Thank you for your help.",
+"memoryTip": "Think of 'Dhanya' as blessed — thanking someone leaves a blessed feeling."
+},
+{
+"hindi": "शुक्रिया",
+"roman": "Shukriya",
+"meaning": "Thank you (Casual/Common)",
+"exampleHindi": "चाय के लिए शुक्रिया!",
+"exampleRoman": "Chai ke liye shukriya!",
+"exampleMeaning": "Thanks for the tea!",
+"memoryTip": "Widely used in daily spoken Hindi as an alternative to Dhanyawad."
+},
+{
+"hindi": "माफ़ कीजिए",
+"roman": "Maaf kijiye",
+"meaning": "Excuse me / Sorry (Polite)",
+"exampleHindi": "माफ़ कीजिए, क्या मैं यहाँ बैठ सकता हूँ?",
+"exampleRoman": "Maaf kijiye, kya main yahan baith sakta hoon?",
+"exampleMeaning": "Excuse me, can I sit here?",
+"memoryTip": "'Maaf' means forgive/excuse and 'kijiye' is the polite 'please do' form."
+},
+{
+"hindi": "कोई बात नहीं",
+"roman": "Koi baat nahin",
+"meaning": "No problem / It's okay",
+"exampleHindi": "देर हो गई? कोई बात नहीं।",
+"exampleRoman": "Der ho gayi? Koi baat nahin.",
+"exampleMeaning": "Late? No problem.",
+"memoryTip": "Literal breakdown: 'Koi' (Any) + 'baat' (matter) + 'nahin' (not). Nothing to worry about!"
+},
+{
+"hindi": "अलविदा",
+"roman": "Alvida",
+"meaning": "Goodbye",
+"exampleHindi": "ठीक है, अब अलविदा!",
+"exampleRoman": "Theek hai, ab alvida!",
+"exampleMeaning": "Okay, goodbye now!",
+"memoryTip": "Used when parting for a longer duration."
+},
+{
+"hindi": "फिर मिलेंगे",
+"roman": "Phir milenge",
+"meaning": "See you again",
+"exampleHindi": "अलविदा, कल फिर मिलेंगे।",
+"exampleRoman": "Alvida, kal phir milenge.",
+"exampleMeaning": "Goodbye, see you again tomorrow.",
+"memoryTip": "'Phir' (again) + 'milenge' (we will meet). The standard friendly sign-off."
+},
+{
+"hindi": "कृपया",
+"roman": "Kripya",
+"meaning": "Please",
+"exampleHindi": "कृपया थोड़ा धीरे बोलिए।",
+"exampleRoman": "Kripya thoda dheere boliye.",
+"exampleMeaning": "Please speak a little slowly.",
+"memoryTip": "Place 'Kripya' at the beginning of requests to make them formal and gentle."
+},
+{
+"hindi": "स्वागत है",
+"roman": "Swagat hai",
+"meaning": "Welcome",
+"exampleHindi": "हमारे घर में आपका स्वागत है।",
+"exampleRoman": "Hamare ghar mein aapka swagat hai.",
+"exampleMeaning": "Welcome to our home.",
+"memoryTip": "Seen on signs across India. 'Swagat' directly means welcome."
+},
+{
+"hindi": "हाँ",
+"roman": "Haan",
+"meaning": "Yes",
+"exampleHindi": "हाँ, मैं तैयार हूँ।",
+"exampleRoman": "Haan, main taiyar hoon.",
+"exampleMeaning": "Yes, I am ready.",
+"memoryTip": "Simple, short, and nasalized sound 'Haan'."
+},
+{
+"hindi": "नहीं",
+"roman": "Nahin",
+"meaning": "No / Not",
+"exampleHindi": "नहीं, मुझे यह नहीं चाहिए।",
+"exampleRoman": "Nahin, mujhe yeh nahin chahiye.",
+"exampleMeaning": "No, I do not want this.",
+"memoryTip": "Pronounced with a slight nasal ending 'Na-heen'."
+},
+{
+"hindi": "सब ठीक है",
+"roman": "Sab theek hai",
+"meaning": "All is fine / Everything is good",
+"exampleHindi": "चिंता मत कीजिए, सब ठीक है।",
+"exampleRoman": "Chinta mat kijiye, sab theek hai.",
+"exampleMeaning": "Don't worry, everything is fine.",
+"memoryTip": "'Sab' = All, 'Theek' = Okay, 'Hai' = Is."
+},
+{
+"hindi": "बिल्कुल",
+"roman": "Bilkul",
+"meaning": "Absolutely / Exactly",
+"exampleHindi": "आप बिल्कुल सही कह रहे हैं।",
+"exampleRoman": "Aap bilkul sahi keh rahe hain.",
+"exampleMeaning": "You are absolutely right.",
+"memoryTip": "Rhymes with 'will cool'. Expresses total agreement."
+},
+{
+"hindi": "खुशी हुई",
+"roman": "Khushi hui",
+"meaning": "Pleased / Happy (to meet)",
+"exampleHindi": "आपसे मिलकर बहुत खुशी हुई।",
+"exampleRoman": "Aapse milkar bahut khushi hui.",
+"exampleMeaning": "Very pleased to meet you.",
+"memoryTip": "'Khushi' means happiness. Pair with 'Aapse milkar' (meeting you)."
+},
+{
+"hindi": "शुभप्रभात",
+"roman": "Shubh prabhat",
+"meaning": "Good morning",
+"exampleHindi": "शुभप्रभात! आज का मौसम अच्छा है।",
+"exampleRoman": "Shubh prabhat! Aaj ka mausam achha hai.",
+"exampleMeaning": "Good morning! Today's weather is good.",
+"memoryTip": "'Shubh' (Auspicious/Good) + 'Prabhat' (Morning)."
+},
+{
+"hindi": "शुभ रात्रि",
+"roman": "Shubh ratri",
+"meaning": "Good night",
+"exampleHindi": "अब मैं सो रहा हूँ, शुभ रात्रि!",
+"exampleRoman": "Ab main so raha hoon, shubh ratri!",
+"exampleMeaning": "I am sleeping now, good night!",
+"memoryTip": "'Shubh' (Good) + 'Ratri' (Night). Used right before bedtime."
+},
+{
+"hindi": "अरे वाह",
+"roman": "Are wah",
+"meaning": "Oh wow / Wonderful",
+"exampleHindi": "अरे वाह! यह तो बहुत सुंदर है।",
+"exampleRoman": "Are wah! Yeh to bahut sundar hai.",
+"exampleMeaning": "Oh wow! This is very beautiful.",
+"memoryTip": "Expresses pleasant surprise or appreciation."
+},
+{
+"hindi": "बधाई हो",
+"roman": "Badhai ho",
+"meaning": "Congratulations",
+"exampleHindi": "नई नौकरी के लिए बधाई हो!",
+"exampleRoman": "Nai naukri ke liye badhai ho!",
+"exampleMeaning": "Congratulations on the new job!",
+"memoryTip": "Used during festivals, birthdays, and professional achievements."
+},
+{
+"hindi": "चिंता मत कीजिए",
+"roman": "Chinta mat kijiye",
+"meaning": "Do not worry",
+"exampleHindi": "सब ठीक हो जाएगा, चिंता मत कीजिए।",
+"exampleRoman": "Sab theek ho jayega, chinta mat kijiye.",
+"exampleMeaning": "Everything will be fine, do not worry.",
+"memoryTip": "'Chinta' means worry; 'mat kijiye' means don't do it."
+},
+{
+"hindi": "शुभकामनाएँ",
+"roman": "Shubhkamnayein",
+"meaning": "Best wishes",
+"exampleHindi": "परीक्षा के लिए आपको शुभकामनाएँ।",
+"exampleRoman": "Pariksha ke liye aapko shubhkamnayein.",
+"exampleMeaning": "Best wishes to you for the exam.",
+"memoryTip": "'Shubh' (good) + 'kamnayein' (wishes)."
+}
+],
+"conversation": [
+{
+"speaker": "Rohan",
+"hindi": "नमस्ते शर्मा जी! आप कैसे हैं?",
+"roman": "Namaste Sharma ji! Aap kaise hain?",
+"meaning": "Hello Mr. Sharma! How are you?"
+},
+{
+"speaker": "Sharma Ji",
+"hindi": "नमस्ते रोहन! मैं ठीक हूँ, धन्यवाद। आपसे मिलकर खुशी हुई।",
+"roman": "Namaste Rohan! Main theek hoon, dhanyawad. Aapse milkar khushi hui.",
+"meaning": "Hello Rohan! I am fine, thank you. Pleased to meet you."
+},
+{
+"speaker": "Rohan",
+"hindi": "मुझे भी! सब ठीक है?",
+"roman": "Mujhe bhi! Sab theek hai?",
+"meaning": "Me too! Is everything good?"
+},
+{
+"speaker": "Sharma Ji",
+"hindi": "हाँ, बिल्कुल सब ठीक है। अब मैं चलता हूँ, फिर मिलेंगे!",
+"roman": "Haan, bilkul sab theek hai. Ab main chalta hoon, phir milenge!",
+"meaning": "Yes, absolutely fine. I'll take my leave now, see you again!"
+}
+]
+},
+{
+"id": 2,
+"title": "People and Relationships 👨🏻‍👩🏻‍👦🏻‍👦🏻",
+"description": "Vocabulary for identifying family members, social relations, colleagues, and addressing people with appropriate respect in India.",
+"vocabulary": [
+{
+"hindi": "लोग",
+"roman": "Log",
+"meaning": "People",
+"exampleHindi": "यहाँ बहुत सारे लोग हैं।",
+"exampleRoman": "Yahan bahut sare log hain.",
+"exampleMeaning": "There are many people here.",
+"memoryTip": "Think of a crowd where many people 'lodge' together."
+},
+{
+"hindi": "दोस्त",
+"roman": "Dost",
+"meaning": "Friend",
+"exampleHindi": "अमित मेरा सबसे अच्छा दोस्त है।",
+"exampleRoman": "Amit mera sabse achha dost hai.",
+"exampleMeaning": "Amit is my best friend.",
+"memoryTip": "Commonly used word across India for male or female friends."
+},
+{
+"hindi": "परिवार",
+"roman": "Parivar",
+"meaning": "Family",
+"exampleHindi": "मेरा परिवार दिल्ली में रहता है।",
+"exampleRoman": "Mera parivar Delhi mein rehta hai.",
+"exampleMeaning": "My family lives in Delhi.",
+"memoryTip": "Sounds like 'pair-i-var'. Central aspect of Indian culture."
+},
+{
+"hindi": "माता-पिता",
+"roman": "Mata-Pita",
+"meaning": "Parents",
+"exampleHindi": "मेरे माता-पिता गाँव में हैं।",
+"exampleRoman": "Mere mata-pita gaon mein hain.",
+"exampleMeaning": "My parents are in the village.",
+"memoryTip": "Mata = Mother, Pita = Father. Joined naturally together."
+},
+{
+"hindi": "माँ",
+"roman": "Maa",
+"meaning": "Mother",
+"exampleHindi": "माँ ने बहुत स्वादिष्ट खाना बनाया है।",
+"exampleRoman": "Maa ne bahut swadisht khana banaya hai.",
+"exampleMeaning": "Mother has cooked very delicious food.",
+"memoryTip": "Universal soft sound 'Maa'."
+},
+{
+"hindi": "पिताजी",
+"roman": "Pitaji",
+"meaning": "Father (Respected)",
+"exampleHindi": "पिताजी दफ़्तर गए हैं।",
+"exampleRoman": "Pitaji daftar gaye hain.",
+"exampleMeaning": "Father has gone to the office.",
+"memoryTip": "Always add '-ji' after Pita to show traditional respect."
+},
+{
+"hindi": "भाई",
+"roman": "Bhai",
+"meaning": "Brother",
+"exampleHindi": "मेरा एक छोटा भाई है।",
+"exampleRoman": "Mera ek chhota bhai hai.",
+"exampleMeaning": "I have one younger brother.",
+"memoryTip": "Used both for actual brothers and informally for male peers ('bro')."
+},
+{
+"hindi": "बहन",
+"roman": "Behan",
+"meaning": "Sister",
+"exampleHindi": "मेरी बहन कॉलेज में पढ़ती है।",
+"exampleRoman": "Meri behan college mein padhti hai.",
+"exampleMeaning": "My sister studies in college.",
+"memoryTip": "Pronounced like 'Bay-hen'."
+},
+{
+"hindi": "बेटा",
+"roman": "Beta",
+"meaning": "Son / Child",
+"exampleHindi": "बेटा, यहाँ आओ।",
+"exampleRoman": "Beta, yahan aao.",
+"exampleMeaning": "Son/Child, come here.",
+"memoryTip": "Elders often address younger people affectionately as 'Beta'."
+},
+{
+"hindi": "बेटी",
+"roman": "Beti",
+"meaning": "Daughter",
+"exampleHindi": "उनकी बेटी डॉक्टर है।",
+"exampleRoman": "Unki beti doctor hai.",
+"exampleMeaning": "Their daughter is a doctor.",
+"memoryTip": "Notice the gender vowel change: Beta (masculine) -> Beti (feminine)."
+},
+{
+"hindi": "पति",
+"roman": "Pati",
+"meaning": "Husband",
+"exampleHindi": "मेरे पति बैंक में काम करते हैं।",
+"exampleRoman": "Mere pati bank mein kaam karte hain.",
+"exampleMeaning": "My husband works in a bank.",
+"memoryTip": "Short two-syllable word."
+},
+{
+"hindi": "पत्नी",
+"roman": "Patni",
+"meaning": "Wife",
+"exampleHindi": "उनकी पत्नी एक शिक्षिका हैं।",
+"exampleRoman": "Unki patni ek shikshika hain.",
+"exampleMeaning": "His wife is a teacher.",
+"memoryTip": "Pair with Pati: Pati (husband) & Patni (wife)."
+},
+{
+"hindi": "सहकर्मी",
+"roman": "Sahkarmi",
+"meaning": "Colleague / Coworker",
+"exampleHindi": "वह मेरे नए सहकर्मी हैं।",
+"exampleRoman": "Vah mere naye sahkarmi hain.",
+"exampleMeaning": "He is my new colleague.",
+"memoryTip": "'Sah' (Co/Together) + 'Karmi' (Worker)."
+},
+{
+"hindi": "पड़ोसी",
+"roman": "Padosi",
+"meaning": "Neighbor",
+"exampleHindi": "हमारे पड़ोसी बहुत मददगार हैं।",
+"exampleRoman": "Hamare padosi bahut madadgar hain.",
+"exampleMeaning": "Our neighbors are very helpful.",
+"memoryTip": "Think of the area nearby as 'pados'."
+},
+{
+"hindi": "बच्चे",
+"roman": "Bachhe",
+"meaning": "Children",
+"exampleHindi": "बच्चे पार्क में खेल रहे हैं।",
+"exampleRoman": "Bachhe park mein khel rahe hain.",
+"exampleMeaning": "Children are playing in the park.",
+"memoryTip": "Singular is 'Bachha' (child), plural is 'Bachhe' (children)."
+},
+{
+"hindi": "रिश्तेदार",
+"roman": "Rishtedaar",
+"meaning": "Relative",
+"exampleHindi": "कल हमारे घर रिश्तेदार आ रहे हैं।",
+"exampleRoman": "Kal hamare ghar rishtedaar aa rahe hain.",
+"exampleMeaning": "Relatives are coming to our house tomorrow.",
+"memoryTip": "'Rishta' means relation/connection."
+},
+{
+"hindi": "अतिथि",
+"roman": "Atithi",
+"meaning": "Guest",
+"exampleHindi": "भारतीय संस्कृति में अतिथि को भगवान माना जाता है।",
+"exampleRoman": "Bharatiya sanskriti mein atithi ko bhagwan mana jata hai.",
+"exampleMeaning": "In Indian culture, a guest is considered equivalent to God.",
+"memoryTip": "Derived from classical Sanskrit, widely used in formal hospitality."
+},
+{
+"hindi": "मालिक",
+"roman": "Malik",
+"meaning": "Boss / Owner",
+"exampleHindi": "कार्यालय के मालिक बहुत दयालु हैं।",
+"exampleRoman": "Karyalay ke malik bahut dayalu hain.",
+"exampleMeaning": "The office owner/boss is very kind.",
+"memoryTip": "The person in charge of the business or property."
+},
+{
+"hindi": "ग्राहक",
+"roman": "Grahak",
+"meaning": "Customer / Client",
+"exampleHindi": "दुकान पर एक नया ग्राहक आया है।",
+"exampleRoman": "Dukan par ek naya grahak aaya hai.",
+"exampleMeaning": "A new customer has come to the shop.",
+"memoryTip": "Essential word for shopping and business interactions."
+},
+{
+"hindi": "अजनबी",
+"roman": "Ajnabee",
+"meaning": "Stranger",
+"exampleHindi": "शहर में किसी अजनबी पर तुरंत भरोसा मत करो।",
+"exampleRoman": "Shehar mein kisi ajnabee par turant bharosa mat karo.",
+"exampleMeaning": "Do not trust a stranger immediately in the city.",
+"memoryTip": "Someone unknown to you."
+}
+],
+"conversation": [
+{
+"speaker": "Neha",
+"hindi": "अमित, क्या यह आपके परिवार की फ़ोटो है?",
+"roman": "Amit, kya yeh aapke parivar ki photo hai?",
+"meaning": "Amit, is this a photo of your family?"
+},
+{
+"speaker": "Amit",
+"hindi": "हाँ, इसमें मेरे पिताजी, माँ और मेरी बहन हैं।",
+"roman": "Haan, ismein mere pitaji, maa aur meri behan hain.",
+"meaning": "Yes, in this are my father, mother, and my sister."
+},
+{
+"speaker": "Neha",
+"hindi": "और यह पास में कौन खड़े हैं?",
+"roman": "Aur yeh paas mein kaun khade hain?",
+"meaning": "And who is this standing nearby?"
+},
+{
+"speaker": "Amit",
+"hindi": "यह मेरा सबसे अच्छा दोस्त और मेरा पड़ोसी, विकास है।",
+"roman": "Yeh mera sabse achha dost aur mera padosi, Vikas hai.",
+"meaning": "This is my best friend and my neighbor, Vikas."
+}
+]
+},
+{
+"id": 3,
+"title": "Common Everyday Objects 📦",
+"description": "Everyday tangible items found around carrying bags, desk space, electronics, and daily essentials.",
+"vocabulary": [
+{
+"hindi": "चीज़",
+"roman": "Cheez",
+"meaning": "Thing / Object",
+"exampleHindi": "यह क्या चीज़ है?",
+"exampleRoman": "Yeh kya cheez hai?",
+"exampleMeaning": "What thing is this?",
+"memoryTip": "Easy to remember because it sounds like the food 'cheese'!"
+},
+{
+"hindi": "सामान",
+"roman": "Samaan",
+"meaning": "Luggage / Goods / Items",
+"exampleHindi": "अपना सामान यहाँ रखिए।",
+"exampleRoman": "Apna samaan yahan rakhiye.",
+"exampleMeaning": "Keep your luggage/items here.",
+"memoryTip": "Collective term for all personal belongings."
+},
+{
+"hindi": "फ़ोन",
+"roman": "Phone",
+"meaning": "Phone",
+"exampleHindi": "मेरा फ़ोन कहाँ है?",
+"exampleRoman": "Mera phone kahan hai?",
+"exampleMeaning": "Where is my phone?",
+"memoryTip": "Loan word used universally in spoken Hindi."
+},
+{
+"hindi": "चाबी",
+"roman": "Chaabi",
+"meaning": "Key",
+"exampleHindi": "घर की चाबी मेज़ पर है।",
+"exampleRoman": "Ghar ki chaabi mez par hai.",
+"exampleMeaning": "The house key is on the table.",
+"memoryTip": "Think of starting a car: turn the 'Chaabi'."
+},
+{
+"hindi": "बैग",
+"roman": "Bag",
+"meaning": "Bag",
+"exampleHindi": "मेरा बैग बहुत भारी है।",
+"exampleRoman": "Mera bag bahut bhaari hai.",
+"exampleMeaning": "My bag is very heavy.",
+"memoryTip": "Widely used Hinglish word alongside Hindi 'Thaila'."
+},
+{
+"hindi": "किताब",
+"roman": "Kitaab",
+"meaning": "Book",
+"exampleHindi": "मैं एक नई किताब पढ़ रहा हूँ।",
+"exampleRoman": "Main ek nai kitaab padh raha hoon.",
+"exampleMeaning": "I am reading a new book.",
+"memoryTip": "Rhymes with 'Key-taab'."
+},
+{
+"hindi": "कलम",
+"roman": "Kalam",
+"meaning": "Pen",
+"exampleHindi": "क्या आपके पास एक कलम है?",
+"exampleRoman": "Kya aapke paas ek kalam hai?",
+"exampleMeaning": "Do you have a pen?",
+"memoryTip": "Also commonly referred to simply as 'Pen' in daily office Hindi."
+},
+{
+"hindi": "कागज़",
+"roman": "Kaagaz",
+"meaning": "Paper",
+"exampleHindi": "इस कागज़ पर अपना नाम लिखिए।",
+"exampleRoman": "Is kaagaz par apna naam likhiye.",
+"exampleMeaning": "Write your name on this paper.",
+"memoryTip": "Think of important legal or official papers."
+},
+{
+"hindi": "घड़ी",
+"roman": "Ghadi",
+"meaning": "Watch / Clock",
+"exampleHindi": "मेरी घड़ी में पाँच बजे हैं।",
+"exampleRoman": "Meri ghadi mein paanch baje hain.",
+"exampleMeaning": "It is 5 o'clock in my watch.",
+"memoryTip": "Sounds like 'Ghar-ee'. Measures time."
+},
+{
+"hindi": "चश्मा",
+"roman": "Chashma",
+"meaning": "Spectacles / Glasses",
+"exampleHindi": "मेरा चश्मा कहाँ रखा है?",
+"exampleRoman": "Mera chashma kahan rakha hai?",
+"exampleMeaning": "Where are my glasses kept?",
+"memoryTip": "Think of 'eye glasses'."
+},
+{
+"hindi": "पैसे",
+"roman": "Paise",
+"meaning": "Money",
+"exampleHindi": "क्या आपके पास नक़द पैसे हैं?",
+"exampleRoman": "Kya aapke paas naqad paise hain?",
+"exampleMeaning": "Do you have cash money?",
+"memoryTip": "General term used for money or currency in Hindi."
+},
+{
+"hindi": "बटुआ",
+"roman": "Batua",
+"meaning": "Wallet / Purse",
+"exampleHindi": "मैंने अपना बटुआ जेब में रखा है।",
+"exampleRoman": "Maine apna batua jeb mein rakha hai.",
+"exampleMeaning": "I have kept my wallet in the pocket.",
+"memoryTip": "Small pocket pouch used for carrying money."
+},
+{
+"hindi": "बोतल",
+"roman": "Botal",
+"meaning": "Bottle",
+"exampleHindi": "पानी की बोतल ठंडी है।",
+"exampleRoman": "Paani ki botal thandi hai.",
+"exampleMeaning": "The water bottle is cold.",
+"memoryTip": "Sounds very similar to the English word 'Bottle'."
+},
+{
+"hindi": "छाता",
+"roman": "Chhaata",
+"meaning": "Umbrella",
+"exampleHindi": "बारिश हो रही है, छाता ले जाओ।",
+"exampleRoman": "Baarish ho rahi hai, chhaata le jaao.",
+"exampleMeaning": "It is raining, take an umbrella.",
+"memoryTip": "Provides 'chhaaya' (shade/cover) from rain and sun."
+},
+{
+"hindi": "डिब्बा",
+"roman": "Dibba",
+"meaning": "Box / Container",
+"exampleHindi": "मिठाई का डिब्बा मेज़ पर रख दो।",
+"exampleRoman": "Mithai ka dibba mez par rakh do.",
+"exampleMeaning": "Keep the sweet box on the table.",
+"memoryTip": "Used for lunchboxes (Tiffin dibba) or shipping boxes."
+}
+],
+"conversation": [
+{
+"speaker": "Priya",
+"hindi": "सुनो, क्या तुमने मेरा बैग देखा?",
+"roman": "Suno, kya tumne mera bag dekha?",
+"meaning": "Listen, did you see my bag?"
+},
+{
+"speaker": "Raj",
+"hindi": "हाँ, बैग मेज़ पर है। उसमें क्या है?",
+"roman": "Haan, bag mez par hai. Usmein kya hai?",
+"meaning": "Yes, the bag is on the table. What is in it?"
+},
+{
+"speaker": "Priya",
+"hindi": "उसमें मेरी किताब, कलम और घर की चाबी है।",
+"roman": "Usmein meri kitaab, kalam aur ghar ki chaabi hai.",
+"meaning": "In it are my book, pen, and house key."
+},
+{
+"speaker": "Raj",
+"hindi": "और तुम्हारा फ़ोन और बटुआ कहाँ है?",
+"roman": "Aur tumhara phone aur batua kahan hai?",
+"meaning": "And where are your phone and wallet?"
+},
+{
+"speaker": "Priya",
+"hindi": "वे मेरी जेब में हैं!",
+"roman": "Ve meri jeb mein hain!",
+"meaning": "They are in my pocket!"
+}
+]
+},
+{
+"id": 4,
+"title": "Home and Household 🏠",
+"description": "Vocabulary associated with house spaces, furniture, household items, and basic living environments.",
+"vocabulary": [
+{
+"hindi": "घर",
+"roman": "Ghar",
+"meaning": "Home / House",
+"exampleHindi": "मेरा घर बहुत बड़ा है।",
+"exampleRoman": "Mera ghar bahut bada hai.",
+"exampleMeaning": "My house is very big.",
+"memoryTip": "Core word for home. Expresses warmth and personal living place."
+},
+{
+"hindi": "कमरा",
+"roman": "Kamra",
+"meaning": "Room",
+"exampleHindi": "यह कमरा साफ और हवादार है।",
+"exampleRoman": "Yeh kamra saaf aur hawadaar hai.",
+"exampleMeaning": "This room is clean and airy.",
+"memoryTip": "Think of camera = room (originated from Latin camera/vault)."
+},
+{
+"hindi": "रसोई",
+"roman": "Rasoi",
+"meaning": "Kitchen",
+"exampleHindi": "माँ रसोई में खाना बना रही हैं।",
+"exampleRoman": "Maa rasoi mein khana bana rahi hain.",
+"exampleMeaning": "Mother is cooking food in the kitchen.",
+"memoryTip": "'Rasa' = taste/juice; where tasty food is made."
+},
+{
+"hindi": "दरवाज़ा",
+"roman": "Darwaza",
+"meaning": "Door",
+"exampleHindi": "कृपया दरवाज़ा बंद कर दीजिए।",
+"exampleRoman": "Kripya darwaza band kar dijiye.",
+"exampleMeaning": "Please close the door.",
+"memoryTip": "Sounds like 'Dar-waa-zaa'."
+},
+{
+"hindi": "खिड़की",
+"roman": "Khidki",
+"meaning": "Window",
+"exampleHindi": "खिड़की खोल दो, ताज़ी हवा आएगी।",
+"exampleRoman": "Khidki khol do, taazi hawa aayegi.",
+"exampleMeaning": "Open the window, fresh air will come.",
+"memoryTip": "Click-clack sound of opening a 'Khidki'."
+},
+{
+"hindi": "मेज़",
+"roman": "Mez",
+"meaning": "Table / Desk",
+"exampleHindi": "चाय का कप मेज़ पर रख दो।",
+"exampleRoman": "Chai ka cup mez par rakh do.",
+"exampleMeaning": "Keep the tea cup on the table.",
+"memoryTip": "Short one-syllable word 'Mez'."
+},
+{
+"hindi": "कुर्सी",
+"roman": "Kursi",
+"meaning": "Chair",
+"exampleHindi": "इस कुर्सी पर बैठिए।",
+"exampleRoman": "Is kursi par baithiye.",
+"exampleMeaning": "Sit on this chair.",
+"memoryTip": "Standard word for chair in home or office."
+},
+{
+"hindi": "बिस्तर",
+"roman": "Bistar",
+"meaning": "Bed",
+"exampleHindi": "बिस्तर साफ और आरामदायक है।",
+"exampleRoman": "Bistar saaf aur aaramdayak hai.",
+"exampleMeaning": "The bed is clean and comfortable.",
+"memoryTip": "Where you stretch out ('star' / spread out)."
+},
+{
+"hindi": "पंखा",
+"roman": "Pankha",
+"meaning": "Fan",
+"exampleHindi": "गर्मी है, पंखा चला दो।",
+"exampleRoman": "Garmi hai, pankha chala do.",
+"exampleMeaning": "It is hot, turn on the fan.",
+"memoryTip": "'Pankh' means feather/wing; a fan spins like wings."
+},
+{
+"hindi": "बत्ती",
+"roman": "Batti",
+"meaning": "Light / Lamp",
+"exampleHindi": "कमरे की बत्ती जला दो।",
+"exampleRoman": "Kamre ki batti jala do.",
+"exampleMeaning": "Turn on the room light.",
+"memoryTip": "Also referred to as 'Light' in daily spoken Hinglish."
+},
+{
+"hindi": "चादर",
+"roman": "Chaadar",
+"meaning": "Bedsheet",
+"exampleHindi": "बिस्तर पर नई चादर बिछा दो।",
+"exampleRoman": "Bistar par nai chaadar bichha do.",
+"exampleMeaning": "Spread a new bedsheet on the bed.",
+"memoryTip": "Covers the bed like a shield."
+},
+{
+"hindi": "तकिया",
+"roman": "Takiya",
+"meaning": "Pillow",
+"exampleHindi": "मुझे एक और तकिया चाहिए।",
+"exampleRoman": "Mujhe ek aur takiya chahiye.",
+"exampleMeaning": "I need one more pillow.",
+"memoryTip": "Soft cushion for sleeping."
+},
+{
+"hindi": "अलमारी",
+"roman": "Almari",
+"meaning": "Cupboard / Wardrobe",
+"exampleHindi": "कपड़े अलमारी में रख दो।",
+"exampleRoman": "Kapde almari mein rakh do.",
+"exampleMeaning": "Put the clothes in the cupboard.",
+"memoryTip": "Cognate with English 'almirah'."
+},
+{
+"hindi": "ताला",
+"roman": "Taala",
+"meaning": "Lock",
+"exampleHindi": "दरवाज़े पर ताला लगा दो।",
+"exampleRoman": "Darwaze par taala laga do.",
+"exampleMeaning": "Put a lock on the door.",
+"memoryTip": "Chaabi (Key) opens the Taala (Lock)."
+},
+{
+"hindi": "सफ़ाई",
+"roman": "Safai",
+"meaning": "Cleaning / Cleanliness",
+"exampleHindi": "आज हम घर की सफ़ाई करेंगे।",
+"exampleRoman": "Aaj hum ghar ki safai karenge.",
+"exampleMeaning": "Today we will clean the house.",
+"memoryTip": "'Saaf' means clean; 'Safai' is the act of cleaning."
+}
+],
+"conversation": [
+{
+"speaker": "Suresh",
+"hindi": "यह आपका नया घर बहुत सुंदर है!",
+"roman": "Yeh aapka naya ghar bahut sundar hai!",
+"meaning": "This new house of yours is very beautiful!"
+},
+{
+"speaker": "Anil",
+"hindi": "धन्यवाद! आइए, इस कमरे में बैठिए।",
+"roman": "Dhanyawad! Aaiye, is kamre mein baithiye.",
+"meaning": "Thank you! Come, sit in this room."
+},
+{
+"speaker": "Suresh",
+"hindi": "यहाँ तो काफ़ी गर्मी है।",
+"roman": "Yahan to kaafi garmi hai.",
+"meaning": "It is quite hot here."
+},
+{
+"speaker": "Anil",
+"hindi": "माफ़ कीजिए, मैं अभी पंखा चलाता हूँ और खिड़की खोलता हूँ।",
+"roman": "Maaf kijiye, main abhi pankha chalata hoon aur khidki kholta hoon.",
+"meaning": "Sorry, I will turn on the fan right now and open the window."
+}
+]
+},
+{
+"id": 5,
+"title": "Time of Day and Daily Schedule 🕓",
+"description": "Essential vocabulary for tracking time, daily routine periods, meal times, and scheduling.",
+"vocabulary": [
+{
+"hindi": "सुबह",
+"roman": "Subah",
+"meaning": "Morning",
+"exampleHindi": "मैं सुबह जल्दी उठता/उठती हूँ।",
+"exampleRoman": "Main subah jaldi uthta/uthti hoon.",
+"exampleMeaning": "I wake up early in the morning.",
+"memoryTip": "Starts the day with fresh energy."
+},
+{
+"hindi": "दोपहर",
+"roman": "Dopahar",
+"meaning": "Afternoon / Noon",
+"exampleHindi": "हम दोपहर में मिलते हैं।",
+"exampleRoman": "Hum dopahar mein milte hain.",
+"exampleMeaning": "We meet in the afternoon.",
+"memoryTip": "Middle of the day when the sun is right above."
+},
+{
+"hindi": "दोपहर का खाना",
+"roman": "Dopahar ka khana",
+"meaning": "Lunch",
+"exampleHindi": "दोपहर का खाना तैयार है।",
+"exampleRoman": "Dopahar ka khana taiyar hai.",
+"exampleMeaning": "Lunch is ready.",
+"memoryTip": "Literal breakdown: 'Dopahar' (noon/afternoon) + 'ka khana' (food of)."
+},
+{
+"hindi": "शाम",
+"roman": "Shaam",
+"meaning": "Evening",
+"exampleHindi": "हम शाम को सैर करने जाते हैं।",
+"exampleRoman": "Hum shaam ko sair karne jaate hain.",
+"exampleMeaning": "We go for a walk in the evening.",
+"memoryTip": "When daylight begins to fade into sunset."
+},
+{
+"hindi": "रात",
+"roman": "Raat",
+"meaning": "Night",
+"exampleHindi": "रात का खाना बहुत स्वादिष्ट था।",
+"exampleRoman": "Raat ka khana bahut swadisht tha.",
+"exampleMeaning": "Dinner was very delicious.",
+"memoryTip": "Used for nighttime and late hours."
+},
+{
+"hindi": "रात का खाना",
+"roman": "Raat ka khana",
+"meaning": "Dinner",
+"exampleHindi": "क्या आपने रात का खाना खा लिया?",
+"exampleRoman": "Kya aapne raat ka khana kha liya?",
+"exampleMeaning": "Have you eaten dinner?",
+"memoryTip": "'Raat' (night) + 'ka khana' (food)."
+},
+{
+"hindi": "समय",
+"roman": "Samay",
+"meaning": "Time",
+"exampleHindi": "अभी क्या समय हुआ है?",
+"exampleRoman": "Abhi kya samay hua hai?",
+"exampleMeaning": "What time is it now?",
+"memoryTip": "Universal word for time or duration."
+},
+{
+"hindi": "वक्त",
+"roman": "Waqt",
+"meaning": "Time / Moment",
+"exampleHindi": "मेरे पास अभी वक्त नहीं है।",
+"exampleRoman": "Mere paas abhi waqt nahin hai.",
+"exampleMeaning": "I don't have time right now.",
+"memoryTip": "Commonly used alternative to Samay in casual spoken Hindi."
+},
+{
+"hindi": "आज",
+"roman": "Aaj",
+"meaning": "Today",
+"exampleHindi": "आज मौसम बहुत अच्छा है।",
+"exampleRoman": "Aaj mausam bahut achha hai.",
+"exampleMeaning": "Today the weather is very good.",
+"memoryTip": "Refers to the current day."
+},
+{
+"hindi": "कल",
+"roman": "Kal",
+"meaning": "Yesterday / Tomorrow",
+"exampleHindi": "मैं कल कार्यालय आऊँगा/आऊँगी।",
+"exampleRoman": "Main kal karyalay aaunga/aaungi.",
+"exampleMeaning": "I will come to the office tomorrow.",
+"memoryTip": "Context determines whether Kal means yesterday or tomorrow."
+},
+{
+"hindi": "परसों",
+"roman": "Parson",
+"meaning": "Day before yesterday / Day after tomorrow",
+"exampleHindi": "हमारी मीटिंग परसों है।",
+"exampleRoman": "Hamari meeting parson hai.",
+"exampleMeaning": "Our meeting is the day after tomorrow.",
+"memoryTip": "Extends one step beyond 'Kal'."
+},
+{
+"hindi": "रोज़",
+"roman": "Roz",
+"meaning": "Daily / Everyday",
+"exampleHindi": "वह रोज़ हिंदी का अभ्यास करता/करती है।",
+"exampleRoman": "Vah roz Hindi ka abhyas karta/karti hai.",
+"exampleMeaning": "He/She practices Hindi everyday.",
+"memoryTip": "Means routine or daily repetition."
+},
+{
+"hindi": "तुरंत",
+"roman": "Turant",
+"meaning": "Immediately / Right now",
+"exampleHindi": "यह काम तुरंत कीजिए।",
+"exampleRoman": "Yeh kaam turant kijiye.",
+"exampleMeaning": "Do this work immediately.",
+"memoryTip": "Done without delay."
+},
+{
+"hindi": "देर",
+"roman": "Der",
+"meaning": "Late / Delay",
+"exampleHindi": "माफ़ कीजिए, मुझे देर हो गई।",
+"exampleRoman": "Maaf kijiye, mujhe der ho gayi.",
+"exampleMeaning": "Sorry, I got late.",
+"memoryTip": "Opposite of jaldi (early/fast)."
+},
+{
+"hindi": "जल्दी",
+"roman": "Jaldi",
+"meaning": "Early / Fast / Quickly",
+"exampleHindi": "कृपया जल्दी आइए।",
+"exampleRoman": "Kripya jaldi aaiye.",
+"exampleMeaning": "Please come quickly/early.",
+"memoryTip": "Used to tell someone to hurry up."
+}
+,
+{
+"hindi": "घंटा",
+"roman": "Ghanta",
+"meaning": "Hour",
+"exampleHindi": "यह काम एक घंटे में पूरा हो जाएगा।",
+"exampleRoman": "Yeh kaam ek ghante mein pura ho jayega.",
+"exampleMeaning": "This work will be completed in one hour.",
+"memoryTip": "Measures duration in sixty-minute blocks."
+},
+{
+"hindi": "मिनट",
+"roman": "Minute",
+"meaning": "Minute",
+"exampleHindi": "बस पाँच मिनट रुकिए।",
+"exampleRoman": "Bas paanch minute rukiye.",
+"exampleMeaning": "Just wait for five minutes.",
+"memoryTip": "Borrowed directly from English for short time intervals."
+},
+{
+"hindi": "सेकंड",
+"roman": "Second",
+"meaning": "Second",
+"exampleHindi": "मैं बस एक सेकंड में आता हूँ।",
+"exampleRoman": "Main bas ek second mein aata hoon.",
+"exampleMeaning": "I will come in just a second.",
+"memoryTip": "The shortest common unit of time."
+},
+{
+"hindi": "सुबह-सुबह",
+"roman": "Subah-subah",
+"meaning": "Early in the morning",
+"exampleHindi": "वह सुबह-सुबह सैर पर जाती है।",
+"exampleRoman": "Vah subah-subah sair par jaati hai.",
+"exampleMeaning": "She goes for a walk early in the morning.",
+"memoryTip": "Repeating a word emphasizes its intensity or immediacy."
+},
+{
+"hindi": "दोपहर का समय",
+"roman": "Dopahar ka samay",
+"meaning": "Midday / Noon time",
+"exampleHindi": "दोपहर के समय बहुत धूप होती है।",
+"exampleRoman": "Dopahar ke samay bahut dhoop hoti hai.",
+"exampleMeaning": "It is very sunny at noon.",
+"memoryTip": "Specifies the peak heat hours of the day."
+},
+{
+"hindi": "शाम को",
+"roman": "Shaam ko",
+"meaning": "In the evening",
+"exampleHindi": "हम शाम को चाय पिएँगे।",
+"exampleRoman": "Hum shaam ko chai piyenge.",
+"exampleMeaning": "We will drink tea in the evening.",
+"memoryTip": "Adding 'ko' denotes the timeframe during which an action occurs."
+},
+{
+"hindi": "आधी रात",
+"roman": "Aadhi raat",
+"meaning": "Midnight",
+"exampleHindi": "वह आधी रात तक जाग रहा था।",
+"exampleRoman": "Vah aadhi raat tak jaag raha tha.",
+"exampleMeaning": "He was awake until midnight.",
+"memoryTip": "'Aadhi' means half, so 'half night' = midnight."
+},
+{
+"hindi": "हमेशा",
+"roman": "Hamesha",
+"meaning": "Always",
+"exampleHindi": "सच्चाई की हमेशा जीत होती है।",
+"exampleRoman": "Sachchai ki hamesha jeet hoti hai.",
+"exampleMeaning": "Truth always wins.",
+"memoryTip": "Indicates permanent or constant frequency."
+},
+{
+"hindi": "कभी-कभी",
+"roman": "Kabhi-kabhi",
+"meaning": "Sometimes / Occasionally",
+"exampleHindi": "मैं कभी-कभी कॉफ़ी पीता हूँ।",
+"exampleRoman": "Main kabhi-kabhi coffee peeta hoon.",
+"exampleMeaning": "I drink coffee sometimes.",
+"memoryTip": "'Kabhi' means ever/sometimes; repeating it means occasionally."
+},
+{
+"hindi": "अक्सर",
+"roman": "Aksar",
+"meaning": "Often / Frequently",
+"exampleHindi": "वह अक्सर देर से आता है।",
+"exampleRoman": "Vah aksar der se aata hai.",
+"exampleMeaning": "He often comes late.",
+"memoryTip": "Describes habitual or recurrent actions."
+},
+{
+"hindi": "कभी नहीं",
+"roman": "Kabhi nahin",
+"meaning": "Never",
+"exampleHindi": "मैं ऐसा कभी नहीं कहूँगा।",
+"exampleRoman": "Main aisa kabhi nahin kahunga.",
+"exampleMeaning": "I will never say such a thing.",
+"memoryTip": "'Kabhi' (ever) + 'nahin' (not) = never."
+},
+{
+"hindi": "हाल ही में",
+"roman": "Haal hi mein",
+"meaning": "Recently / Lately",
+"exampleHindi": "मैंने हाल ही में एक किताब पढ़ी है।",
+"exampleRoman": "Maine haal hi mein ek kitaab padhi hai.",
+"exampleMeaning": "I have recently read a book.",
+"memoryTip": "Refers to events that happened in the near past."
+},
+{
+"hindi": "अचानक",
+"roman": "Achanak",
+"meaning": "Suddenly",
+"exampleHindi": "अचानक बारिश शुरू हो गई।",
+"exampleRoman": "Achanak baarish shuru ho gayi.",
+"exampleMeaning": "Suddenly it started raining.",
+"memoryTip": "Describes an unexpected occurrence without prior notice."
+},
+{
+"hindi": "अगला",
+"roman": "Agla",
+"meaning": "Next",
+"exampleHindi": "हम अगली मीटिंग में मिलेंगे।",
+"exampleRoman": "Hum agli meeting mein milenge.",
+"exampleMeaning": "We will meet in the next meeting.",
+"memoryTip": "Points forward to the coming time or item."
+},
+{
+"hindi": "पिछلا",
+"roman": "Pichhla",
+"meaning": "Last / Previous",
+"exampleHindi": "पिछला हफ्ता बहुत व्यस्त था।",
+"exampleRoman": "Pichhla hafta bahut vyast tha.",
+"exampleMeaning": "The previous week was very busy.",
+"memoryTip": "Points backward to what has passed."
+}
+]
+}
+]
+}

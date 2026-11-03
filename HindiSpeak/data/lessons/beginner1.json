@@ -1,0 +1,1719 @@
+{
+"course": {
+"title": "Spoken Hindi for Beginners",
+"level": "Beginner",
+"language": "Hindi",
+"explanationLanguage": "English",
+"totalLessons": 5,
+"batch": "1 of 4 (Lessons 1-5)"
+},
+"lessons": [
+{
+"id": 1,
+"title": "Hindi Basics and Greetings",
+"description": "Learn essential Hindi greetings, polite expressions, and the fundamental distinction between formal and informal address.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Master standard daily greetings in Hindi",
+"Understand when to use formal ('Aap') vs informal ('Tum') address",
+"Express gratitude, apologies, and farewells correctly",
+"Pronounce common conversational filler words naturally"
+],
+"explanation": "In spoken Hindi, greetings set the tone for all social and professional interactions. The most universal greeting is 'Namaste' (नमस्ते), which is used at any time of day and is suitable for both formal and informal settings. When addressing elders, seniors, or people you are meeting for the first time, you must use the formal pronoun 'Aap' (आप). As you build rapport, you may use 'Tum' (तुम) with peers or younger individuals. Polite expressions like 'Dhanyawad' (धन्यवाद) for thank you and 'Maaf kijiye' (माफ़ कीजिए) for excuse me or sorry are crucial for smooth everyday communication.",
+"vocabulary": [
+{
+"hindi": "नमस्ते",
+"roman": "Namaste",
+"meaning": "Hello / Greetings",
+"exampleHindi": "नमस्ते, आप कैसे हैं?",
+"exampleRoman": "Namaste, aap kaise hain?",
+"exampleMeaning": "Hello, how are you?"
+},
+{
+"hindi": "आप",
+"roman": "Aap",
+"meaning": "You (Formal)",
+"exampleHindi": "आप कहाँ रहते हैं?",
+"exampleRoman": "Aap kahan rehte hain?",
+"exampleMeaning": "Where do you live?"
+},
+{
+"hindi": "धन्यवाद",
+"roman": "Dhanyawad",
+"meaning": "Thank you",
+"exampleHindi": "आपकी मदद के लिए धन्यवाद।",
+"exampleRoman": "Aapki madad ke liye dhanyawad.",
+"exampleMeaning": "Thank you for your help."
+},
+{
+"hindi": "माफ़ कीजिए",
+"roman": "Maaf kijiye",
+"meaning": "Excuse me / Sorry",
+"exampleHindi": "माफ़ कीजिए, यह मेरी सीट है।",
+"exampleRoman": "Maaf kijiye, yeh meri seat hai.",
+"exampleMeaning": "Excuse me, this is my seat."
+},
+{
+"hindi": "अलविदा",
+"roman": "Alvida",
+"meaning": "Goodbye",
+"exampleHindi": "अलविदा, कल मिलते हैं।",
+"exampleRoman": "Alvida, kal milte hain.",
+"exampleMeaning": "Goodbye, see you tomorrow."
+},
+{
+"hindi": "कृपया",
+"roman": "Kripya",
+"meaning": "Please",
+"exampleHindi": "कृपया बैठिए।",
+"exampleRoman": "Kripya baithiye.",
+"exampleMeaning": "Please sit down."
+},
+{
+"hindi": "स्वागत है",
+"roman": "Swagat hai",
+"meaning": "Welcome",
+"exampleHindi": "हमारे कार्यालय में आपका स्वागत है।",
+"exampleRoman": "Hamare karyalay mein aapka swagat hai.",
+"exampleMeaning": "Welcome to our office."
+},
+{
+"hindi": "फिर मिलेंगे",
+"roman": "Phir milenge",
+"meaning": "See you again",
+"exampleHindi": "अलविदा, फिर मिलेंगे।",
+"exampleRoman": "Alvida, phir milenge.",
+"exampleMeaning": "Goodbye, see you again."
+},
+{
+"hindi": "हाँ",
+"roman": "Haan",
+"meaning": "Yes",
+"exampleHindi": "हाँ, मैं तैयार हूँ।",
+"exampleRoman": "Haan, main taiyar hoon.",
+"exampleMeaning": "Yes, I am ready."
+},
+{
+"hindi": "नहीं",
+"roman": "Nahin",
+"meaning": "No",
+"exampleHindi": "नहीं, मुझे यह नहीं चाहिए।",
+"exampleRoman": "Nahin, mujhe yeh nahin chahiye.",
+"exampleMeaning": "No, I do not want this."
+}
+],
+"sentences": [
+{
+"hindi": "नमस्ते, सुप्रभातम!",
+"roman": "Namaste, suprabhatam!",
+"meaning": "Hello, good morning!"
+},
+{
+"hindi": "आप कैसे हैं?",
+"roman": "Aap kaise hain?",
+"meaning": "How are you? (Formal/Male)"
+},
+{
+"hindi": "मैं ठीक हूँ, धन्यवाद।",
+"roman": "Main theek hoon, dhanyawad.",
+"meaning": "I am fine, thank you."
+},
+{
+"hindi": "क्या सब ठीक है?",
+"roman": "Kya sab theek hai?",
+"meaning": "Is everything okay?"
+},
+{
+"hindi": "माफ़ कीजिए, मुझे देर हो गई है।",
+"roman": "Maaf kijiye, mujhe der ho gayi hai.",
+"meaning": "Sorry, I am late."
+},
+{
+"hindi": "कोई बात नहीं।",
+"roman": "Koi baat nahin.",
+"meaning": "No problem / That's alright."
+},
+{
+"hindi": "कृपया थोड़ा धीरे बोलिए।",
+"roman": "Kripya thoda dheere boliye.",
+"meaning": "Please speak a little slowly."
+},
+{
+"hindi": "आपका दिन शुभ हो।",
+"roman": "Aapka din shubh ho.",
+"meaning": "Have a good day."
+}
+],
+"dialogue": [
+{
+"speaker": "Rahul",
+"hindi": "नमस्ते अमित जी, आप कैसे हैं?",
+"roman": "Namaste Amit ji, aap kaise hain?",
+"meaning": "Hello Amit ji, how are you?"
+},
+{
+"speaker": "Amit",
+"hindi": "नमस्ते राहुल! मैं बहुत अच्छा हूँ, धन्यवाद। आप बताइए?",
+"roman": "Namaste Rahul! Main bahut achha hoon, dhanyawad. Aap bataiye?",
+"meaning": "Hello Rahul! I am very good, thank you. You tell me?"
+},
+{
+"speaker": "Rahul",
+"hindi": "मैं भी ठीक हूँ। क्या कल की मीटिंग का समय तय है?",
+"roman": "Main bhi theek hoon. Kya kal ki meeting ka samay tay hai?",
+"meaning": "I am also fine. Is tomorrow's meeting time fixed?"
+},
+{
+"speaker": "Amit",
+"hindi": "हाँ, सब तय है। फिर मिलेंगे!",
+"roman": "Haan, sab tay hai. Phir milenge!",
+"meaning": "Yes, everything is fixed. See you again!"
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "तुम कैसे हैं?",
+"incorrectRoman": "Tum kaise hain?",
+"correctHindi": "तुम कैसे हो? / आप कैसे हैं?",
+"correctRoman": "Tum kaise ho? / Aap kaise hain?",
+"explanation": "Mixing pronouns ('Tum') with formal verb endings ('hain') is incorrect. Use 'Tum kaise ho?' for informal or 'Aap kaise hain?' for formal."
+},
+{
+"incorrectHindi": "धन्यवाद जी",
+"incorrectRoman": "Dhanyawad ji",
+"correctHindi": "धन्यवाद / शुक्रिया",
+"correctRoman": "Dhanyawad / Shukriya",
+"explanation": "Adding 'ji' to 'Dhanyawad' is unnatural in spoken Hindi. Simply say 'Dhanyawad' or 'Shukriya'."
+},
+{
+"incorrectHindi": "माफ़ करो सर",
+"incorrectRoman": "Maaf karo sir",
+"correctHindi": "माफ़ कीजिए सर",
+"correctRoman": "Maaf kijiye sir",
+"explanation": "When speaking formally to superiors or professionals, use the polite imperative form 'Maaf kijiye' instead of the blunt 'Maaf karo'."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "Which greeting is appropriate for any time of the day in formal and informal situations?",
+"questionRoman": "Which greeting is appropriate for any time of the day in formal and informal situations?",
+"questionMeaning": "Which greeting is appropriate for any time of the day in formal and informal situations?",
+"options": [
+"Alvida",
+"Namaste",
+"Dhanyawad",
+"Kripya"
+],
+"correctAnswer": "Namaste",
+"explanation": "Namaste is the standard universal greeting used across India at any time of day."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence: 'Main theek hoon, **.' (I am fine, thank you.)",
+"questionRoman": "Complete the sentence: 'Main theek hoon, **.'",
+"questionMeaning": "Complete the sentence: 'Main theek hoon, **.'",
+"options": [
+"dhanyawad",
+"alvida",
+"kisi",
+"kahan"
+],
+"correctAnswer": "dhanyawad",
+"explanation": "'Dhanyawad' means thank you, which completes the polite response."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'Please speak slowly.'",
+"questionRoman": "Translate into Hindi: 'Please speak slowly.'",
+"questionMeaning": "Translate into Hindi: 'Please speak slowly.'",
+"options": [
+"Aap kaise hain?",
+"Kripya thoda dheere boliye.",
+"Koi baat nahin.",
+"Main theek hoon."
+],
+"correctAnswer": "Kripya thoda dheere boliye.",
+"explanation": "'Kripya' means please, 'thoda dheere' means a little slowly, and 'boliye' means speak."
+},
+{
+"type": "mcq",
+"question": "When addressing a senior office colleague politely, which pronoun should you use?",
+"questionRoman": "When addressing a senior office colleague politely, which pronoun should you use?",
+"questionMeaning": "When addressing a senior office colleague politely, which pronoun should you use?",
+"options": [
+"Tum",
+"Tu",
+"Aap",
+"Vah"
+],
+"correctAnswer": "Aap",
+"explanation": "'Aap' is the formal and respectful pronoun used for elders, seniors, and formal acquaintances."
+},
+{
+"type": "choose_response",
+"question": "Someone says 'Maaf kijiye, mujhe der ho gayi.' What is the best polite reply?",
+"questionRoman": "Someone says 'Maaf kijiye, mujhe der ho gayi.' What is the best polite reply?",
+"questionMeaning": "Someone says 'Maaf kijiye, mujhe der ho gayi.' What is the best polite reply?",
+"options": [
+"Koi baat nahin.",
+"Namaste.",
+"Alvida.",
+"Dhanyawad."
+],
+"correctAnswer": "Koi baat nahin.",
+"explanation": "'Koi baat nahin' means 'No problem' or 'That's alright', making it the ideal response to an apology."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: 'Aap kaise hain?' | Person B: 'Main theek hoon, **?'",
+"questionRoman": "Person A: 'Aap kaise hain?' | Person B: 'Main theek hoon, **?'",
+"questionMeaning": "Person A: 'How are you?' | Person B: 'I am fine, **?'",
+"options": [
+"dhanyawad",
+"aap bataiye",
+"alvida",
+"kripya"
+],
+"correctAnswer": "aap bataiye",
+"explanation": "'Aap bataiye' means 'You tell me?', which is the natural conversational follow-up."
+}
+],
+"summary": [
+"Namaste is the standard greeting for all times of day.",
+"Aap is the polite formal pronoun for addressing seniors and strangers.",
+"Dhanyawad and Shukriya are both used to express thanks.",
+"Maaf kijiye is used to apologize or politely excuse oneself.",
+"Koi baat nahin is the standard response to minor apologies.",
+"Kripya means please and is placed before polite requests."
+],
+"speakingChallenge": "Practice greeting a colleague out loud by saying 'नमस्ते, आप कैसे हैं?' (Namaste, aap kaise hain?) and responding with 'मैं ठीक हूँ, धन्यवाद।' (Main theek hoon, dhanyawad)."
+},
+{
+"id": 2,
+"title": "Introducing Yourself",
+"description": "Learn how to state your name, where you are from, your profession, and ask basic introductory questions to others.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"State your full name naturally in Hindi",
+"Explain where you live or are originally from",
+"Describe your profession or work status",
+"Ask someone else their name and background"
+],
+"explanation": "Introducing yourself in spoken Hindi relies on simple sentence patterns. To state your name, use 'Mera naam [Name] hai' (My name is [Name]). To state your origin or city, use 'Main [City/Country] se hoon' (I am from [City/Country]). For professions, use 'Main ek [Profession] hoon' (I am a [Profession]). When asking someone else their name politely, you say 'Aapka naam kya hai?' (What is your name?).",
+"vocabulary": [
+{
+"hindi": "नाम",
+"roman": "Naam",
+"meaning": "Name",
+"exampleHindi": "मेरा नाम राहुल है।",
+"exampleRoman": "Mera naam Rahul hai.",
+"exampleMeaning": "My name is Rahul."
+},
+{
+"hindi": "मेरा",
+"roman": "Mera",
+"meaning": "My (Masculine)",
+"exampleHindi": "यह मेरा कार्यालय है।",
+"exampleRoman": "Yeh mera karyalay hai.",
+"exampleMeaning": "This is my office."
+},
+{
+"hindi": "आपका",
+"roman": "Aapka",
+"meaning": "Your (Formal)",
+"exampleHindi": "आपका शुभ नाम क्या है?",
+"exampleRoman": "Aapka shubh naam kya hai?",
+"exampleMeaning": "What is your good name?"
+},
+{
+"hindi": "से",
+"roman": "Se",
+"meaning": "From",
+"exampleHindi": "मैं दिल्ली से हूँ।",
+"exampleRoman": "Main Delhi se hoon.",
+"exampleMeaning": "I am from Delhi."
+},
+{
+"hindi": "शहर",
+"roman": "Shehar",
+"meaning": "City",
+"exampleHindi": "यह एक बड़ा शहर है।",
+"exampleRoman": "Yeh ek bada shehar hai.",
+"exampleMeaning": "This is a big city."
+},
+{
+"hindi": "देश",
+"roman": "Desh",
+"meaning": "Country",
+"exampleHindi": "भारत मेरा देश है।",
+"exampleRoman": "Bharat mera desh hai.",
+"exampleMeaning": "India is my country."
+},
+{
+"hindi": "काम",
+"roman": "Kaam",
+"meaning": "Work / Job",
+"exampleHindi": "मैं सॉफ्टवेयर इंजीनियर के रूप में काम करता हूँ।",
+"exampleRoman": "Main software engineer ke roop mein kaam karta hoon.",
+"exampleMeaning": "I work as a software engineer."
+},
+{
+"hindi": "छात्र",
+"roman": "Chhatra",
+"meaning": "Student (Male)",
+"exampleHindi": "मैं एक छात्र हूँ।",
+"exampleRoman": "Main ek chhatra hoon.",
+"exampleMeaning": "I am a student."
+},
+{
+"hindi": "डॉक्टर",
+"roman": "Doctor",
+"meaning": "Doctor",
+"exampleHindi": "वह एक डॉक्टर हैं।",
+"exampleRoman": "Vah ek doctor hain.",
+"exampleMeaning": "He/She is a doctor."
+},
+{
+"hindi": "खुशी",
+"roman": "Khushi",
+"meaning": "Happiness / Pleasure",
+"exampleHindi": "आप से मिलकर बहुत खुशी हुई।",
+"exampleRoman": "Aap se milkar bahut khushi hui.",
+"exampleMeaning": "Very pleased to meet you."
+}
+],
+"sentences": [
+{
+"hindi": "मेरा नाम अमित है।",
+"roman": "Mera naam Amit hai.",
+"meaning": "My name is Amit."
+},
+{
+"hindi": "आपका शुभ नाम क्या है?",
+"roman": "Aapka shubh naam kya hai?",
+"meaning": "What is your good name? (Very polite)"
+},
+{
+"hindi": "मैं मुंबई से हूँ।",
+"roman": "Main Mumbai se hoon.",
+"meaning": "I am from Mumbai."
+},
+{
+"hindi": "आप कहाँ से हैं?",
+"roman": "Aap kahan se hain?",
+"meaning": "Where are you from?"
+},
+{
+"hindi": "मैं एक प्रबंधक हूँ।",
+"roman": "Main ek prabandhak hoon.",
+"meaning": "I am a manager."
+},
+{
+"hindi": "यह मेरे सहकर्मी हैं।",
+"roman": "Yeh mere sahkarmi hain.",
+"meaning": "These are my colleagues."
+},
+{
+"hindi": "आप से मिलकर बहुत खुशी हुई।",
+"roman": "Aap se milkar bahut khushi hui.",
+"meaning": "Very pleased to meet you."
+},
+{
+"hindi": "मुझे भी आपसे मिलकर खुशी हुई।",
+"roman": "Mujhe bhi aapse milkar khushi hui.",
+"meaning": "I am also pleased to meet you."
+}
+],
+"dialogue": [
+{
+"speaker": "Priya",
+"hindi": "नमस्ते, मेरा नाम प्रिया है। आपका शुभ नाम क्या है?",
+"roman": "Namaste, mera naam Priya hai. Aapka shubh naam kya hai?",
+"meaning": "Hello, my name is Priya. What is your good name?"
+},
+{
+"speaker": "Vikram",
+"hindi": "नमस्ते प्रिया जी, मेरा नाम विक्रम है।",
+"roman": "Namaste Priya ji, mera naam Vikram hai.",
+"meaning": "Hello Priya ji, my name is Vikram."
+},
+{
+"speaker": "Priya",
+"hindi": "विक्रम जी, आप कहाँ से हैं?",
+"roman": "Vikram ji, aap kahan se hain?",
+"meaning": "Vikram ji, where are you from?"
+},
+{
+"speaker": "Vikram",
+"hindi": "मैं बेंगलुरु से हूँ और यहाँ एक आईटी कंपनी में काम करता हूँ।",
+"roman": "Main Bengaluru se hoon aur yahan ek IT company mein kaam karta hoon.",
+"meaning": "I am from Bengaluru and work here in an IT company."
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "मेरा नाम हूँ राहुल।",
+"incorrectRoman": "Mera naam hoon Rahul.",
+"correctHindi": "मेरा नाम राहुल है।",
+"correctRoman": "Mera naam Rahul hai.",
+"explanation": "'Hoon' is used with 'Main' (I), not with 'Mera naam' (My name). 'Naam' is singular third person, so it takes 'hai'."
+},
+{
+"incorrectHindi": "मैं दिल्ली का हूँ। (female speaker)",
+"incorrectRoman": "Main Delhi ka hoon. (female speaker)",
+"correctHindi": "मैं दिल्ली की हूँ।",
+"correctRoman": "Main Delhi ki hoon.",
+"explanation": "Postposition 'ka' changes to 'ki' for female speakers when denoting origin or association ('Delhi ki hoon')."
+},
+{
+"incorrectHindi": "आप नाम क्या है?",
+"incorrectRoman": "Aap naam kya hai?",
+"correctHindi": "आपका नाम क्या है?",
+"correctRoman": "Aapka naam kya hai?",
+"explanation": "Use the possessive form 'Aapka' (Your) instead of 'Aap' (You) when asking for someone's name."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "How do you say 'My name is Rohan' in Hindi?",
+"questionRoman": "How do you say 'My name is Rohan' in Hindi?",
+"questionMeaning": "How do you say 'My name is Rohan' in Hindi?",
+"options": [
+"Main Rohan hoon.",
+"Mera naam Rohan hai.",
+"Aapka naam Rohan hai.",
+"Rohan mera shehar hai."
+],
+"correctAnswer": "Mera naam Rohan hai.",
+"explanation": "'Mera naam [Name] hai' is the standard formula for stating your name."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence: 'Main Pune ___ hoon.' (I am from Pune.)",
+"questionRoman": "Complete the sentence: 'Main Pune ___ hoon.'",
+"questionMeaning": "Complete the sentence: 'Main Pune ___ hoon.'",
+"options": [
+"se",
+"mein",
+"ka",
+"ko"
+],
+"correctAnswer": "se",
+"explanation": "'Se' is the postposition used to indicate origin ('from')."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'Where are you from?'",
+"questionRoman": "Translate into Hindi: 'Where are you from?'",
+"questionMeaning": "Translate into Hindi: 'Where are you from?'",
+"options": [
+"Aapka naam kya hai?",
+"Aap kahan se hain?",
+"Aap kya karte hain?",
+"Aap kaise hain?"
+],
+"correctAnswer": "Aap kahan se hain?",
+"explanation": "'Aap' means you, 'kahan' means where, and 'se hain' means are from."
+},
+{
+"type": "mcq",
+"question": "What is the polite phrase for 'Very pleased to meet you'?",
+"questionRoman": "What is the polite phrase for 'Very pleased to meet you'?",
+"questionMeaning": "What is the polite phrase for 'Very pleased to meet you'?",
+"options": [
+"Aap se milkar bahut khushi hui.",
+"Main theek hoon.",
+"Dhanyawad.",
+"Subhrabhat."
+],
+"correctAnswer": "Aap se milkar bahut khushi hui.",
+"explanation": "'Aap se milkar bahut khushi hui' translates directly to 'Very pleased to meet you'."
+},
+{
+"type": "choose_response",
+"question": "Someone says 'Mera naam Neha hai.' What is a natural polite reply?",
+"questionRoman": "Someone says 'Mera naam Neha hai.' What is a natural polite reply?",
+"questionMeaning": "Someone says 'Mera naam Neha hai.' What is a natural polite reply?",
+"options": [
+"Namaste Neha ji, mujhse milkar khushi hui.",
+"Aap kahan se hain?",
+"Main nahin janta.",
+"Alvida."
+],
+"correctAnswer": "Namaste Neha ji, mujhse milkar khushi hui.",
+"explanation": "Acknowledging with their name and expressing pleasure upon meeting is culturally polite."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: 'Aapka shubh naam kya hai?' | Person B: '** naam Manish hai.'",
+"questionRoman": "Person A: 'Aapka shubh naam kya hai?' | Person B: '** naam Manish hai.'",
+"questionMeaning": "Person A: 'What is your good name?' | Person B: '** name is Manish.'",
+"options": [
+"Mera",
+"Tumhara",
+"Uska",
+"Hamara"
+],
+"correctAnswer": "Mera",
+"explanation": "'Mera' means 'My', which is required to say 'My name is Manish'."
+}
+],
+"summary": [
+"Use 'Mera naam [Name] hai' to state your name.",
+"Use 'Main [City] se hoon' to state your hometown.",
+"Use 'Aapka shubh naam kya hai?' as a polite way to ask someone's name.",
+"Use 'Aap se milkar bahut khushi hui' when meeting someone new.",
+"Match gender-appropriate forms when discussing origin if applicable ('ka' vs 'ki').",
+"Always add 'ji' after a person's name in professional settings for respect."
+],
+"speakingChallenge": "Introduce yourself out loud: state your name, your city, and your profession in three connected Hindi sentences."
+},
+{
+"id": 3,
+"title": "Personal Pronouns",
+"description": "Master personal pronouns in Hindi (I, you, he, she, we, they) and understand formal versus informal distinctions.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Learn all primary personal pronouns in Hindi",
+"Understand the three levels of 'you' (Aap, Tum, Tu)",
+"Distinguish between proximate and distant third-person pronouns (Yeh/Vah)",
+"Pair pronouns correctly with basic verbs like 'hoon', 'hain', and 'ho'"
+],
+"explanation": "Pronouns are the building blocks of sentence formation. In Hindi, personal pronouns change depending on the level of formality and social distance. \n- 'Main' = I\n- 'Aap' = You (Formal / Respectful, used for elders, colleagues, strangers)\n- 'Tum' = You (Informal / Peer, used for friends, younger people)\n- 'Tu' = You (Very intimate / Casual, avoid in professional settings)\n- 'Yeh' = This / He / She (Close proximity)\n- 'Vah' = That / He / She (Distant proximity)\n- 'Hum' = We\n- 'Ve' / 'Ye' = They / These / Those\nVerbs like 'hoon' (am), 'hain' (are/is-formal), and 'ho' (are-informal) agree directly with these pronouns.",
+"vocabulary": [
+{
+"hindi": "मैं",
+"roman": "Main",
+"meaning": "I",
+"exampleHindi": "मैं एक कार्यालय में काम करता हूँ।",
+"exampleRoman": "Main ek karyalay mein kaam karta hoon.",
+"exampleMeaning": "I work in an office."
+},
+{
+"hindi": "तुम",
+"roman": "Tum",
+"meaning": "You (Informal)",
+"exampleHindi": "तुम कहाँ जा रहे हो?",
+"exampleRoman": "Tum kahan ja rahe ho?",
+"exampleMeaning": "Where are you going?"
+},
+{
+"hindi": "हम",
+"roman": "Hum",
+"meaning": "We",
+"exampleHindi": "हम दोस्त हैं।",
+"exampleRoman": "Hum dost hain.",
+"exampleMeaning": "We are friends."
+},
+{
+"hindi": "यह",
+"roman": "Yeh",
+"meaning": "This / He / She (Near)",
+"exampleHindi": "यह मेरी रिपोर्ट है।",
+"exampleRoman": "Yeh meri report hai.",
+"exampleMeaning": "This is my report."
+},
+{
+"hindi": "वह",
+"roman": "Vah",
+"meaning": "That / He / She (Far)",
+"exampleHindi": "वह मेरे प्रबंधक हैं।",
+"exampleRoman": "Vah mere prabandhak hain.",
+"exampleMeaning": "He is my manager."
+},
+{
+"hindi": "वे",
+"roman": "Ve",
+"meaning": "They (Far)",
+"exampleHindi": "वे हमारे client हैं।",
+"exampleRoman": "Ve hamare client hain.",
+"exampleMeaning": "They are our clients."
+},
+{
+"hindi": "ये",
+"roman": "Ye",
+"meaning": "These / They (Near)",
+"exampleHindi": "ये मेरी फाइलें हैं।",
+"exampleRoman": "Ye meri filein hain.",
+"exampleMeaning": "These are my files."
+},
+{
+"hindi": "उनका",
+"roman": "Unka",
+"meaning": "His / Her / Their (Formal)",
+"exampleHindi": "उनका दफ्तर बड़ा है।",
+"exampleRoman": "Unka daftar bada hai.",
+"exampleMeaning": "Their office is big."
+},
+{
+"hindi": "हमारा",
+"roman": "Hamara",
+"meaning": "Our",
+"exampleHindi": "यह हमारा प्रोजेक्ट है।",
+"exampleRoman": "Yeh hamara project hai.",
+"exampleMeaning": "This is our project."
+},
+{
+"hindi": "तुम्हारा",
+"roman": "Tumhara",
+"meaning": "Your (Informal)",
+"exampleHindi": "तुम्हारा कंप्यूटर चालू है?",
+"exampleRoman": "Tumhara computer chalu hai?",
+"exampleMeaning": "Is your computer turned on?"
+}
+],
+"sentences": [
+{
+"hindi": "मैं हिंदी सीख रहा हूँ।",
+"roman": "Main Hindi sikh raha hoon.",
+"meaning": "I am learning Hindi."
+},
+{
+"hindi": "आप बहुत मेहनती हैं।",
+"roman": "Aap bahut mehnatī hain.",
+"meaning": "You are very hardworking."
+},
+{
+"hindi": "तुम कब आ रहे हो?",
+"roman": "Tum kab aa rahe ho?",
+"meaning": "When are you coming? (Informal)"
+},
+{
+"hindi": "हम मीटिंग में हैं।",
+"roman": "Hum meeting mein hain.",
+"meaning": "We are in a meeting."
+},
+{
+"hindi": "यह मेरा लैपटॉप है।",
+"roman": "Yeh mera laptop hai.",
+"meaning": "This is my laptop."
+},
+{
+"hindi": "वह प्रबंधक हैं।",
+"roman": "Vah prabandhak hain.",
+"meaning": "He/She is a manager."
+},
+{
+"hindi": "वे कल आएँगे।",
+"roman": "Ve kal aayenge.",
+"meaning": "They will come tomorrow."
+},
+{
+"hindi": "यह दस्तावेज़ महत्वपूर्ण है।",
+"roman": "Yeh dastavez mahatvapurna hai.",
+"meaning": "This document is important."
+}
+],
+"dialogue": [
+{
+"speaker": "Manager",
+"hindi": "राहुल, क्या तुम प्रोजेक्ट रिपोर्ट तैयार कर रहे हो?",
+"roman": "Rahul, kya tum project report taiyar kar rahe ho?",
+"meaning": "Rahul, are you preparing the project report?"
+},
+{
+"speaker": "Rahul",
+"hindi": "हाँ सर, मैं और प्रिया मिलकर इसे पूरा कर रहे हैं।",
+"roman": "Haan sir, main aur Priya milkar ise pura kar rahe hain.",
+"meaning": "Yes sir, Priya and I are completing it together."
+},
+{
+"speaker": "Manager",
+"hindi": "बहुत अच्छा। क्या वे ग्राहक भी आज आ रहे हैं?",
+"roman": "Bahut achha. Kya ve grahak bhi aaj aa rahe hain?",
+"meaning": "Very good. Are those clients also coming today?"
+},
+{
+"speaker": "Rahul",
+"hindi": "जी हाँ, वे दोपहर दो बजे आएँगे।",
+"roman": "Ji haan, ve dopahar do baje aayenge.",
+"meaning": "Yes, they will arrive at two in the afternoon."
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "आप जा रहा है।",
+"incorrectRoman": "Aap ja raha hai.",
+"correctHindi": "आप जा रहे हैं।",
+"correctRoman": "Aap ja rahe hain.",
+"explanation": "Pronoun 'Aap' requires plural/honorific verb agreement ('ja rahe hain'), not singular masculine ('ja raha hai')."
+},
+{
+"incorrectHindi": "हम हूँ दोस्त।",
+"incorrectRoman": "Hum hoon dost.",
+"correctHindi": "हम दोस्त हैं।",
+"correctRoman": "Hum dost hain.",
+"explanation": "'Hoon' is exclusively for 'Main' (I). 'Hum' (We) takes 'hain'."
+},
+{
+"incorrectHindi": "Tum mera dost hai.",
+"incorrectRoman": "Tum mera dost hai.",
+"correctHindi": "तुम मेरे दोस्त हो।",
+"correctRoman": "Tum mere dost ho.",
+"explanation": "'Tum' requires 'ho' at the end, and plural/oblique possessive 'mere dost' rather than 'mera dost'."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "Which pronoun means 'We' in Hindi?",
+"questionRoman": "Which pronoun means 'We' in Hindi?",
+"questionMeaning": "Which pronoun means 'We' in Hindi?",
+"options": [
+"Main",
+"Aap",
+"Hum",
+"Ve"
+],
+"correctAnswer": "Hum",
+"explanation": "'Hum' translates to 'We'."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence: '** hindi sikh raha hoon.' (I am learning Hindi.)",
+"questionRoman": "Complete the sentence: '** hindi sikh raha hoon.'",
+"questionMeaning": "Complete the sentence: '** hindi sikh raha hoon.'",
+"options": [
+"Main",
+"Aap",
+"Tum",
+"Hum"
+],
+"correctAnswer": "Main",
+"explanation": "'Main' means 'I' and pairs with 'hoon'."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'You are very hardworking.' (Formal)",
+"questionRoman": "Translate into Hindi: 'You are very hardworking.' (Formal)",
+"questionMeaning": "Translate into Hindi: 'You are very hardworking.' (Formal)",
+"options": [
+"Tum bahut mehnatī ho.",
+"Aap bahut mehnatī hain.",
+"Main mehnatī hoon.",
+"Vah mehnatī hai."
+],
+"correctAnswer": "Aap bahut mehnatī hain.",
+"explanation": "Formal 'You' is 'Aap' and takes 'hain'."
+},
+{
+"type": "mcq",
+"question": "Which pronoun is used for someone standing close to you (This / He / She)?",
+"questionRoman": "Which pronoun is used for someone standing close to you (This / He / She)?",
+"questionMeaning": "Which pronoun is used for someone standing close to you (This / He / She)?",
+"options": [
+"Vah",
+"Yeh",
+"Ve",
+"Kahan"
+],
+"correctAnswer": "Yeh",
+"explanation": "'Yeh' denotes proximate objects or persons ('This' or close 'He/She')."
+},
+{
+"type": "choose_response",
+"question": "If someone asks 'Aap kahan hain?', how should you start your reply?",
+"questionRoman": "If someone asks 'Aap kahan hain?', how should you start your reply?",
+"questionMeaning": "If someone asks 'Aap kahan hain?', how should you start your reply?",
+"options": [
+"Main office mein hoon.",
+"Aap office mein hain.",
+"Tum office mein ho.",
+"Vah office mein hai."
+],
+"correctAnswer": "Main office mein hoon.",
+"explanation": "When replying about yourself, use 'Main ... hoon'."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: 'Kya yeh tumhara laptop hai?' | Person B: 'Haan, yeh ______ laptop hai.'",
+"questionRoman": "Person A: 'Kya yeh tumhara laptop hai?' | Person B: 'Haan, yeh ______ laptop hai.'",
+"questionMeaning": "Person A: 'Is this your laptop?' | Person B: 'Yes, this is ______ laptop.'",
+"options": [
+"mera",
+"tumhara",
+"unka",
+"iska"
+],
+"correctAnswer": "mera",
+"explanation": "Responding to 'tumhara' (your) requires 'mera' (my)."
+}
+],
+"summary": [
+"Main means I and takes 'hoon'.",
+"Aap is the formal pronoun for 'You' and takes 'hain'.",
+"Tum is the informal pronoun for 'You' and takes 'ho'.",
+"Hum means 'We' and takes 'hain'.",
+"Yeh is used for proximate items/people (This/He/She near).",
+"Vah is used for distant items/people (That/He/She far)."
+],
+"speakingChallenge": "Form 3 sentences using different pronouns ('Main', 'Aap', 'Hum') to describe your current situation."
+},
+{
+"id": 4,
+"title": "Everyday Expressions",
+"description": "Learn common phrases for agreement, disagreement, expressing lack of understanding, asking for clarification, and managing daily social cues.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Express agreement ('Theek hai', 'Sahi hai') and disagreement",
+"Indicate understanding ('Samjh gaya') or confusion",
+"Ask someone to repeat or speak slowly",
+"Manage polite conversational transitions"
+],
+"explanation": "In fast-paced conversations, relying solely on textbook sentences can feel rigid. Spoken Hindi makes heavy use of conversational fillers and reaction expressions. Phrases like 'Theek hai' (Okay/Fine), 'Sahi hai' (That's correct), 'Samjh gaya' (I understood), and 'Mujhe maloom nahi' (I don't know) allow you to participate actively even with a limited vocabulary. When you need clarification, saying 'Ek baar phir boliye' (Please say it once again) keeps the communication channel open without awkwardness.",
+"vocabulary": [
+{
+"hindi": "ठीक है",
+"roman": "Theek hai",
+"meaning": "Okay / Fine",
+"exampleHindi": "ठीक है, हम कल मिलेंगे।",
+"exampleRoman": "Theek hai, hum kal milenge.",
+"exampleMeaning": "Okay, we will meet tomorrow."
+},
+{
+"hindi": "सही है",
+"roman": "Sahi hai",
+"meaning": "That's correct / Right",
+"exampleHindi": "आपका जवाब बिल्कुल सही है।",
+"exampleRoman": "Aapka jawab bilkul sahi hai.",
+"exampleMeaning": "Your answer is completely correct."
+},
+{
+"hindi": "समझ गया",
+"roman": "Samjh gaya",
+"meaning": "I understood (Male)",
+"exampleHindi": "हाँ, मैं निर्देश समझ गया।",
+"exampleRoman": "Haan, main nirdesh samjh gaya.",
+"exampleMeaning": "Yes, I understood the instructions."
+},
+{
+"hindi": "मालूम नहीं",
+"roman": "Maloom nahin",
+"meaning": "I don't know",
+"exampleHindi": "मुझे इसके बारे में मालूम नहीं है।",
+"exampleRoman": "Mujhe iske bare mein maloom nahin hai.",
+"exampleMeaning": "I don't know about this."
+},
+{
+"hindi": "अच्छा",
+"roman": "Achha",
+"meaning": "I see / Oh / Good",
+"exampleHindi": "अच्छा, तो ऐसी बात है! ",
+"exampleRoman": "Achha, to aisi baat hai!",
+"exampleMeaning": "Oh, is that so!"
+},
+{
+"hindi": "कोई बात नहीं",
+"roman": "Koi baat nahin",
+"meaning": "No problem / Never mind",
+"exampleHindi": "देर होने के लिए माफ़ कीजिए - कोई बात नहीं।",
+"exampleRoman": "Der hone ke liye maaf kijiye - koi baat nahin.",
+"exampleMeaning": "Sorry for being late - no problem."
+},
+{
+"hindi": "फिर से",
+"roman": "Phir se",
+"meaning": "Again / Once more",
+"exampleHindi": "कृपया इसे फिर से कहिए।",
+"exampleRoman": "Kripya ise phir se kahiye.",
+"exampleMeaning": "Please say this again."
+},
+{
+"hindi": "शायद",
+"roman": "Shayad",
+"meaning": "Maybe / Perhaps",
+"exampleHindi": "शायद कल बारिश होगी।",
+"exampleRoman": "Shayad kal barish hogi.",
+"exampleMeaning": "Maybe it will rain tomorrow."
+},
+{
+"hindi": "ज़रूर",
+"roman": "Zaroor",
+"meaning": "Sure / Definitely",
+"exampleHindi": "मैं ज़रूर आपकी मदद करूंगा।",
+"exampleRoman": "Main zaroor aapki madad karunga.",
+"exampleMeaning": "I will definitely help you."
+},
+{
+"hindi": "पक्का",
+"roman": "Pakka",
+"meaning": "For sure / Confirmed",
+"exampleHindi": "क्या यह पक्का है?",
+"exampleRoman": "Kya yeh pakka hai?",
+"exampleMeaning": "Is this confirmed?"
+}
+],
+"sentences": [
+{
+"hindi": "हाँ, मैं समझ गया हूँ।",
+"roman": "Haan, main samjh gaya hoon.",
+"meaning": "Yes, I have understood."
+},
+{
+"hindi": "मुझे यह समझ में नहीं आया।",
+"roman": "Mujhe yeh samajh mein nahin aaya.",
+"meaning": "I did not understand this."
+},
+{
+"hindi": "क्या आप इसे दोहरा सकते हैं?",
+"roman": "Kya aap ise dohra sakte hain?",
+"meaning": "Can you repeat this?"
+},
+{
+"hindi": "यह बिल्कुल सही है।",
+"roman": "Yeh bilkul sahi hai.",
+"meaning": "This is absolutely correct."
+},
+{
+"hindi": "शायद मैं थोड़ी देर से आऊँगा।",
+"roman": "Shayad main thodi der se aaunga.",
+"meaning": "Maybe I will come a little late."
+},
+{
+"hindi": "ज़रूर, मैं अभी करता हूँ।",
+"roman": "Zaroor, main abhi karta hoon.",
+"meaning": "Sure, I am doing it right now."
+},
+{
+"hindi": "क्या यह संभव है?",
+"roman": "Kya yeh sambhav hai?",
+"meaning": "Is this possible?"
+},
+{
+"hindi": "कोई बात नहीं, चिंता मत कीजिए।",
+"roman": "Koi baat nahin, chinta mat kijiye.",
+"meaning": "No problem, do not worry."
+}
+],
+"dialogue": [
+{
+"speaker": "Aman",
+"hindi": "Neha, kya tumne client ka message dekha?",
+"roman": "Neha, kya tumne client ka message dekha?",
+"meaning": "Neha, did you see the client's message?"
+},
+{
+"speaker": "Neha",
+"hindi": "Haan dekha, lekin mujhe unka email samajh mein nahin aaya.",
+"roman": "Haan dekha, lekin mujhe unka email samajh mein nahin aaya.",
+"meaning": "Yes I saw it, but I didn't understand their email."
+},
+{
+"speaker": "Aman",
+"hindi": "Achha, koi baat nahin. Main tumhe samjha deta hoon.",
+"roman": "Achha, koi baat nahin. Main tumhe samjha deta hoon.",
+"meaning": "Oh, no problem. I'll explain it to you."
+},
+{
+"speaker": "Neha",
+"hindi": "Bahut dhanyawad! Ab main sab samajh gayi.",
+"roman": "Bahut dhanyawad! Ab main sab samajh gayi.",
+"meaning": "Thank you so much! Now I understood everything."
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "मुझे समझ नहीं हूँ।",
+"incorrectRoman": "Mujhe samajh nahin hoon.",
+"correctHindi": "मुझे समझ नहीं आया।",
+"correctRoman": "Mujhe samajh nahin aaya.",
+"explanation": "Understanding is expressed as 'samajh mein nahin aaya' (did not come into understanding), not with 'hoon'."
+},
+{
+"incorrectHindi": "ठीक है जी हाँ।",
+"incorrectRoman": "Theek hai ji haan.",
+"correctHindi": "ठीक है / हाँ, ठीक है।",
+"correctRoman": "Theek hai / Haan, theek hai.",
+"explanation": "Combining 'Theek hai' and 'Ji haan' redundantly sounds unnatural in quick conversation."
+},
+{
+"incorrectHindi": "शायद मैं जानता हूँ नहीं।",
+"incorrectRoman": "Shayad main janta hoon nahin.",
+"correctHindi": "शायद मुझे मालूम नहीं।",
+"correctRoman": "Shayad mujhe maloom nahin.",
+"explanation": "Word order in Hindi places negation before the auxiliary verb ('maloom nahin')."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "What does 'Theek hai' mean?",
+"questionRoman": "What does 'Theek hai' mean?",
+"questionMeaning": "What does 'Theek hai' mean?",
+"options": [
+"No problem",
+"Okay / Fine",
+"I don't know",
+"Goodbye"
+],
+"correctAnswer": "Okay / Fine",
+"explanation": "'Theek hai' is the standard equivalent for 'Okay' or 'Fine'."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the phrase: 'Koi baat **.' (No problem / Never mind)",
+"questionRoman": "Complete the phrase: 'Koi baat **.'",
+"questionMeaning": "Complete the phrase: 'Koi baat **.'",
+"options": [
+"nahin",
+"hai",
+"karein",
+"se"
+],
+"correctAnswer": "nahin",
+"explanation": "'Koi baat nahin' means 'No problem'."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'I did not understand this.'",
+"questionRoman": "Translate into Hindi: 'I did not understand this.'",
+"questionMeaning": "Translate into Hindi: 'I did not understand this.'",
+"options": [
+"Mujhe yeh samajh mein nahin aaya.",
+"Main samajh gaya.",
+"Yeh bilkul sahi hai.",
+"Mujhe maloom nahi."
+],
+"correctAnswer": "Mujhe yeh samajh mein nahin aaya.",
+"explanation": "'Mujhe yeh samajh mein nahin aaya' translates to 'I did not understand this'."
+},
+{
+"type": "mcq",
+"question": "Which word means 'Maybe / Perhaps'?",
+"questionRoman": "Which word means 'Maybe / Perhaps'?",
+"questionMeaning": "Which word means 'Maybe / Perhaps'?",
+"options": [
+"Zaroor",
+"Pakka",
+"Shayad",
+"Sahi"
+],
+"correctAnswer": "Shayad",
+"explanation": "'Shayad' means maybe or perhaps."
+},
+{
+"type": "choose_response",
+"question": "Someone asks you to confirm if a report is ready, and you want to say 'Sure, I am doing it right now.' What do you say?",
+"questionRoman": "Someone asks you to confirm if a report is ready, and you want to say 'Sure, I am doing it right now.' What do you say?",
+"questionMeaning": "Someone asks you to confirm if a report is ready, and you want to say 'Sure, I am doing it right now.' What do you say?",
+"options": [
+"Zaroor, main abhi karta hoon.",
+"Shayad main nahin jaunga.",
+"Koi baat nahin.",
+"Mujhe maloom nahin."
+],
+"correctAnswer": "Zaroor, main abhi karta hoon.",
+"explanation": "'Zaroor' means sure/definitely, and 'main abhi karta hoon' means I am doing it right now."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: 'Kya aap ise dohra sakte hain?' | Person B: '** , main phir se batata hoon.'",
+"questionRoman": "Person A: 'Kya aap ise dohra sakte hain?' | Person B: '** , main phir se batata hoon.'",
+"questionMeaning": "Person A: 'Can you repeat this?' | Person B: '** , I will tell you again.'",
+"options": [
+"Zaroor",
+"Shayad",
+"Nahin",
+"Alvida"
+],
+"correctAnswer": "Zaroor",
+"explanation": "'Zaroor' (Sure) is the appropriate affirmative response to a polite request."
+}
+],
+"summary": [
+"Theek hai is used for agreement or acknowledging 'Okay'.",
+"Koi baat nahin is used to brush off apologies or minor issues ('No problem').",
+"Mujhe samajh mein nahin aaya means 'I did not understand'.",
+"Shayad indicates uncertainty ('Maybe').",
+"Zaroor expresses confident affirmation ('Sure').",
+"Achha is a versatile conversational interjection meaning 'Oh' or 'I see'."
+],
+"speakingChallenge": "Practice using 3 everyday expressions ('Theek hai', 'Zaroor', 'Koi baat nahin') in a simulated quick exchange with a colleague."
+},
+{
+"id": 5,
+"title": "Asking Basic Questions",
+"description": "Learn the primary WH-question words in Hindi (What, Where, When, Who, Why, How) and how to construct basic inquiries.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Master the 6 core WH-question words in Hindi",
+"Construct simple direct questions for daily situations",
+"Understand question word placement in spoken Hindi",
+"Ask for identification, location, time, and reason"
+],
+"explanation": "To converse effectively, you must be able to ask questions. In Hindi, question words generally appear right before the verb or at the natural emphasis point of the sentence, unlike English where question words always start the sentence. \n- 'Kya' = What\n- 'Kahan' = Where\n- 'Kaun' = Who\n- 'Kab' = When\n- 'Kyun' = Why\n- 'Kaise' = How\nAdditionally, starting a sentence with 'Kya' converts a statement into a Yes/No question (e.g., 'Kya aap taiyar hain?' = Are you ready?).",
+"vocabulary": [
+{
+"hindi": "क्या",
+"roman": "Kya",
+"meaning": "What",
+"exampleHindi": "आपका सवाल क्या है?",
+"exampleRoman": "Aapka sawal kya hai?",
+"exampleMeaning": "What is your question?"
+},
+{
+"hindi": "कहाँ",
+"roman": "Kahan",
+"meaning": "Where",
+"exampleHindi": "आपकी बैठक कहाँ है?",
+"exampleRoman": "Aapki baithak kahan hai?",
+"exampleMeaning": "Where is your meeting?"
+},
+{
+"hindi": "कौन",
+"roman": "Kaun",
+"meaning": "Who",
+"exampleHindi": "यह प्रोजेक्ट कौन संभाल रहा है?",
+"exampleRoman": "Yeh project kaun sambhal raha hai?",
+"exampleMeaning": "Who is handling this project?"
+},
+{
+"hindi": "कब",
+"roman": "Kab",
+"meaning": "When",
+"exampleHindi": "ट्रेन कब आएगी?",
+"exampleRoman": "Train kab aayegi?",
+"exampleMeaning": "When will the train arrive?"
+},
+{
+"hindi": "क्यों",
+"roman": "Kyun",
+"meaning": "Why",
+"exampleHindi": "आप कल कार्यालय क्यों नहीं आए?",
+"exampleRoman": "Aap kal karyalay kyun nahin aaye?",
+"exampleMeaning": "Why didn't you come to the office yesterday?"
+},
+{
+"hindi": "कैसे",
+"roman": "Kaise",
+"meaning": "How",
+"exampleHindi": "यह मशीन कैसे काम करती है?",
+"exampleRoman": "Yeh machine kaise kaam karti hai?",
+"exampleMeaning": "How does this machine work?"
+},
+{
+"hindi": "कितना",
+"roman": "Kitna",
+"meaning": "How much / How many",
+"exampleHindi": "इसकी कीमत कितनी है?",
+"exampleRoman": "Iski keemat kitni hai?",
+"exampleMeaning": "How much is its price?"
+},
+{
+"hindi": "कौन सा",
+"roman": "Kaun sa",
+"meaning": "Which (Masculine)",
+"exampleHindi": "आपका पसंदीदा रंग कौन सा है?",
+"exampleRoman": "Aapka pasandida rang kaun sa hai?",
+"exampleMeaning": "Which is your favorite color?"
+},
+{
+"hindi": "समय",
+"roman": "Samay",
+"meaning": "Time",
+"exampleHindi": "अभी क्या समय हुआ है?",
+"exampleRoman": "Abhi kya samay hua hai?",
+"exampleMeaning": "What time is it now?"
+},
+{
+"hindi": "कारण",
+"roman": "Karan",
+"meaning": "Reason",
+"exampleHindi": "देरी का कारण क्या है?",
+"exampleRoman": "Deri ka karan kya hai?",
+"exampleMeaning": "What is the reason for the delay?"
+}
+],
+"sentences": [
+{
+"hindi": "आपकी फ़ाइल कहाँ है?",
+"roman": "Aapki file kahan hai?",
+"meaning": "Where is your file?"
+},
+{
+"hindi": "यह मीटिंग कब है?",
+"roman": "Yeh meeting kab hai?",
+"meaning": "When is this meeting?"
+},
+{
+"hindi": "आप कार्यालय कैसे जाते हैं?",
+"roman": "Aap karyalay kaise jaate hain?",
+"meaning": "How do you go to the office?"
+},
+{
+"hindi": "वहाँ कौन है?",
+"roman": "Wahan kaun hai?",
+"meaning": "Who is there?"
+},
+{
+"hindi": "आप यह क्यों पूछ रहे हैं?",
+"roman": "Aap yeh kyun pooch rahe hain?",
+"meaning": "Why are you asking this?"
+},
+{
+"hindi": "क्या यह सही है?",
+"roman": "Kya yeh sahi hai?",
+"meaning": "Is this correct?"
+},
+{
+"hindi": "इसकी कीमत कितनी है?",
+"roman": "Iski keemat kitni hai?",
+"meaning": "How much does this cost?"
+},
+{
+"hindi": "आपकी पसंद कौन सी है?",
+"roman": "Aapki pasand kaun si hai?",
+"meaning": "Which one is your preference? (Feminine)"
+}
+],
+"dialogue": [
+{
+"speaker": "Visitor",
+"hindi": "Maaf kijiye, reception kahan hai?",
+"roman": "Maaf kijiye, reception kahan hai?",
+"meaning": "Excuse me, where is the reception?"
+},
+{
+"speaker": "Employee",
+"hindi": "Reception samne, corridor ke aakhiri mein hai.",
+"roman": "Reception samne, corridor ke aakhiri mein hai.",
+"meaning": "Reception is straight ahead, at the end of the corridor."
+},
+{
+"speaker": "Visitor",
+"hindi": "Dhanyawad. Aur manager sahab kab tak aayenge?",
+"roman": "Dhanyawad. Aur manager sahab kab tak aayenge?",
+"meaning": "Thank you. And until when will the manager sir arrive?"
+},
+{
+"speaker": "Employee",
+"hindi": "Vah das minute mein aate honge.",
+"roman": "Vah das minute mein aate honge.",
+"meaning": "He should be arriving in ten minutes."
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "आप कहाँ हो जाते?",
+"incorrectRoman": "Aap kahan ho jaate?",
+"correctHindi": "आप कहाँ जा रहे हैं?",
+"correctRoman": "Aap kahan ja rahe hain?",
+"explanation": "Do not mix question words with incorrect verb forms. 'Kahan ja rahe hain' is the correct present continuous construction for 'Where are you going'."
+},
+{
+"incorrectHindi": "क्यों आप देर से आए?",
+"incorrectRoman": "Kyun aap der se aaye?",
+"correctHindi": "आप देर से क्यों आए?",
+"correctRoman": "Aap der se kyun aaye?",
+"explanation": "In natural Hindi, question words like 'kyun' are placed before the verb rather than at the absolute beginning of the sentence."
+},
+{
+"incorrectHindi": "क्या नाम है आपका?",
+"incorrectRoman": "Kya naam hai aapka?",
+"correctHindi": "आपका नाम क्या है?",
+"correctRoman": "Aapka naam kya hai?",
+"explanation": "While 'Kya naam hai aapka' is sometimes used informally, 'Aapka naam kya hai' is much more standard and natural."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "Which Hindi word means 'Where'?",
+"questionRoman": "Which Hindi word means 'Where'?",
+"questionMeaning": "Which Hindi word means 'Where'?",
+"options": [
+"Kya",
+"Kahan",
+"Kab",
+"Kyun"
+],
+"correctAnswer": "Kahan",
+"explanation": "'Kahan' means where."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the question: 'Yeh meeting ______ hai?' (When is this meeting?)",
+"questionRoman": "Complete the question: 'Yeh meeting ______ hai?'",
+"questionMeaning": "Complete the question: 'Yeh meeting ______ hai?'",
+"options": [
+"kab",
+"kahan",
+"kaun",
+"kaise"
+],
+"correctAnswer": "kab",
+"explanation": "'Kab' means when, which is used to ask about time."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'What is your question?'",
+"questionRoman": "Translate into Hindi: 'What is your question?'",
+"questionMeaning": "Translate into Hindi: 'What is your question?'",
+"options": [
+"Aapka sawal kya hai?",
+"Aap kahan hain?",
+"Yeh kaun hai?",
+"Aap kaise hain?"
+],
+"correctAnswer": "Aapka sawal kya hai?",
+"explanation": "'Aapka' = your, 'sawal' = question, 'kya hai' = what is."
+},
+{
+"type": "mcq",
+"question": "How do you form a Yes/No question in Hindi using a statement?",
+"questionRoman": "How do you form a Yes/No question in Hindi using a statement?",
+"questionMeaning": "How do you form a Yes/No question in Hindi using a statement?",
+"options": [
+"Add 'Kya' at the very beginning of the sentence",
+"Add 'Kyun' at the end",
+"Remove all pronouns",
+"Change the verb to past tense"
+],
+"correctAnswer": "Add 'Kya' at the very beginning of the sentence",
+"explanation": "Placing 'Kya' at the start turns a declarative statement into an interrogative Yes/No question."
+},
+{
+"type": "choose_response",
+"question": "Someone asks 'Aap karyalay kaise jaate hain?' (How do you go to office?). Which is a logical response?",
+"questionRoman": "Someone asks 'Aap karyalay kaise jaate hain?' (How do you go to office?). Which is a logical response?",
+"questionMeaning": "Someone asks 'Aap karyalay kaise jaate hain?' (How do you go to office?). Which is a logical response?",
+"options": [
+"Main metro se jata hoon.",
+"Meeting subah das baje hai.",
+"Yeh mera laptop hai.",
+"Main Delhi se hoon."
+],
+"correctAnswer": "Main metro se jata hoon.",
+"explanation": "Responding with 'Main metro se jata hoon' answers 'how' (by metro)."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: '______ manager sahab?' | Person B: 'Vah apne cabin mein hain.'",
+"questionRoman": "Person A: '______ manager sahab?' | Person B: 'Vah apne cabin mein hain.'",
+"questionMeaning": "Person A: '______ manager sir?' | Person B: 'He is in his cabin.'",
+"options": [
+"Kahan hain",
+"Kab hain",
+"Kyun hain",
+"Kaise hain"
+],
+"correctAnswer": "Kahan hain",
+"explanation": "Since the answer is a location ('in his cabin'), the question must be 'Kahan hain' (Where is)."
+}
+],
+"summary": [
+"Kya means what and can also start Yes/No questions.",
+"Kahan is used to inquire about locations ('Where').",
+"Kab asks about time ('When').",
+"Kaun asks about identity ('Who').",
+"Kyun asks for a reason ('Why').",
+"Kaise asks about manner or method ('How')."
+],
+"speakingChallenge": "Ask three different questions out loud using 'Kahan', 'Kab', and 'Kaise' regarding an upcoming office schedule."
+},
+{
+  "id": 8,
+  "title": "Common Verbs",
+  "description": "Learn essential everyday action verbs in Hindi, how to identify root verbs, and how to use them in simple sentences.",
+  "difficulty": "Beginner",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Master 10 to 12 essential everyday action verbs in Hindi",
+    "Understand the structure of Hindi root verbs (ending in '-na')",
+    "Form simple action statements using present tense framing",
+    "Practice common imperative and descriptive verb phrases"
+  ],
+  "explanation": "Verbs are action words that bring sentences to life. In Hindi, dictionary-form verbs always end with the syllable '-na' ( जैसे - jana, khana). This '-na' acts like the English 'to' in 'to go' or 'to eat'. To use a verb in spoken Hindi, you drop the '-na' to get the root form and add appropriate endings based on who is doing the action and the tense. For beginners, learning these core action verbs will instantly allow you to describe daily routines, office tasks, and travel movements.",
+  "vocabulary": [
+    {
+      "hindi": "जाना",
+      "roman": "Jana",
+      "meaning": "To go",
+      "exampleHindi": "मैं कार्यालय जा रहा हूँ।",
+      "exampleRoman": "Main karyalay ja raha hoon.",
+      "exampleMeaning": "I am going to the office."
+    },
+    {
+      "hindi": "आना",
+      "roman": "Aana",
+      "meaning": "To come",
+      "exampleHindi": "आप कब आएंगे?",
+      "exampleRoman": "Aap kab aayenge?",
+      "exampleMeaning": "When will you come?"
+    },
+    {
+      "hindi": "खाना",
+      "roman": "Khana",
+      "meaning": "To eat / Food",
+      "exampleHindi": "हम दोपहर का खाना खा रहे हैं।",
+      "exampleRoman": "Hum dopahar ka khana kha rahe hain.",
+      "exampleMeaning": "We are eating lunch."
+    },
+    {
+      "hindi": "पीना",
+      "roman": "Peena",
+      "meaning": "To drink",
+      "exampleHindi": "क्या आप चाय पीना पसंद करेंगे?",
+      "exampleRoman": "Kya aap chai peena pasand karenge?",
+      "exampleMeaning": "Would you like to drink tea?"
+    },
+    {
+      "hindi": "देखना",
+      "roman": "Dekhna",
+      "meaning": "To see / To watch",
+      "exampleHindi": "यह फ़ाइल ध्यान से देखिए।",
+      "exampleRoman": "Yeh file dhyan se dekhiye.",
+      "exampleMeaning": "Look at this file carefully."
+    },
+    {
+      "hindi": "सुनना",
+      "roman": "Sunna",
+      "meaning": "To listen / To hear",
+      "exampleHindi": "कृपया मेरी बात सुनिए।",
+      "exampleRoman": "Kripya meri baat suniye.",
+      "exampleMeaning": "Please listen to what I am saying."
+    },
+    {
+      "hindi": "बोलना",
+      "roman": "Bolna",
+      "meaning": "To speak / To talk",
+      "exampleHindi": "वह हिंदी बहुत अच्छी बोलते हैं।",
+      "exampleRoman": "Vah Hindi bahut achhi bolte hain.",
+      "exampleMeaning": "He speaks Hindi very well."
+    },
+    {
+      "hindi": "करना",
+      "roman": "Karna",
+      "meaning": "To do",
+      "exampleHindi": "मैं अपना काम कर रहा हूँ।",
+      "exampleRoman": "Main apna kaam kar raha hoon.",
+      "exampleMeaning": "I am doing my work."
+    },
+    {
+      "hindi": "पढ़ना",
+      "roman": "Padhna",
+      "meaning": "To read / To study",
+      "exampleHindi": "मैं हर रोज़ समाचार पत्र पढ़ता हूँ।",
+      "exampleRoman": "Main har roz samachar patr padhta hoon.",
+      "exampleMeaning": "I read the newspaper every day."
+    },
+    {
+      "hindi": "लिखنا",
+      "roman": "Likhna",
+      "meaning": "To write",
+      "exampleHindi": "इस कागज़ पर अपना नाम लिखिए।",
+      "exampleRoman": "Is kaagaz par apna naam likhiye.",
+      "exampleMeaning": "Write your name on this paper."
+    },
+    {
+      "hindi": "समझना",
+      "roman": "Samajhna",
+      "meaning": "To understand",
+      "exampleHindi": "क्या आप नियम समझ गए?",
+      "exampleRoman": "Kya aap niyam samajh gaye?",
+      "exampleMeaning": "Did you understand the rules?"
+    },
+    {
+      "hindi": "काम करना",
+      "roman": "Kaam karna",
+      "meaning": "To work",
+      "exampleHindi": "वह एक बैंक में काम करते हैं।",
+      "exampleRoman": "Vah ek bank mein kaam karte hain.",
+      "exampleMeaning": "He works in a bank."
+    }
+  ],
+  "sentences": [
+    {
+      "hindi": "मैं सुबह जल्दी उठता हूँ।",
+      "roman": "Main subah jaldi uthta hoon.",
+      "meaning": "I wake up early in the morning."
+    },
+    {
+      "hindi": "आप क्या करना चाहते हैं?",
+      "roman": "Aap kya karna chahte hain?",
+      "meaning": "What do you want to do?"
+    },
+    {
+      "hindi": "हम कल एक नई मीटिंग करेंगे।",
+      "roman": "Hum kal ek nai meeting karenge.",
+      "meaning": "We will do/have a new meeting tomorrow."
+    },
+    {
+      "hindi": "कृपया यह दस्तावेज़ पढ़िए।",
+      "roman": "Kripya yeh dastavez padhiye.",
+      "meaning": "Please read this document."
+    },
+    {
+      "hindi": "वह फ़ास्ट फूड नहीं खाते हैं।",
+      "roman": "Vah fast food nahin khate hain.",
+      "meaning": "He does not eat fast food."
+    },
+    {
+      "hindi": "क्या तुम मेरी मदद कर सकते हो?",
+      "roman": "Kya tum meri madad kar sakte ho?",
+      "meaning": "Can you help me? (Informal)"
+    },
+    {
+      "hindi": "मैं अंग्रेजी और हिंदी दोनों बोल सकता हूँ।",
+      "roman": "Main Angrezi aur Hindi dono bol sakta hoon.",
+      "meaning": "I can speak both English and Hindi."
+    },
+    {
+      "hindi": "वे ध्यान से सुन रहे हैं।",
+      "roman": "Ve dhyan se sun rahe hain.",
+      "meaning": "They are listening carefully."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Aman",
+      "hindi": "Neha, kya tumne kal ki report padhi?",
+      "roman": "Neha, kya tumne kal ki report padhi?",
+      "meaning": "Neha, did you read yesterday's report?"
+    },
+    {
+      "speaker": "Neha",
+      "hindi": "Haan, maine padhi. Lekin mujhe ek section samajh mein nahin aaya.",
+      "roman": "Haan, maine padhi. Lekin mujhe ek section samajh mein nahin aaya.",
+      "meaning": "Yes, I read it. But I didn't understand one section."
+    },
+    {
+      "speaker": "Aman",
+      "hindi": "Achha, chalo hum ise milkar dekhte hain aur fix karte hain.",
+      "roman": "Achha, chalo hum ise milkar dekhte hain aur fix karte hain.",
+      "meaning": "Okay, come let's look at it together and fix it."
+    },
+    {
+      "speaker": "Neha",
+      "hindi": "Theek hai, aap boliye, main likh leti hoon.",
+      "roman": "Theek hai, aap boliye, main likh leti hoon.",
+      "meaning": "Okay, you speak, I will write it down."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "incorrectHindi": "मैं जाना चाहता हूँ - बोलना चाहता हूँ जाना।",
+      "incorrectRoman": "Main jana chahta hoon - bolna chahta hoon jana.",
+      "correctHindi": "मैं जाना चाहता हूँ।",
+      "correctRoman": "Main jana chahta hoon.",
+      "explanation": "In Hindi, the main auxiliary or modal verb ('chahta hoon') comes at the very end, while the root verb with '-na' comes before it."
+    },
+    {
+      "incorrectHindi": "वह खाता है पानी।",
+      "incorrectRoman": "Vah khata hai paani.",
+      "correctHindi": "वह पानी पीता है।",
+      "correctRoman": "Vah paani peeta hai.",
+      "explanation": "Use 'peena' (to drink) for liquids like water, tea, and juice, never 'khana' (to eat)."
+    },
+    {
+      "incorrectHindi": "तुम करो क्या?",
+      "incorrectRoman": "Tum karo kya?",
+      "correctHindi": "तुम क्या करते हो?",
+      "correctRoman": "Tum kya karte ho?",
+      "explanation": "Direct literal translation of question words with verbs often results in broken word order. Question words precede the conjugated verb."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "mcq",
+      "question": "What is the English meaning of the Hindi verb 'Dekhna'?",
+      "questionRoman": "What is the English meaning of the Hindi verb 'Dekhna'?",
+      "questionMeaning": "What is the English meaning of the Hindi verb 'Dekhna'?",
+      "options": [
+        "To go",
+        "To see / To watch",
+        "To write",
+        "To speak"
+      ],
+      "correctAnswer": "To see / To watch",
+      "explanation": "'Dekhna' translates directly to 'to see' or 'to watch'."
+    },
+    {
+      "type": "fill_in_the_blanks",
+      "question": "Complete the sentence: 'Main chai ______ hoon.' (I drink tea.)",
+      "questionRoman": "Complete the sentence: 'Main chai ______ hoon.'",
+      "questionMeaning": "Complete the sentence: 'Main chai ______ hoon.'",
+      "options": [
+        "peeta",
+        "khata",
+        "padhta",
+        "likhta"
+      ],
+      "correctAnswer": "peeta",
+      "explanation": "'Peena' is the verb used for consuming liquids like tea ('peeta hoon')."
+    },
+    {
+      "type": "translation",
+      "question": "Translate into Hindi: 'Please listen to me.'",
+      "questionRoman": "Translate into Hindi: 'Please listen to me.'",
+      "questionMeaning": "Translate into Hindi: 'Please listen to me.'",
+      "options": [
+        "Kripya meri baat suniye.",
+        "Kripya yeh dekhiye.",
+        "Main likhta hoon.",
+        "Aap boliye."
+      ],
+      "correctAnswer": "Kripya meri baat suniye.",
+      "explanation": "'Kripya' = please, 'meri baat' = my words/matter, 'suniye' = listen."
+    },
+    {
+      "type": "mcq",
+      "question": "What do all dictionary-form Hindi verbs end with?",
+      "questionRoman": "What do all dictionary-form Hindi verbs end with?",
+      "questionMeaning": "What do all dictionary-form Hindi verbs end with?",
+      "options": [
+        "-hai",
+        "-na",
+        "-hoon",
+        "-ka"
+      ],
+      "correctAnswer": "-na",
+      "explanation": "Standard dictionary verbs in Hindi always end with the suffix '-na' (e.g., jana, khana, padhna)."
+    },
+    {
+      "type": "choose_response",
+      "question": "Someone asks 'Aap kya kar rahe hain?' (What are you doing?). Which is a valid response?",
+      "questionRoman": "Someone asks 'Aap kya kar rahe hain?' (What are you doing?). Which is a valid response?",
+      "questionMeaning": "Someone asks 'Aap kya kar rahe hain?' (What are you doing?). Which is a valid response?",
+      "options": [
+        "Main report padh raha hoon.",
+        "Main Delhi se hoon.",
+        "Yeh mera laptop hai.",
+        "Subah das baje hai."
+      ],
+      "correctAnswer": "Main report padh raha hoon.",
+      "explanation": "Answering with an action ('reading a report') correctly addresses what you are doing."
+    },
+    {
+      "type": "complete_conversation",
+      "question": "Person A: 'Kya aap Hindi bolte hain?' | Person B: 'Haan, main thodi Hindi ______ hoon.'",
+      "questionRoman": "Person A: 'Kya aap Hindi bolte hain?' | Person B: 'Haan, main thodi Hindi ______ hoon.'",
+      "questionMeaning": "Person A: 'Do you speak Hindi?' | Person B: 'Yes, I ______ a little Hindi.'",
+      "options": [
+        "bolta",
+        "dekhta",
+        "sunta",
+        "jata"
+      ],
+      "correctAnswer": "bolta",
+      "explanation": "Responding to speaking Hindi requires the verb 'bolna' conjugated as 'bolta hoon'."
+    }
+  ],
+  "summary": [
+    "Dictionary verbs in Hindi always end in '-na' (e.g., Jana, Khana, Padhna).",
+    "Drop the '-na' to get the root form before adding tense or person endings.",
+    "Use 'peena' for drinking liquids and 'khana' for eating solid foods.",
+    "Verbs like 'Sunna' (to listen) and 'Bolna' (to speak) are vital for conversational flow.",
+    "Sentence structure places the conjugated verb at the very end of the sentence."
+  ],
+  "speakingChallenge": "State three daily actions out loud using verbs from this lesson (e.g., working, reading, writing) in simple Hindi sentences."
+}
+]
+}
