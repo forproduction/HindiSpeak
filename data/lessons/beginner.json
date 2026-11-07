@@ -1,6 +1,6 @@
 {
 "course": {
-"title": "Spoken Hindi for Good People 👨🏻‍💼👩🏻‍💼",
+"title": "Spoken Hindi Lessons for You 🫵🫵",
 "level": "Beginner",
 "language": "Hindi",
 "explanationLanguage": "English",
@@ -398,8 +398,8 @@
 },
 {
 "hindi": "मैं मुंबई से हूँ।",
-"roman": "Main Mumbai se hoon.",
-"meaning": "I am from Mumbai."
+"roman": "Main Chennai se hoon.",
+"meaning": "I am from Chennai."
 },
 {
 "hindi": "आप कहाँ से हैं?",
@@ -575,7 +575,7 @@
 },
 {
 "id": 3,
-"title": "Personal Pronouns 🫵🏻",
+"title": "Personal Pronouns 🙋🏻‍♂️🙋🏻‍♀️",
 "description": "Master personal pronouns in Hindi (I, you, he, she, we, they) and understand formal versus informal distinctions for both genders.",
 "difficulty": "Beginner",
 "estimatedMinutes": 20,
@@ -1715,6 +1715,1675 @@
     "Sentence structure places the conjugated verb at the very end of the sentence."
   ],
   "speakingChallenge": "State three daily actions out loud using verbs from this lesson in simple Hindi sentences."
+},
+{
+"id": 6,
+"title": "Numbers, Time and Days 🔢⏰",
+"description": "Learn numbers 1-10, tell time, ask about schedules, and name days of the week in natural spoken Hindi.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Count numbers from 1 to 10 confidently in Hindi",
+"Ask and state the current time",
+"Name the days of the week",
+"Use time expressions in daily scheduling"
+],
+"explanation": "Numbers and time expressions are essential for daily planning. In Hindi, telling time uses numbers followed by 'baje' (o'clock). For example, 'das baje' means 10 o'clock. To ask 'What time is it?', we say 'Kitne baje hain?' or 'Abhi kya samay hua hai?'. Days of the week in Hindi mostly end with 'var' (weekday).",
+"vocabulary": [
+{
+"hindi": "एक",
+"roman": "Ek",
+"meaning": "One",
+"exampleHindi": "मुझे एक चाय चाहिए।",
+"exampleRoman": "Mujhe ek chai chahiye.",
+"exampleMeaning": "I want one tea."
+},
+{
+"hindi": "दो",
+"roman": "Do",
+"meaning": "Two",
+"exampleHindi": "दो लोग आ रहे हैं।",
+"exampleRoman": "Do log aa rahe hain.",
+"exampleMeaning": "Two people are coming."
+},
+{
+"hindi": "तीन",
+"roman": "Teen",
+"meaning": "Three",
+"exampleHindi": "मीटिंग तीन बजे है।",
+"exampleRoman": "Meeting teen baje hai.",
+"exampleMeaning": "The meeting is at 3 o'clock."
+},
+{
+"hindi": "चार",
+"roman": "Chaar",
+"meaning": "Four",
+"exampleHindi": "मेरे पास चार फ़ाइलें हैं।",
+"exampleRoman": "Mere paas chaar filein hain.",
+"exampleMeaning": "I have four files."
+},
+{
+"hindi": "पाँच",
+"roman": "Paanch",
+"meaning": "Five",
+"exampleHindi": "पाँच मिनट रुकिए।",
+"exampleRoman": "Paanch minute rukiye.",
+"exampleMeaning": "Please wait five minutes."
+},
+{
+"hindi": "छह",
+"roman": "Chhah",
+"meaning": "Six",
+"exampleHindi": "यह काम छह दिन में पूरा होगा।",
+"exampleRoman": "Yeh kaam chhah din mein poora hoga.",
+"exampleMeaning": "This work will be completed in six days."
+},
+{
+"hindi": "सात",
+"roman": "Saat",
+"meaning": "Seven",
+"exampleHindi": "हफ्ते में सात दिन होते हैं।",
+"exampleRoman": "Hafte mein saat din hote hain.",
+"exampleMeaning": "There are seven days in a week."
+},
+{
+"hindi": "आठ",
+"roman": "Aath",
+"meaning": "Eight",
+"exampleHindi": "वह रोज़ सुबह आठ बजे उठता है।",
+"exampleRoman": "Vah roz subah aath baje uthta hai.",
+"exampleMeaning": "He wakes up at eight o'clock every morning."
+},
+{
+"hindi": "नौ",
+"roman": "Nau",
+"meaning": "Nine",
+"exampleHindi": "दुकान नौ बजे खुलेगी।",
+"exampleRoman": "Dukaan nau baje khulegi.",
+"exampleMeaning": "The shop will open at nine o'clock."
+},
+{
+"hindi": "दस",
+"roman": "Das",
+"meaning": "Ten",
+"exampleHindi": "मेरे पास दस पेन हैं।",
+"exampleRoman": "Mere paas das pen hain.",
+"exampleMeaning": "I have ten pens."
+},
+{
+"hindi": "बजे",
+"roman": "Baje",
+"meaning": "O'clock",
+"exampleHindi": "अभी चार बजे हैं।",
+"exampleRoman": "Abhi chaar baje hain.",
+"exampleMeaning": "It is four o'clock right now."
+},
+{
+"hindi": "आज",
+"roman": "Aaj",
+"meaning": "Today",
+"exampleHindi": "आज सोमवार है।",
+"exampleRoman": "Aaj Somvar hai.",
+"exampleMeaning": "Today is Monday."
+},
+{
+"hindi": "कल",
+"roman": "Kal",
+"meaning": "Tomorrow / Yesterday",
+"exampleHindi": "कल छुट्टी है।",
+"exampleRoman": "Kal chhutti hai.",
+"exampleMeaning": "Tomorrow is a holiday."
+},
+{
+"hindi": "सोमवार",
+"roman": "Somvar",
+"meaning": "Monday",
+"exampleHindi": "सोमवार को मीटिंग है।",
+"exampleRoman": "Somvar ko meeting hai.",
+"exampleMeaning": "The meeting is on Monday."
+},
+{
+"hindi": "मंगलवार",
+"roman": "Mangalvar",
+"meaning": "Tuesday",
+"exampleHindi": "मंगलवार को नया प्रोजेक्ट शुरू होगा।",
+"exampleRoman": "Mangalvar ko naya project shuru hoga.",
+"exampleMeaning": "The new project will start on Tuesday."
+},
+{
+"hindi": "बुधवार",
+"roman": "Budhvar",
+"meaning": "Wednesday",
+"exampleHindi": "बुधवार को रिपोर्ट जमा करनी है।",
+"exampleRoman": "Budhvar ko report jama karni hai.",
+"exampleMeaning": "The report has to be submitted on Wednesday."
+},
+{
+"hindi": "गुरुवार",
+"roman": "Guruvar",
+"meaning": "Thursday",
+"exampleHindi": "गुरुवार को क्लाइंट के साथ कॉल है।",
+"exampleRoman": "Guruvar ko client ke saath call hai.",
+"exampleMeaning": "There is a call with the client on Thursday."
+},
+{
+"hindi": "शुक्रवार",
+"roman": "Shukravar",
+"meaning": "Friday",
+"exampleHindi": "शुक्रवार को काम खत्म होगा।",
+"exampleRoman": "Shukravar ko kaam khatam hoga.",
+"exampleMeaning": "Work will finish on Friday."
+},
+{
+"hindi": "शनिवार",
+"roman": "Shanivar",
+"meaning": "Saturday",
+"exampleHindi": "शनिवार और रविवार को छुट्टी होती है।",
+"exampleRoman": "Shanivar aur ravidar ko chhutti hoti hai.",
+"exampleMeaning": "Saturday and Sunday are holidays."
+},
+{
+"hindi": "रविवार",
+"roman": "Ravivar",
+"meaning": "Sunday",
+"exampleHindi": "रविवार को हम बाहर जाएंगे।",
+"exampleRoman": "Ravivar ko hum bahar jayenge.",
+"exampleMeaning": "We will go out on Sunday."
+}
+],
+"sentences": [
+{
+"hindi": "अभी क्या समय हुआ है?",
+"roman": "Abhi kya samay hua hai?",
+"meaning": "What time is it now?"
+},
+{
+"hindi": "अभी पाँच बजे हैं।",
+"roman": "Abhi paanch baje hain.",
+"meaning": "It is five o'clock right now."
+},
+{
+"hindi": "मीटिंग कितने बजे है?",
+"roman": "Meeting kitne baje hai?",
+"meaning": "What time is the meeting?"
+},
+{
+"hindi": "मीटिंग दो बजे है।",
+"roman": "Meeting do baje hai.",
+"meaning": "The meeting is at two o'clock."
+},
+{
+"hindi": "आज कौन सा दिन है?",
+"roman": "Aaj kaun sa din hai?",
+"meaning": "What day is today?"
+},
+{
+"hindi": "आज बुधवार है।",
+"roman": "Aaj Budhvar hai.",
+"meaning": "Today is Wednesday."
+},
+{
+"hindi": "कल कौन सा दिन होगा?",
+"roman": "Kal kaun sa din hoga?",
+"meaning": "What day will it be tomorrow?"
+},
+{
+"hindi": "बस दस मिनट में आएगी।",
+"roman": "Bus das minute mein aayegi.",
+"meaning": "The bus will arrive in ten minutes."
+}
+],
+"dialogue": [
+{
+"speaker": "Rohan",
+"hindi": "सुनिए, अभी क्या समय हुआ है?",
+"roman": "Suniye, abhi kya samay hua hai?",
+"meaning": "Excuse me, what time is it now?"
+},
+{
+"speaker": "Kavita",
+"hindi": "अभी ठीक तीन बजे हैं।",
+"roman": "Abhi theek teen baje hain.",
+"meaning": "It is exactly three o'clock right now."
+},
+{
+"speaker": "Rohan",
+"hindi": "अच्छा, क्या आपकी बस चार बजे आएगी?",
+"roman": "Achha, kya aapki bus chaar baje aayegi?",
+"meaning": "Oh, will your bus arrive at four o'clock?"
+},
+{
+"speaker": "Kavita",
+"hindi": "हाँ, बस चार बजे आएगी।",
+"roman": "Haan, bus chaar baje aayegi.",
+"meaning": "Yes, the bus will arrive at four o'clock."
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "अभी तीन घंटा है।",
+"incorrectRoman": "Abhi teen ghanta hai.",
+"correctHindi": "अभी तीन बजे हैं।",
+"correctRoman": "Abhi teen baje hain.",
+"explanation": "Use 'baje' when telling time on the clock. 'Ghanta' means duration (hours)."
+},
+{
+"incorrectHindi": "कल है सोमवार।",
+"incorrectRoman": "Kal hai Somvar.",
+"correctHindi": "कल सोमवार है।",
+"correctRoman": "Kal Somvar hai.",
+"explanation": "The standard Hindi word order places the verb ('hai') at the end of the sentence."
+},
+{
+"incorrectHindi": "एक बजे हैं।",
+"incorrectRoman": "Ek baje hain.",
+"correctHindi": "एक बजा है।",
+"correctRoman": "Ek baja hai.",
+"explanation": "For one o'clock (singular), use 'Ek baja hai' instead of plural 'baje hain'."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "How do you ask 'What time is it?' in Hindi?",
+"questionRoman": "How do you ask 'What time is it?' in Hindi?",
+"questionMeaning": "How do you ask 'What time is it?' in Hindi?",
+"options": [
+"Abhi kya samay hua hai?",
+"Aap kaun hain?",
+"Aap kahan hain?",
+"Yeh kya hai?"
+],
+"correctAnswer": "Abhi kya samay hua hai?",
+"explanation": "'Abhi kya samay hua hai?' means 'What time is it now?'."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence: 'Meeting teen ______ hai.' (The meeting is at 3 o'clock.)",
+"questionRoman": "Complete the sentence: 'Meeting teen ______ hai.'",
+"questionMeaning": "Complete the sentence: 'Meeting teen ______ hai.'",
+"options": [
+"baje",
+"ghanta",
+"din",
+"saal"
+],
+"correctAnswer": "baje",
+"explanation": "'Baje' means o'clock."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'Today is Monday.'",
+"questionRoman": "Translate into Hindi: 'Today is Monday.'",
+"questionMeaning": "Translate into Hindi: 'Today is Monday.'",
+"options": [
+"Aaj Somvar hai.",
+"Kal Shukravar hai.",
+"Abhi teen baje hain.",
+"Aaj kya din hai?"
+],
+"correctAnswer": "Aaj Somvar hai.",
+"explanation": "'Aaj' = today, 'Somvar' = Monday, 'hai' = is."
+},
+{
+"type": "mcq",
+"question": "What does the word 'Kal' mean in Hindi?",
+"questionRoman": "What does the word 'Kal' mean in Hindi?",
+"questionMeaning": "What does the word 'Kal' mean in Hindi?",
+"options": [
+"Tomorrow or Yesterday",
+"Today",
+"Now",
+"Never"
+],
+"correctAnswer": "Tomorrow or Yesterday",
+"explanation": "'Kal' refers to either tomorrow or yesterday depending on verb tense."
+},
+{
+"type": "choose_response",
+"question": "Someone asks 'Meeting kitne baje hai?'. Which is a logical response?",
+"questionRoman": "Someone asks 'Meeting kitne baje hai?'. Which is a logical response?",
+"questionMeaning": "Someone asks 'Meeting kitne baje hai?'. Which is a logical response?",
+"options": [
+"Meeting char baje hai.",
+"Main theek hoon.",
+"Yeh mera room hai.",
+"Mera naam Amit hai."
+],
+"correctAnswer": "Meeting char baje hai.",
+"explanation": "Giving a specific time (4 o'clock) answers 'kitne baje' (what time)."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: 'Aaj kaun sa din hai?' | Person B: 'Aaj ______ hai.'",
+"questionRoman": "Person A: 'Aaj kaun sa din hai?' | Person B: 'Aaj ______ hai.'",
+"questionMeaning": "Person A: 'What day is today?' | Person B: 'Today is ______.'",
+"options": [
+"Shukravar",
+"baje",
+"samay",
+"minute"
+],
+"correctAnswer": "Shukravar",
+"explanation": "'Shukravar' (Friday) completes the sentence naming a weekday."
+}
+],
+"summary": [
+"Numbers 1 to 5 are Ek, Do, Teen, Chaar, Paanch.",
+"Use 'baje' for o'clock (e.g., 'Teen baje' = 3 o'clock).",
+"For 1 o'clock, say 'Ek baja hai'.",
+"Ask time using 'Abhi kya samay hua hai?' or 'Kitne baje hain?'.",
+"'Aaj' means today, and 'Kal' means tomorrow/yesterday depending on context.",
+"Weekday names usually end in '-var' (e.g., Somvar, Shukravar)."
+],
+"speakingChallenge": "Look at your watch and say the current time out loud in Hindi using '[Number] baje hain'."
+},
+{
+"id": 7,
+"title": "Family and Friends 👨‍👩‍👧‍👦",
+"description": "Learn terms for family members, friends, relationships, and how to talk about your social circle respectfully.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Learn key family terms (parents, siblings, spouse)",
+"Understand respectful terms of address for elders",
+"Describe your family relationships in simple sentences",
+"Talk about friends and social connections"
+],
+"explanation": "Indian culture places high value on family relationships. Hindi has distinct terms for paternal and maternal relatives, as well as elder versus younger siblings. For everyday conversation, key core terms include 'Mata ji' (Mother), 'Pita ji' (Father), 'Bhai' (Brother), 'Behen' (Sister), and 'Dost' (Friend). Adding 'ji' after titles or names shows respect.",
+"vocabulary": [
+{
+"hindi": "माता जी",
+"roman": "Mata ji",
+"meaning": "Mother (Respectful)",
+"exampleHindi": "मेरी माता जी डॉक्टर हैं।",
+"exampleRoman": "Meri Mata ji doctor hain.",
+"exampleMeaning": "My mother is a doctor."
+},
+{
+"hindi": "पिता जी",
+"roman": "Pita ji",
+"meaning": "Father (Respectful)",
+"exampleHindi": "मेरे पिता जी काम पर गए हैं।",
+"exampleRoman": "Mere Pita ji kaam par gaye hain.",
+"exampleMeaning": "My father has gone to work."
+},
+{
+"hindi": "भाई",
+"roman": "Bhai",
+"meaning": "Brother",
+"exampleHindi": "मेरा एक भाई है।",
+"exampleRoman": "Mera ek bhai hai.",
+"exampleMeaning": "I have one brother."
+},
+{
+"hindi": "बहन",
+"roman": "Behen",
+"meaning": "Sister",
+"exampleHindi": "मेरी बहन दिल्ली में रहती है।",
+"exampleRoman": "Meri behen Delhi mein rehti hai.",
+"exampleMeaning": "My sister lives in Delhi."
+},
+{
+"hindi": "दोस्त / मित्र",
+"roman": "Dost / Mitra",
+"meaning": "Friend",
+"exampleHindi": "राहुल मेरा सबसे अच्छा दोस्त है।",
+"exampleRoman": "Rahul mera sabse achha dost hai.",
+"exampleMeaning": "Rahul is my best friend."
+},
+{
+"hindi": "परिवार",
+"roman": "Parivar",
+"meaning": "Family",
+"exampleHindi": "मेरा परिवार बहुत बड़ा है।",
+"exampleRoman": "Mera parivar bahut bada hai.",
+"exampleMeaning": "My family is very big."
+},
+{
+"hindi": "पति",
+"roman": "Pati",
+"meaning": "Husband",
+"exampleHindi": "मेरे पति इंजीनियर हैं।",
+"exampleRoman": "Mere pati engineer hain.",
+"exampleMeaning": "My husband is an engineer."
+},
+{
+"hindi": "पत्नी",
+"roman": "Patni",
+"meaning": "Wife",
+"exampleHindi": "मेरी पत्नी एक शिक्षिका हैं।",
+"exampleRoman": "Meri patni ek shikshika hain.",
+"exampleMeaning": "My wife is a teacher."
+},
+{
+"hindi": "बच्चे",
+"roman": "Bacche",
+"meaning": "Children",
+"exampleHindi": "मेरे दो बच्चे हैं।",
+"exampleRoman": "Mere do bacche hain.",
+"exampleMeaning": "I have two children."
+},
+{
+"hindi": "घर",
+"roman": "Ghar",
+"meaning": "Home / House",
+"exampleHindi": "यह हमारा घर है।",
+"exampleRoman": "Yeh hamara ghar hai.",
+"exampleMeaning": "This is our home."
+}
+],
+"sentences": [
+{
+"hindi": "यह मेरा परिवार है।",
+"roman": "Yeh mera parivar hai.",
+"meaning": "This is my family."
+},
+{
+"hindi": "मेरे पिता जी बहुत दयालु हैं।",
+"roman": "Mere Pita ji bahut dayalu hain.",
+"meaning": "My father is very kind."
+},
+{
+"hindi": "क्या आपका कोई भाई या बहन है?",
+"roman": "Kya aapka koi bhai ya behen hai?",
+"meaning": "Do you have any brother or sister?"
+},
+{
+"hindi": "मेरी एक छोटी बहन है।",
+"roman": "Meri ek chhoti behen hai.",
+"meaning": "I have a younger sister."
+},
+{
+"hindi": "वह मेरी अच्छी दोस्त है।",
+"roman": "Vah meri achhi dost hai.",
+"meaning": "She is my good friend."
+},
+{
+"hindi": "आपके परिवार में कितने लोग हैं?",
+"roman": "Aapke parivar mein kitne log hain?",
+"meaning": "How many people are in your family?"
+},
+{
+"hindi": "मेरे परिवार में चार लोग हैं।",
+"roman": "Mere parivar mein chaar log hain.",
+"meaning": "There are four people in my family."
+},
+{
+"hindi": "हम सब साथ रहते हैं।",
+"roman": "Hum sab saath rehte hain.",
+"meaning": "We all live together."
+}
+],
+"dialogue": [
+{
+"speaker": "Vikram",
+"hindi": "प्रिया, क्या यह फोटो आपके परिवार की है?",
+"roman": "Priya, kya yeh photo aapke parivar ki hai?",
+"meaning": "Priya, is this photo of your family?"
+},
+{
+"speaker": "Priya",
+"hindi": "हाँ विक्रम, यह मेरे पिता जी हैं और यह मेरी माता जी हैं।",
+"roman": "Haan Vikram, yeh mere Pita ji hain aur yeh meri Mata ji hain.",
+"meaning": "Yes Vikram, this is my father and this is my mother."
+},
+{
+"speaker": "Vikram",
+"hindi": "और यह लड़का कौन है?",
+"roman": "Aur yeh ladka kaun hai?",
+"meaning": "And who is this boy?"
+},
+{
+"speaker": "Priya",
+"hindi": "यह मेरा छोटा भाई है। इसका नाम करण है।",
+"roman": "Yeh mera chhota bhai hai. Iska naam Karan hai.",
+"meaning": "This is my younger brother. His name is Karan."
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "मेरा पिता जी आता है।",
+"incorrectRoman": "Mera Pita ji aata hai.",
+"correctHindi": "मेरे पिता जी आते हैं।",
+"correctRoman": "Mere Pita ji aate hain.",
+"explanation": "Always use plural honorific forms ('Mere', 'aate hain') when speaking about parents or elders."
+},
+{
+"incorrectHindi": "मैं पास दो भाई है।",
+"incorrectRoman": "Main paas do bhai hai.",
+"correctHindi": "मेरे दो भाई हैं। / मेरे पास दो भाई हैं।",
+"correctRoman": "Mere do bhai hain.",
+"explanation": "To express having relatives, use 'Mere [number] [relative] hain'."
+},
+{
+"incorrectHindi": "मेरी भाई बड़ा है।",
+"incorrectRoman": "Meri bhai bada hai.",
+"correctHindi": "मेरा भाई बड़ा है।",
+"correctRoman": "Mera bhai bada hai.",
+"explanation": "'Bhai' (brother) is masculine, so use possessive 'Mera' instead of 'Meri'."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "What is the Hindi term for 'Mother' (respectful)?",
+"questionRoman": "What is the Hindi term for 'Mother' (respectful)?",
+"questionMeaning": "What is the Hindi term for 'Mother' (respectful)?",
+"options": [
+"Mata ji",
+"Pita ji",
+"Behen",
+"Dost"
+],
+"correctAnswer": "Mata ji",
+"explanation": "'Mata ji' means Mother (respectful form)."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence: 'Rahul mera sabse achha ______ hai.' (Rahul is my best friend.)",
+"questionRoman": "Complete the sentence: 'Rahul mera sabse achha ______ hai.'",
+"questionMeaning": "Complete the sentence: 'Rahul mera sabse achha ______ hai.'",
+"options": [
+"dost",
+"parivar",
+"ghar",
+"desh"
+],
+"correctAnswer": "dost",
+"explanation": "'Dost' means friend."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'This is my family.'",
+"questionRoman": "Translate into Hindi: 'This is my family.'",
+"questionMeaning": "Translate into Hindi: 'This is my family.'",
+"options": [
+"Yeh mera parivar hai.",
+"Main parivar hoon.",
+"Mere pita ji hain.",
+"Aapka ghar kahan hai?"
+],
+"correctAnswer": "Yeh mera parivar hai.",
+"explanation": "'Yeh' = this, 'mera' = my, 'parivar' = family, 'hai' = is."
+},
+{
+"type": "mcq",
+"question": "Why do we say 'Mere Pita ji' instead of 'Mera Pita ji'?",
+"questionRoman": "Why do we say 'Mere Pita ji' instead of 'Mera Pita ji'?",
+"questionMeaning": "Why do we say 'Mere Pita ji' instead of 'Mera Pita ji'?",
+"options": [
+"To show respect (Honorific plural)",
+"Because father is plural",
+"Because it is feminine",
+"It is optional"
+],
+"correctAnswer": "To show respect (Honorific plural)",
+"explanation": "Hindi uses plural forms ('Mere') as an honorific for respected individuals."
+},
+{
+"type": "choose_response",
+"question": "Someone asks 'Aapke parivar mein kitne log hain?'. How do you answer for 4 people?",
+"questionRoman": "Someone asks 'Aapke parivar mein kitne log hain?'. How do you answer for 4 people?",
+"questionMeaning": "Someone asks 'Aapke parivar mein kitne log hain?'. How do you answer for 4 people?",
+"options": [
+"Mere parivar mein chaar log hain.",
+"Main akela hoon.",
+"Mera naam Amit hai.",
+"Main office mein hoon."
+],
+"correctAnswer": "Mere parivar mein chaar log hain.",
+"explanation": "'Mere parivar mein chaar log hain' means 'There are four people in my family'."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: 'Kya yeh aapki behen hain?' | Person B: 'Haan, yeh ______ behen hain.'",
+"questionRoman": "Person A: 'Kya yeh aapki behen hain?' | Person B: 'Haan, yeh ______ behen hain.'",
+"questionMeaning": "Person A: 'Is she your sister?' | Person B: 'Yes, she is ______ sister.'",
+"options": [
+"meri",
+"mera",
+"mere",
+"apka"
+],
+"correctAnswer": "meri",
+"explanation": "'Behen' is feminine, so use possessive 'meri'."
+}
+],
+"summary": [
+"Mata ji = Mother, Pita ji = Father.",
+"Bhai = Brother, Behen = Sister.",
+"Dost = Friend, Parivar = Family.",
+"Add 'ji' after family titles to express respect.",
+"Use 'meri' for female relatives (meri behen) and 'mera/mere' for male relatives (mera bhai / mere pita ji).",
+"Use honorific plural ('Mere Pita ji hain') when speaking about elders."
+],
+"speakingChallenge": "Introduce two family members or friends out loud in Hindi (e.g., 'Yeh meri Mata ji hain. Yeh mera bhai hai.')."
+},
+{
+"id": 9,
+"title": "Making Simple Sentences 🏗️",
+"description": "Understand basic Hindi Subject-Object-Verb (SOV) sentence structure and form positive and negative statements effortlessly.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Master Hindi's Subject-Object-Verb (SOV) word order",
+"Convert English Subject-Verb-Object ideas into proper Hindi structure",
+"Form clear positive statements and negative statements ('nahin')",
+"Use postpositions like 'mein' (in) and 'par' (on) in basic sentences"
+],
+"explanation": "English uses Subject-Verb-Object (S-V-O) order (e.g., 'I eat rice'). Hindi uses Subject-Object-Verb (S-O-V) order (e.g., 'Main chawal khata hoon' -> I rice eat). The main verb always goes at or near the end of the sentence. To make a sentence negative, place 'nahin' (not) right before the main verb.",
+"vocabulary": [
+{
+"hindi": "में",
+"roman": "Mein",
+"meaning": "In / Inside",
+"exampleHindi": "मैं कमरे में हूँ।",
+"exampleRoman": "Main kamre mein hoon.",
+"exampleMeaning": "I am in the room."
+},
+{
+"hindi": "पर",
+"roman": "Par",
+"meaning": "On / At",
+"exampleHindi": "फ़ोन मेज़ पर है।",
+"exampleRoman": "Phone mez par hai.",
+"exampleMeaning": "The phone is on the table."
+},
+{
+"hindi": "पास",
+"roman": "Paas",
+"meaning": "Near / With (possession)",
+"exampleHindi": "मेरे पास चाबी है।",
+"exampleRoman": "Mere paas chaabi hai.",
+"exampleMeaning": "I have the key."
+},
+{
+"hindi": "चाय",
+"roman": "Chai",
+"meaning": "Tea",
+"exampleHindi": "मैं चाय पीता/पीती हूँ।",
+"exampleRoman": "Main chai peeta/peeti hoon.",
+"exampleMeaning": "I drink tea."
+},
+{
+"hindi": "पानी",
+"roman": "Paani",
+"meaning": "Water",
+"exampleHindi": "कृपया ठंडा पानी दीजिए।",
+"exampleRoman": "Kripya thanda paani dejiye.",
+"exampleMeaning": "Please give cold water."
+},
+{
+"hindi": "किताब",
+"roman": "Kitaab",
+"meaning": "Book",
+"exampleHindi": "यह किताब अच्छी है।",
+"exampleRoman": "Yeh kitaab achhi hai.",
+"exampleMeaning": "This book is good."
+},
+{
+"hindi": "काम",
+"roman": "Kaam",
+"meaning": "Work",
+"exampleHindi": "मैं काम कर रहा/रही हूँ।",
+"exampleRoman": "Main kaam kar raha/rahi hoon.",
+"exampleMeaning": "I am working."
+},
+{
+"hindi": "पसंद",
+"roman": "Pasand",
+"meaning": "Like / Choice",
+"exampleHindi": "मुझे यह गाना पसंद है।",
+"exampleRoman": "Mujhe yeh gaana pasand hai.",
+"exampleMeaning": "I like this song."
+},
+{
+"hindi": "जरूरत / आवश्यकता",
+"roman": "Zaroorat",
+"meaning": "Need",
+"exampleHindi": "मुझे आपकी मदद की जरूरत है।",
+"exampleRoman": "Mujhe aapki madad ki zaroorat hai.",
+"exampleMeaning": "I need your help."
+},
+{
+"hindi": "कमरा",
+"roman": "Kamra",
+"meaning": "Room",
+"exampleHindi": "यह कमरा बड़ा है।",
+"exampleRoman": "Yeh kamra bada hai.",
+"exampleMeaning": "This room is big."
+}
+],
+"sentences": [
+{
+"hindi": "मैं चाय पीता/पीती हूँ।",
+"roman": "Main chai peeta/peeti hoon.",
+"meaning": "I drink tea."
+},
+{
+"hindi": "मैं चाय नहीं पीता/पीती।",
+"roman": "Main chai nahin peeta/peeti.",
+"meaning": "I do not drink tea."
+},
+{
+"hindi": "वह दफ्तर में है।",
+"roman": "Vah daftar mein hai.",
+"meaning": "He/She is in the office."
+},
+{
+"hindi": "किताब मेज़ पर नहीं है।",
+"roman": "Kitaab mez par nahin hai.",
+"meaning": "The book is not on the table."
+},
+{
+"hindi": "मेरे पास समय नहीं है।",
+"roman": "Mere paas samay nahin hai.",
+"meaning": "I do not have time."
+},
+{
+"hindi": "मुझे कॉफ़ी पसंद है।",
+"roman": "Mujhe coffee pasand hai.",
+"meaning": "I like coffee."
+},
+{
+"hindi": "क्या आपको यह पसंद है?",
+"roman": "Kya aapko yeh pasand hai?",
+"meaning": "Do you like this?"
+},
+{
+"hindi": "हम घर पर हैं।",
+"roman": "Hum ghar par hain.",
+"meaning": "We are at home."
+}
+],
+"dialogue": [
+{
+"speaker": "Anil",
+"hindi": "क्या आप चाय लेंगे?",
+"roman": "Kya aap chai lenge?",
+"meaning": "Will you take tea?"
+},
+{
+"speaker": "Sunita",
+"hindi": "नहीं, मैं चाय नहीं पीती। मुझे कॉफ़ी पसंद है।",
+"roman": "Nahin, main chai nahin peeti. Mujhe coffee pasand hai.",
+"meaning": "No, I don't drink tea. I like coffee."
+},
+{
+"speaker": "Anil",
+"hindi": "ठीक है! कॉफ़ी टेबल पर रखी है।",
+"roman": "Theek hai! Coffee table par rakhi hai.",
+"meaning": "Okay! Coffee is kept on the table."
+},
+{
+"speaker": "Sunita",
+"hindi": "धन्यवाद अनिकेत जी!",
+"roman": "Dhanyawad Aniket ji!",
+"meaning": "Thank you Aniket ji!"
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "मैं पीता हूँ चाय।",
+"incorrectRoman": "Main peeta hoon chai.",
+"correctHindi": "मैं चाय पीता हूँ।",
+"correctRoman": "Main chai peeta hoon.",
+"explanation": "Hindi follows Subject-Object-Verb order. Place the object ('chai') before the verb ('peeta hoon')."
+},
+{
+"incorrectHindi": "नहीं मैं चाय पीता।",
+"incorrectRoman": "Nahin main chai peeta.",
+"correctHindi": "मैं चाय नहीं पीता।",
+"correctRoman": "Main chai nahin peeta.",
+"explanation": "Place 'nahin' directly before the verb ('peeta'), not at the start of the sentence."
+},
+{
+"incorrectHindi": "मैं कमरे पर हूँ।",
+"incorrectRoman": "Main kamre par hoon.",
+"correctHindi": "मैं कमरे में हूँ।",
+"correctRoman": "Main kamre mein hoon.",
+"explanation": "Use 'mein' for 'inside/in' a room, not 'par' (on)."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "What is the sentence order in standard Hindi grammar?",
+"questionRoman": "What is the sentence order in standard Hindi grammar?",
+"questionMeaning": "What is the sentence order in standard Hindi grammar?",
+"options": [
+"Subject - Object - Verb (SOV)",
+"Subject - Verb - Object (SVO)",
+"Verb - Subject - Object (VSO)",
+"Object - Verb - Subject (OVS)"
+],
+"correctAnswer": "Subject - Object - Verb (SOV)",
+"explanation": "Hindi places the Subject first, Object second, and Verb last."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence: 'Main office ______ hoon.' (I am in the office.)",
+"questionRoman": "Complete the sentence: 'Main office ______ hoon.'",
+"questionMeaning": "Complete the sentence: 'Main office ______ hoon.'",
+"options": [
+"mein",
+"par",
+"se",
+"ka"
+],
+"correctAnswer": "mein",
+"explanation": "'Mein' means in or inside."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'I like coffee.'",
+"questionRoman": "Translate into Hindi: 'I like coffee.'",
+"questionMeaning": "Translate into Hindi: 'Translate into Hindi: 'I like coffee.''",
+"options": [
+"Mujhe coffee pasand hai.",
+"Main coffee hoon.",
+"Coffee mera hai.",
+"Main coffee peeta hoon."
+],
+"correctAnswer": "Mujhe coffee pasand hai.",
+"explanation": "'Mujhe [thing] pasand hai' is the pattern for expressing likes."
+},
+{
+"type": "mcq",
+"question": "Where is the negative word 'nahin' placed in a sentence?",
+"questionRoman": "Where is the negative word 'nahin' placed in a sentence?",
+"questionMeaning": "Where is the negative word 'nahin' placed in a sentence?",
+"options": [
+"Directly before the main verb",
+"At the beginning of the sentence",
+"After the main verb",
+"Anywhere you want"
+],
+"correctAnswer": "Directly before the main verb",
+"explanation": "In standard Hindi, 'nahin' comes right before the verb (e.g., 'nahin peeta')."
+},
+{
+"type": "choose_response",
+"question": "Someone asks 'Kya aapke paas samay hai?'. How do you politely answer 'I don't have time'?",
+"questionRoman": "Someone asks 'Kya aapke paas samay hai?'. How do you politely answer 'I don't have time'?",
+"questionMeaning": "Someone asks 'Kya aapke paas samay hai?'. How do you politely answer 'I don't have time'?",
+"options": [
+"Maaf kijiye, mere paas samay nahin hai.",
+"Haan, main samay hoon.",
+"Samay baje hai.",
+"Main ghar mein hoon."
+],
+"correctAnswer": "Maaf kijiye, mere paas samay nahin hai.",
+"explanation": "'Mere paas samay nahin hai' means 'I don't have time'."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: 'Phone kahan hai?' | Person B: 'Phone mez ______ hai.'",
+"questionRoman": "Person A: 'Phone kahan hai?' | Person B: 'Phone mez ______ hai.'",
+"questionMeaning": "Person A: 'Where is the phone?' | Person B: 'The phone is ______ the table.'",
+"options": [
+"par",
+"mein",
+"se",
+"ko"
+],
+"correctAnswer": "par",
+"explanation": "'Par' means on/upon (on the table)."
+}
+],
+"summary": [
+"Hindi structure is Subject + Object + Verb (SOV).",
+"The verb always goes at the end of the sentence.",
+"Use 'mein' for 'in/inside' and 'par' for 'on/at'.",
+"Use 'Mujhe [item] pasand hai' to express liking something.",
+"Use 'Mere paas [item] hai' to express possession ('I have...').",
+"Place 'nahin' right before the verb to make negative sentences."
+],
+"speakingChallenge": "Form 3 SOV sentences out loud expressing something you have ('Mere paas...'), like ('Mujhe... pasand hai'), or do ('Main...')."
+},
+{
+"id": 10,
+"title": "Past Tense ⏪",
+"description": "Master simple past tense in Hindi to talk about completed actions, past events, and yesterday's activities with correct gender agreements.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Form simple past tense statements for completed actions",
+"Apply correct masculine ('-a', '-e') and feminine ('-i', '-iin') past tense verb endings",
+"Talk about yesterday's events and past routines",
+"Use common past time markers like 'kal' (yesterday)"
+],
+"explanation": "In Hindi, simple past tense is formed by dropping the infinitive verb ending '-na' from the root and adding past tense markers based on the gender and number of the subject. For masculine singular subjects, add '-a' (e.g., 'gaya' went, 'kiya' did); for masculine plural/honorific, add '-e' (e.g., 'gaye', 'kiye'); and for feminine subjects, add '-i' (singular 'gayi', 'kiyi') or '-iin' (plural).",
+"vocabulary": [
+{
+"hindi": "था / थी / थे",
+"roman": "Tha / Thi / The",
+"meaning": "Was / Were",
+"exampleHindi": "कल छुट्टी थी।",
+"exampleRoman": "Kal chhutti thi.",
+"exampleMeaning": "Yesterday was a holiday."
+},
+{
+"hindi": "किया",
+"roman": "Kiya",
+"meaning": "Did (Past of Karna)",
+"exampleHindi": "मैंने अपना काम पूरा किया।",
+"exampleRoman": "Maine apna kaam poora kiya.",
+"exampleMeaning": "I completed my work."
+},
+{
+"hindi": "गया / गई",
+"roman": "Gaya / Gayi",
+"meaning": "Went (Male / Female)",
+"exampleHindi": "वह कल कार्यालय गया/गई थी।",
+"exampleRoman": "Vah kal karyalay gaya / gayi thi.",
+"exampleMeaning": "He/She went to the office yesterday."
+},
+{
+"hindi": "आया / आई",
+"roman": "Aaya / Aayi",
+"meaning": "Came (Male / Female)",
+"exampleHindi": "ग्राहक कल आया था।",
+"exampleRoman": "Grahak kal aaya tha.",
+"exampleMeaning": "The client came yesterday."
+},
+{
+"hindi": "देखा",
+"roman": "Dekha",
+"meaning": "Saw / Watched",
+"exampleHindi": "मैंने वह फ़ाइल देखी।",
+"exampleRoman": "Maine vah file dekhi.",
+"exampleMeaning": "I saw that file."
+},
+{
+"hindi": "सुना",
+"roman": "Suna",
+"meaning": "Heard / Listened",
+"exampleHindi": "मैंने आपका संदेश सुना।",
+"exampleRoman": "Maine aapka sandesh suna.",
+"exampleMeaning": "I heard your message."
+},
+{
+"hindi": "पढ़ा",
+"roman": "Padha",
+"meaning": "Read / Studied",
+"exampleHindi": "उसने पूरी रिपोर्ट पढ़ी।",
+"exampleRoman": "Usne poori report padhi.",
+"exampleMeaning": "He/She read the entire report."
+},
+{
+"hindi": "लिखा",
+"roman": "Likhna / Likha",
+"meaning": "Wrote",
+"exampleHindi": "मैंने ईमेल लिखा।",
+"exampleRoman": "Maine email likha.",
+"exampleMeaning": "I wrote an email."
+},
+{
+"hindi": "मिला",
+"roman": "Mila",
+"meaning": "Met / Found",
+"exampleHindi": "मैं कल अपने मित्र से मिला/मिली।",
+"exampleRoman": "Main kal apne mitra se mila / mili.",
+"exampleMeaning": "I met my friend yesterday."
+},
+{
+"hindi": "बीता हुआ कल",
+"roman": "Bita hua kal (Kal)",
+"meaning": "Yesterday",
+"exampleHindi": "कल बारिश हुई थी।",
+"exampleRoman": "Kal barish hui thi.",
+"exampleMeaning": "It rained yesterday."
+}
+],
+"sentences": [
+{
+"hindi": "मैंने कल बहुत काम किया।",
+"roman": "Maine kal bahut kaam kiya.",
+"meaning": "I did a lot of work yesterday."
+},
+{
+"hindi": "वह कल मीटिंग में आया/आयी था/थी।",
+"roman": "Vah kal meeting mein aaya / aayi tha / thi.",
+"meaning": "He/She came to the meeting yesterday."
+},
+{
+"hindi": "हम कल समय पर पहुँचे।",
+"roman": "Hum kal samay par pahuche.",
+"meaning": "We arrived on time yesterday."
+},
+{
+"hindi": "क्या आपने रिपोर्ट पढ़ी?",
+"roman": "Kya aapne report padhi?",
+"meaning": "Did you read the report?"
+},
+{
+"hindi": "मुझे कल आपका संदेश मिला।",
+"roman": "Mujhe kal aapka sandesh mila.",
+"meaning": "I received your message yesterday."
+},
+{
+"hindi": "वे कल दिल्ली गए थे।",
+"roman": "Ve kal Delhi gaye the.",
+"meaning": "They went to Delhi yesterday."
+},
+{
+"hindi": "मैंने कल कॉफ़ी नहीं पी।",
+"roman": "Maine kal coffee nahin pi.",
+"meaning": "I did not drink coffee yesterday."
+},
+{
+"hindi": "कल क्या हुआ था?",
+"roman": "Kal kya hua tha?",
+"meaning": "What happened yesterday?"
+}
+],
+"dialogue": [
+{
+"speaker": "Rohan",
+"hindi": "Priya, kya tumne kal ki meeting attend ki?",
+"roman": "Priya, kya tumne kal ki meeting attend ki?",
+"meaning": "Priya, did you attend yesterday's meeting?"
+},
+{
+"speaker": "Priya",
+"hindi": "Haan Rohan, maine meeting attend ki aur notes bhi likhe.",
+"roman": "Haan Rohan, maine meeting attend ki aur notes bhi likhe.",
+"meaning": "Yes Rohan, I attended the meeting and also wrote notes."
+},
+{
+"speaker": "Rohan",
+"hindi": "Bahut achha! Kya manager sahab ne kuch naye nirdesh diye?",
+"roman": "Bahut achha! Kya manager sahab ne kuch naye nirdesh diye?",
+"meaning": "Very good! Did the manager give any new instructions?"
+},
+{
+"speaker": "Priya",
+"hindi": "Haan, unhone sabhi ko email bhej diya hai.",
+"meaning": "Yes, he has sent an email to everyone."
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "मैं कल गया हूँ (past action).",
+"incorrectRoman": "Main kal gaya hoon.",
+"correctHindi": "मैं कल गया/गयी था/था / मैं कल गया/गयी।",
+"correctRoman": "Main kal gaya / gayi.",
+"explanation": "Use simple past forms for completed past events instead of present auxiliary 'hoon'."
+},
+{
+"incorrectHindi": "उसने किया खाया?",
+"incorrectRoman": "Usne kiya khaya?",
+"correctHindi": "उसने क्या खाया?",
+"correctRoman": "Usne kya khaya?",
+"explanation": "Correct the spelling of 'kya' (what) instead of 'kiya' (did)."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "How do you say 'I did my work' in Hindi?",
+"questionRoman": "How do you say 'I did my work' in Hindi?",
+"questionMeaning": "How do you say 'I did my work' in Hindi?",
+"options": [
+"Maine apna kaam kiya.",
+"Main apna kaam karta hoon.",
+"Main apna kaam karunga.",
+"Mera kaam hai."
+],
+"correctAnswer": "Maine apna kaam kiya.",
+"explanation": "'Kiya' is the simple past form of 'karna' (to do)."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence: 'Vah kal office ______ tha.' (He went to office yesterday.)",
+"questionRoman": "Complete the sentence: 'Vah kal office ______ tha.'",
+"questionMeaning": "Complete the sentence: 'Vah kal office ______ tha.'",
+"options": [
+"gaya",
+"gayi",
+"gaye",
+"jana"
+],
+"correctAnswer": "gaya",
+"explanation": "Masculine singular subject takes past form 'gaya'."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'Did you read the report?'",
+"questionRoman": "Translate into Hindi: 'Did you read the report?'",
+"questionMeaning": "Translate into Hindi: 'Did you read the report?'",
+"options": [
+"Kya aapne report padhi?",
+"Aap report padhte hain.",
+"Kya aap report padhenge?",
+"Report kahan hai?"
+],
+"correctAnswer": "Kya aapne report padhi?",
+"explanation": "'Kya aapne report padhi?' correctly uses the past tense for reading."
+}
+],
+"summary": [
+"Simple past tense describes completed actions in the past.",
+"Verb endings change based on masculine ('-a', '-e') and feminine ('-i') gender rules.",
+"Use 'Kal' to refer to yesterday in past tense contexts.",
+"Use auxiliary words like 'tha/thi/the' (was/were) for state-of-being past sentences."
+],
+"speakingChallenge": "Describe three things you did yesterday out loud in simple Hindi sentences."
+},
+{
+"id": 11,
+"title": "Present Tense ⏳",
+"description": "Master Present Simple and Present Continuous tenses in Hindi with dual-gender markers for daily routines and current actions.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Form Present Habitual/Simple sentences ('ta hoon' / 'ti hoon')",
+"Form Present Continuous sentences ('raha hoon' / 'rahi hoon')",
+"Distinguish clearly between routine actions and ongoing actions",
+"Apply correct masculine and feminine verb endings in present tense"
+],
+"explanation": "Present Tense has two major forms in daily conversation:\n1. Present Habitual / Routine (I do / I eat):\n   - Male speaker: Root + ta hoon (e.g., Main jata hoon)\n   - Female speaker: Root + ti hoon (e.g., Main jaati hoon)\n2. Present Continuous (I am doing / I am going):\n   - Male speaker: Root + raha hoon (e.g., Main ja raha hoon)\n   - Female speaker: Root + rahi hoon (e.g., Main ja rahi hoon)\nFor formal address ('Aap'), use 'te hain' (male) / 'ti hain' (female) for routine, and 'rahe hain' / 'rahi hain' for continuous actions.",
+"vocabulary": [
+{
+"hindi": "रहना",
+"roman": "Rehna",
+"meaning": "To live / To stay",
+"exampleHindi": "मैं दिल्ली में रहता/रहती हूँ।",
+"exampleRoman": "Main Delhi mein rehta/rehti hoon.",
+"exampleMeaning": "I live in Delhi."
+},
+{
+"hindi": "चलाना",
+"roman": "Chalana",
+"meaning": "To drive / To operate",
+"exampleHindi": "मैं कार चला रहा/रही हूँ।",
+"exampleRoman": "Main car chala raha/rahi hoon.",
+"exampleMeaning": "I am driving a car."
+},
+{
+"hindi": "सोना",
+"roman": "Sona",
+"meaning": "To sleep",
+"exampleHindi": "बच्चा सो रहा है।",
+"exampleRoman": "Baccha so raha hai.",
+"exampleMeaning": "The child is sleeping."
+},
+{
+"hindi": "सोचना",
+"roman": "Sochna",
+"meaning": "To think",
+"exampleHindi": "मैं इस बारे में सोच रहा/रही हूँ।",
+"exampleRoman": "Main is bare mein soch raha/rahi hoon.",
+"exampleMeaning": "I am thinking about this."
+},
+{
+"hindi": "पकाना",
+"roman": "Pakana",
+"meaning": "To cook",
+"exampleHindi": "वह खाना पका रही है।",
+"exampleRoman": "Vah khana paka rahi hai.",
+"exampleMeaning": "She is cooking food."
+},
+{
+"hindi": "रोज़",
+"roman": "Roz",
+"meaning": "Daily / Every day",
+"exampleHindi": "मैं रोज़ टहलता/टहलती हूँ।",
+"exampleRoman": "Main roz tahalta/tahalti hoon.",
+"exampleMeaning": "I walk every day."
+},
+{
+"hindi": "अभी",
+"roman": "Abhi",
+"meaning": "Right now / Currently",
+"exampleHindi": "मैं अभी काम कर रहा/रही हूँ।",
+"exampleRoman": "Main abhi kaam kar raha/rahi hoon.",
+"exampleMeaning": "I am working right now."
+},
+{
+"hindi": "हमेशा",
+"roman": "Hamesha",
+"meaning": "Always",
+"exampleHindi": "वह हमेशा समय पर आता/आती है।",
+"exampleRoman": "Vah hamesha samay par aata/aati hai.",
+"exampleMeaning": "He/She always comes on time."
+},
+{
+"hindi": "गाना",
+"roman": "Gaana",
+"meaning": "To sing / Song",
+"exampleHindi": "वह अच्छा गाती है।",
+"exampleRoman": "Vah achha gaati hai.",
+"exampleMeaning": "She sings well."
+},
+{
+"hindi": "खरीदना",
+"roman": "Khareedna",
+"meaning": "To buy",
+"exampleHindi": "मैं सब्ज़ियाँ खरीद रहा/रही हूँ।",
+"exampleRoman": "Main sabziyan khareed raha/rahi hoon.",
+"exampleMeaning": "I am buying vegetables."
+}
+],
+"sentences": [
+{
+"hindi": "मैं हर दिन काम करता/करती हूँ।",
+"roman": "Main har din kaam karta/karti hoon.",
+"meaning": "I work every day."
+},
+{
+"hindi": "मैं अभी चाय पी रहा/रही हूँ।",
+"roman": "Main abhi chai peera/peeri hoon (or peerah hoon).",
+"meaning": "I am drinking tea right now."
+},
+{
+"hindi": "आप क्या कर रहे/रही हैं?",
+"roman": "Aap kya kar rahe/rahi hain?",
+"meaning": "What are you doing? (Formal)"
+},
+{
+"hindi": "वह फ़िल्म देख रहा/रही है।",
+"roman": "Vah film dekh raha/rahi hai.",
+"meaning": "He/She is watching a movie."
+},
+{
+"hindi": "हम हिंदी सीख रहे हैं।",
+"roman": "Hum Hindi sikh rahe hain.",
+"meaning": "We are learning Hindi."
+},
+{
+"hindi": "वे दिल्ली में रहते हैं।",
+"roman": "Ve Delhi mein rehte hain.",
+"meaning": "They live in Delhi."
+},
+{
+"hindi": "मैं अभी नहीं सो रहा/रही हूँ।",
+"roman": "Main abhi nahin so raha/rahi hoon.",
+"meaning": "I am not sleeping right now."
+},
+{
+"hindi": "क्या आप टीवी देख रहे/रही हैं?",
+"roman": "Kya aap TV dekh rahe/rahi hain?",
+"meaning": "Are you watching TV?"
+}
+],
+"dialogue": [
+{
+"speaker": "Deepak",
+"hindi": "हेलो नेहा, आप अभी कहाँ जा रही हैं?",
+"roman": "Hello Neha, aap abhi kahan ja rahi hain?",
+"meaning": "Hello Neha, where are you going right now?"
+},
+{
+"speaker": "Neha",
+"hindi": "मैं बाजार जा रही हूँ। मैं कुछ सामान खरीद रही हूँ। आप क्या कर रहे हैं?",
+"roman": "Main bazar ja rahi hoon. Main kuch saaman khareed rahi hoon. Aap kya kar rahe hain?",
+"meaning": "I am going to the market. I am buying some items. What are you doing?"
+},
+{
+"speaker": "Deepak",
+"hindi": "मैं पार्क में टहल रहा हूँ।",
+"roman": "Main park mein tahal raha hoon.",
+"meaning": "I am walking in the park."
+},
+{
+"speaker": "Neha",
+"hindi": "बहुत अच्छा, फिर मिलते हैं!",
+"roman": "Bahut achha, phir milenge!",
+"meaning": "Very good, see you again!"
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "मैं काम कर रहा है।",
+"incorrectRoman": "Main kaam kar raha hai.",
+"correctHindi": "मैं काम कर रहा हूँ।",
+"correctRoman": "Main kaam kar raha hoon.",
+"explanation": "Subject 'Main' (I) must end with 'hoon', not 'hai'."
+},
+{
+"incorrectHindi": "वह जा रहा हैं (singular).",
+"incorrectRoman": "Vah ja raha hain.",
+"correctHindi": "वह जा रहा है।",
+"correctRoman": "Vah ja raha hai.",
+"explanation": "Singular 'Vah' without honorific respect takes 'hai', not nasalized 'hain'."
+},
+{
+"incorrectHindi": "प्रिया काम करता है।",
+"incorrectRoman": "Priya kaam karta hai.",
+"correctHindi": "प्रिया काम करती है।",
+"correctRoman": "Priya kaam karti hai.",
+"explanation": "Female subject ('Priya') requires feminine verb ending 'karti hai'."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "How does a male speaker say 'I am working right now' in Hindi?",
+"questionRoman": "How does a male speaker say 'I am working right now' in Hindi?",
+"questionMeaning": "How does a male speaker say 'I am working right now' in Hindi?",
+"options": [
+"Main abhi kaam kar raha hoon.",
+"Main abhi kaam kar rahi hoon.",
+"Main kaam karta hai.",
+"Main kaam karenge."
+],
+"correctAnswer": "Main abhi kaam kar raha hoon.",
+"explanation": "'Kar raha hoon' is masculine present continuous for 'I am doing'."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence (Female speaker): 'Main Hindi sikh ______ hoon.' (I am learning Hindi.)",
+"questionRoman": "Complete the sentence (Female speaker): 'Main Hindi sikh ______ hoon.'",
+"questionMeaning": "Complete the sentence (Female speaker): 'Main Hindi sikh ______ hoon.'",
+"options": [
+"rahi",
+"raha",
+"rahe",
+"ta"
+],
+"correctAnswer": "rahi",
+"explanation": "Female continuous form requires 'rahi'."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'What are you doing?' (Formal, addressing a male)",
+"questionRoman": "Translate into Hindi: 'What are you doing?' (Formal, addressing a male)",
+"questionMeaning": "Translate into Hindi: 'What are you doing?' (Formal, addressing a male)",
+"options": [
+"Aap kya kar rahe hain?",
+"Tum kya karte ho?",
+"Vah kya kar raha hai?",
+"Main kya kar रहा hoon?"
+],
+"correctAnswer": "Aap kya kar rahe hain?",
+"explanation": "'Aap' pairs with 'rahe hain' for male formal present continuous."
+},
+{
+"type": "mcq",
+"question": "Which verb suffix indicates a daily habitual routine for a male speaker?",
+"questionRoman": "Which verb suffix indicates a daily habitual routine for a male speaker?",
+"questionMeaning": "Which verb suffix indicates a daily habitual routine for a male speaker?",
+"options": [
+"-ta hoon",
+"-raha hoon",
+"-aayega",
+"-gaya"
+],
+"correctAnswer": "-ta hoon",
+"explanation": "Root + 'ta hoon' forms masculine present habitual (e.g., karta hoon = I do)."
+},
+{
+"type": "choose_response",
+"question": "Someone asks 'Aap kahan ja rahe hain?'. How do you answer 'I am going home'?",
+"questionRoman": "Someone asks 'Aap kahan ja rahe hain?'. How do you answer 'I am going home'?",
+"questionMeaning": "Someone asks 'Aap kahan ja rahe hain?'. How do you answer 'I am going home'?",
+"options": [
+"Main ghar ja raha/rahi hoon.",
+"Main ghar mein hoon.",
+"Ghar bada hai.",
+"Main kaam karta hoon."
+],
+"correctAnswer": "Main ghar ja raha/rahi hoon.",
+"explanation": "'Main ghar ja raha/rahi hoon' means 'I am going home'."
+},
+{
+"type": "complete_conversation",
+"question": "Person A: 'Kya aap Hindi sikh rahe hain?' | Person B: 'Haan, main Hindi sikh ______ hoon.'",
+"questionRoman": "Person A: 'Kya aap Hindi sikh rahe hain?' | Person B: 'Haan, main Hindi sikh ______ hoon.'",
+"questionMeaning": "Person A: 'Are you learning Hindi?' | Person B: 'Yes, I am ______ Hindi.'",
+"options": [
+"raha / rahi",
+"gaya",
+"jaunga",
+"karta"
+],
+"correctAnswer": "raha / rahi",
+"explanation": "'Raha' (male) or 'rahi' (female) indicates present continuous."
+}
+],
+"summary": [
+"Routine actions use '-ta hoon' (male) / '-ti hoon' (female).",
+"Ongoing continuous actions use '-raha hoon' (male) / '-rahi hoon' (female).",
+"Subject 'Main' always ends with auxiliary 'hoon'.",
+"Subject 'Aap' takes 'te hain' (routine) or 'rahe/rahi hain' (continuous).",
+"Always match verb gender endings to the subject of the sentence."
+],
+"speakingChallenge": "State two things out loud: one routine habit ('Main roz...') and one ongoing action ('Main abhi...')."
+},
+
+{
+"id": 12,
+"title": "Future Tense 🚀",
+"description": "Master future tense in Hindi to express upcoming actions, plans, intentions, and promises with proper verb agreements.",
+"difficulty": "Beginner",
+"estimatedMinutes": 20,
+"objectives": [
+"Form simple future tense statements ('ga / gi / ge')",
+"Express future plans, appointments, and commitments",
+"Match future tense verb suffixes with pronouns and gender",
+"Use future time markers like 'kal' (tomorrow)"
+],
+"explanation": "Future tense in Hindi is formed by taking the verb root and adding suffixes that depend on the subject's gender and person: \n- For 'Main' (I): add '-unga' (male) or '-ungi' (female) (e.g., jaunga / jaungi).\n- For 'Aap' (You formal) / 'Ve' (They) / 'Hum' (We): add '-enge' (male/mixed) or '-engi' (female plural) (e.g., jaenge).\n- For singular third-person ('Vah' he/she): add '-ega' (male) or '-egi' (female) (e.g., jaega / jaegi).",
+"vocabulary": [
+{
+"hindi": "आने वाला कल",
+"roman": "Aane wala kal (Kal)",
+"meaning": "Tomorrow",
+"exampleHindi": "कल छुट्टी होगी।",
+"exampleRoman": "Kal chhutti hogi.",
+"exampleMeaning": "Tomorrow will be a holiday."
+},
+{
+"hindi": "जाऊँगा / जाऊँगी",
+"roman": "Jaunga / Jaungi",
+"meaning": "I will go (Male / Female)",
+"exampleHindi": "मैं कल कार्यालय जाऊँगा/जाऊँगी।",
+"exampleRoman": "Main kal karyalay jaunga / jaungi.",
+"exampleMeaning": "I will go to the office tomorrow."
+},
+{
+"hindi": "करूँगा / करूँगी",
+"roman": "Karunga / Karungi",
+"meaning": "I will do (Male / Female)",
+"exampleHindi": "मैं यह काम कल करूँगा/करूँगी।",
+"exampleRoman": "Main yeh kaam kal karunga / karungi.",
+"exampleMeaning": "I will do this work tomorrow."
+},
+{
+"hindi": "आएगा / आएगी",
+"roman": "Aayega / Aayegi",
+"meaning": "He/She will come (Male / Female)",
+"exampleHindi": "प्रबंधक कल आएंगे।",
+"exampleRoman": "Prabandhak kal aayenge.",
+"exampleMeaning": "The manager will come tomorrow."
+},
+{
+"hindi": "देखूँगा / देखूंगी",
+"roman": "Dekhunga / Dekhungi",
+"meaning": "I will see / watch",
+"exampleHindi": "मैं यह फ़ाइल देखूँगा/देखूंगी।",
+"exampleRoman": "Main yeh file dekhunga / dekhungi.",
+"exampleMeaning": "I will look at this file."
+},
+{
+"hindi": "मिलेंगे",
+"roman": "Milenge",
+"meaning": "We/They will meet",
+"exampleHindi": "हम कल मिलेंगे।",
+"exampleRoman": "Hum kal milenge.",
+"exampleMeaning": "We will meet tomorrow."
+},
+{
+"hindi": "शुरू होगा",
+"roman": "Shuru hoga",
+"meaning": "Will start",
+"exampleHindi": "प्रोजेक्ट सोमवार को शुरू होगा।",
+"exampleRoman": "Project Somvar ko shuru hoga.",
+"exampleMeaning": "The project will start on Monday."
+},
+{
+"hindi": "समाप्त होगा / खत्म होगा",
+"roman": "Khatam hoga",
+"meaning": "Will finish",
+"exampleHindi": "काम शुक्रवार को खत्म होगा।",
+"exampleRoman": "Kaam Shukravar ko khatam hoga.",
+"exampleMeaning": "Work will finish on Friday."
+},
+{
+"hindi": "चाहिए",
+"roman": "Chahiye",
+"meaning": "Will need / Want",
+"exampleHindi": "मुझे आपकी मदद चाहिए होगी।",
+"exampleRoman": "Mujhe aapki madad chahiye hogi.",
+"exampleMeaning": "I will need your help."
+},
+{
+"hindi": "शायद",
+"roman": "Shayad",
+"meaning": "Maybe / Perhaps",
+"exampleHindi": "शायद कल बारिश होगी।",
+"exampleRoman": "Shayad kal barish hogi.",
+"exampleMeaning": "Maybe it will rain tomorrow."
+}
+],
+"sentences": [
+{
+"hindi": "मैं कल एक नई रिपोर्ट बनाऊँगा/बनाऊँगी।",
+"roman": "Main kal ek nai report banaunga / banaungi.",
+"meaning": "I will make a new report tomorrow."
+},
+{
+"hindi": "मीटिंग कल सुबह दस बजे होगी।",
+"roman": "Meeting kal subah das baje hogi.",
+"meaning": "The meeting will be tomorrow at 10 AM."
+},
+{
+"hindi": "क्या आप कल कार्यालय आएंगे/आएँगी?",
+"roman": "Kya aap kal karyalay aayenge / aayengi?",
+"meaning": "Will you come to the office tomorrow?"
+},
+{
+"hindi": "हम इस बारे में कल बात करेंगे।",
+"roman": "Hum is bare mein kal baat karenge.",
+"meaning": "We will talk about this tomorrow."
+},
+{
+"hindi": "क्लाइंट दोपहर दो बजे आएगा।",
+"roman": "Client dopahar do baje aayega.",
+"meaning": "The client will arrive at two in the afternoon."
+},
+{
+"hindi": "मैं आपको ईमेल भेज दूंगा/दूँगी।",
+"roman": "Main aapko email bhej dunga / dungi.",
+"meaning": "I will send you an email."
+},
+{
+"hindi": "यह काम समय पर पूरा होगा।",
+"roman": "Yeh kaam samay par poora hoga.",
+"meaning": "This work will be completed on time."
+},
+{
+"hindi": "हम जल्द ही फिर मिलेंगे।",
+"roman": "Hum jald hi phir milenge.",
+"meaning": "We will meet again soon."
+}
+],
+"dialogue": [
+{
+"speaker": "Aman",
+"hindi": "Neha, kya tum kal ki client meeting mein rahogi?",
+"roman": "Neha, kya tum kal ki client meeting mein rahogi?",
+"meaning": "Neha, will you be in tomorrow's client meeting?"
+},
+{
+"speaker": "Neha",
+"hindi": "Haan Aman, main kal subah meeting mein zaroor rahoongi.",
+"roman": "Haan Aman, main kal subah meeting mein zaroor rahoongi.",
+"meaning": "Yes Aman, I will definitely be in the meeting tomorrow morning."
+},
+{
+"speaker": "Aman",
+"hindi": "Bahut achha. Kya tum presentation taiyar karogi?",
+"roman": "Bahut achha. Kya tum presentation taiyar karogi?",
+"meaning": "Very good. Will you prepare the presentation?"
+},
+{
+"speaker": "Neha",
+"hindi": "Ji haan, main aaj shaam tak presentation poori kar dungi.",
+"meaning": "Yes, I will complete the presentation by this evening."
+}
+],
+"commonMistakes": [
+{
+"incorrectHindi": "मैं कल जाउँगा (if female).",
+"incorrectRoman": "Main kal jaunga.",
+"correctHindi": "मैं कल जाऊँगी (female).",
+"correctRoman": "Main kal jaungi.",
+"explanation": "Female speakers must use '-ungi' for future tense ('jaungi', 'karungi')."
+},
+{
+"incorrectHindi": "आप आएँगे कल?",
+"roman": "Aap aayenge kal?",
+"correctHindi": "क्या आप कल आएँगे?",
+"correctRoman": "Kya aap kal aayenge?",
+"explanation": "Structure questions properly starting with 'Kya' and placing time words before the verb."
+}
+],
+"exercises": [
+{
+"type": "mcq",
+"question": "How do you say 'I will go tomorrow' (Male speaker)?",
+"questionRoman": "How do you say 'I will go tomorrow' (Male speaker)?",
+"questionMeaning": "How do you say 'I will go tomorrow' (Male speaker)?",
+"options": [
+"Main kal jaunga.",
+"Main kal jaungi.",
+"Main kal gaya.",
+"Main kal jata hoon."
+],
+"correctAnswer": "Main kal jaunga.",
+"explanation": "Masculine first-person future suffix is '-unga' ('jaunga')."
+},
+{
+"type": "fill_in_the_blanks",
+"question": "Complete the sentence: 'Meeting kal subah das baje ______.' (The meeting will be tomorrow at 10 AM.)",
+"questionRoman": "Complete the sentence: 'Meeting kal subah das baje ______.'",
+"questionMeaning": "Complete the sentence: 'Meeting kal subah das baje ______.'",
+"options": [
+"hogi",
+"hoga",
+"hain",
+"tha"
+],
+"correctAnswer": "hogi",
+"explanation": "'Meeting' is feminine, so future state takes feminine 'hogi'."
+},
+{
+"type": "translation",
+"question": "Translate into Hindi: 'We will meet tomorrow.'",
+"questionRoman": "Translate into Hindi: 'We will meet tomorrow.'",
+"questionMeaning": "Translate into Hindi: 'We will meet tomorrow.'",
+"options": [
+"Hum kal milenge.",
+"Hum kal mile the.",
+"Hum kal milte hain.",
+"Hum milenge nahi."
+],
+"correctAnswer": "Hum kal milenge.",
+"explanation": "'Hum kal milenge' translates to 'We will meet tomorrow'."
+}
+],
+"summary": [
+"Future tense is used to express upcoming actions, plans, and intentions.",
+"First-person singular uses '-unga' (male) and '-ungi' (female).",
+"Formal/plural subjects ('Aap', 'Hum', 'Ve') use '-enge' or '-engi'.",
+"Singular third-person subjects ('Vah') use '-ega' or '-egi'.",
+"Use 'Kal' to refer to tomorrow in future context."
+],
+"speakingChallenge": "State three things you plan to do tomorrow out loud using future tense verb endings."
 }
 ]
 }

@@ -10,7 +10,9 @@ const HINDISPEAK_STORAGE_KEYS = [
     "hindiSpeakFavourites",
     "hindiSpeakGrammarProgress",
     "hindiSpeakQuizProgress",
-    "hindiSpeakConversationProgress"
+    "hindiSpeakConversationProgress",
+    "hindiSpeakCompletedLessons_1",
+    "hindiSpeakCompletedLessons_2"
 ];
 
 function clearHindiSpeakStorage() {
@@ -35,7 +37,7 @@ function clearHindiSpeakStorage() {
 
     // Confirm deletion
     const confirmDelete = confirm(
-        "Are you sure you want to clear all HindiSpeak progress and favourites?"
+        "Are you sure you want to clear all HindiSpeak progress , favourites and bookmarks?"
     );
 
     if (!confirmDelete) {

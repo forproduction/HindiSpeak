@@ -32,6 +32,9 @@
                 <span class="brand-text">Hindi<span class="text-warning">Speak</span></span>
             </a>
 
+            <!-- Navbar Placeholder -->
+            <div id="navbar-placeholder"></div>
+
             <a href="../index.html" class="btn btn-outline-light btn-sm rounded-pill px-3 fw-medium d-inline-flex align-items-center gap-2">
                 <i class="bi bi-house-door"></i> Home
             </a>
@@ -205,13 +208,28 @@
     <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-white-50 border-top border-secondary border-opacity-25 mt-5">
         <div class="container">
-            <p class="mb-0 small">© 2026 HindiSpeak | Built with care for friends to learn together</p>
+            <p class="mb-0 small">© 2026 HindiSpeak | Built by someone to learn & grow together<span
+                    class="opacity-100 text-white">🚀📈</span></p>
         </div>
     </footer>
 
 
     <script src="../js/grammar.js"></script>
     <script src="../js/notepad.js"></script>
+     <script>
+        fetch('../pages/customised-navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+                // Execute any scripts embedded in the loaded HTML template
+                const scripts = document.getElementById('navbar-placeholder').querySelectorAll('script');
+                scripts.forEach(script => {
+                    const newScript = document.createElement('script');
+                    newScript.textContent = script.textContent;
+                    document.body.appendChild(newScript);
+                });
+            });
+    </script>
 
 </body>
 </html>

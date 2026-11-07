@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Here i use separate javascript (lessons.js) -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,15 +64,17 @@
 
     <div class="row g-4">
 
-        <!-- Lesson list sidebar -->
+       <!-- Lesson list sidebar -->
         <aside class="col-lg-3">
             <div class="lesson-sidebar">
                 <div class="d-flex align-items-center gap-2 mb-3 pb-2 border-bottom">
                     <i class="bi bi-list-task text-primary fs-5"></i>
                     <h5 class="mb-0 fw-bold fs-6">Course Lessons</h5>
                 </div>
-                <div id="lessonList">
-                    Loading lessons...
+                <div class="lesson-scroll-container">
+                    <div id="lessonList">
+                        Loading lessons...
+                    </div>
                 </div>
             </div>
         </aside>
@@ -109,7 +112,8 @@
 <!-- Footer -->
 <footer class="text-center py-4 bg-dark text-white-50 border-top border-secondary border-opacity-25 mt-5">
     <div class="container">
-        <p class="mb-0 small">© 2026 HindiSpeak | Built with care for friends to learn together</p>
+        <p class="mb-0 small">© 2026 HindiSpeak | Built by someone to learn & grow together<span
+                    class="opacity-100 text-white">🚀📈</span></p>
     </div>
 </footer>
 

@@ -1,0 +1,941 @@
+{
+  "category": "Dialogue Context Analysis",
+  "description": "Multi-turn conversations for evaluating overall social context, speaker roles, and pragmatics.",
+  "dialogues": [
+    {
+      "id": "d2_01",
+      "lines": [
+        {"speaker": "Rahul", "side": "left", "avatarBg": "bg-primary", "hindi": "नमस्ते नेहा जी, आप कैसी हैं?", "roman": "Namaste Neha ji, aap kaisi hain?"},
+        {"speaker": "Neha", "side": "right", "avatarBg": "bg-indigo text-white", "hindi": "नमस्ते राहुल! मैं बहुत अच्छी हूँ, धन्यवाद। आप कैसे हैं?", "roman": "Namaste Rahul! Main bahut achhi hoon, dhanyawad. Aap kaise hain?"},
+        {"speaker": "Rahul", "side": "left", "avatarBg": "bg-primary", "hindi": "मैं भी ठीक हूँ। क्या कल की मीटिंग का समय तय है?", "roman": "Main bhi theek hoon. Kya kal ki meeting ka samay tay hai?"},
+        {"speaker": "Neha", "side": "right", "avatarBg": "bg-indigo text-white", "hindi": "हाँ, सब तय है। फिर मिलेंगे!", "roman": "Haan, sab tay hai. Phir milenge!"}
+      ],
+      "options": [
+        "Two friends confirming tomorrow's professional meeting schedule while greeting each other.",
+        "A customer arguing about a bill at a restaurant.",
+        "An angry manager firing an employee over poor performance.",
+        "Two strangers arguing about directions in a city street."
+      ],
+      "correct": 0,
+      "explanation": "Correct! The dialogue shows polite greetings between colleagues/friends (Rahul & Neha) and confirmation of a meeting schedule."
+    },
+    {
+      "id": "d2_02",
+      "lines": [
+        {"speaker": "Visitor", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "माफ़ कीजिए, रिसेप्शन कहाँ है?", "roman": "Maaf kijiye, reception kahan hai?"},
+        {"speaker": "Employee", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "रिसेप्शन सामने, कॉरिडोर के आखिरी में है।", "roman": "Reception samne, corridor ke aakhiri mein hai."},
+        {"speaker": "Visitor", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "धन्यवाद। और मैनेजर साहब कब तक आएँगे?", "roman": "Dhanyawad. Aur manager sahab kab tak aayenge?"},
+        {"speaker": "Employee", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "वह दस मिनट में आते होंगे।", "roman": "Vah das minute mein aate honge."}
+      ],
+      "options": [
+        "A visitor asking for office directions and manager timing at a workplace desk.",
+        "A chef explaining a recipe in a restaurant kitchen.",
+        "A student asking a teacher about exam results.",
+        "A tourist booking a hotel room in Mumbai."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Asking for reception location and manager arrival time indicates a workplace visitor interaction."
+    },
+    {
+      "id": "d2_03",
+      "lines": [
+        {"speaker": "Manager", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "क्या तुमने प्रोजेक्ट रिपोर्ट तैयार कर ली है?", "roman": "Kya tumne project report taiyar kar li hai?"},
+        {"speaker": "Employee", "side": "right", "avatarBg": "bg-info text-dark", "hindi": "हाँ सर, मैंने इसे पूरा कर लिया है।", "roman": "Haan sir, maine ise pura kar liya hai."},
+        {"speaker": "Manager", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "बहुत अच्छा। क्या ग्राहक आज आ रहे हैं?", "roman": "Bahut achha. Kya grahak aaj aa rahe hain?"},
+        {"speaker": "Employee", "side": "right", "avatarBg": "bg-info text-dark", "hindi": "जी हाँ, वे दोपहर दो बजे आएँगे।", "roman": "Ji haan, ve dopahar do baje aayenge."}
+      ],
+      "options": [
+        "A manager checking progress on a project report and client arrival with an employee.",
+        "Two commuters discussing traffic conditions on a bus.",
+        "A doctor prescribing medication to a patient in a clinic.",
+        "A storekeeper selling office stationery to a customer."
+      ],
+      "correct": 0,
+      "explanation": "Correct! The exchange covers project reporting ('report taiyar kar li') and client arrival schedule ('grahak aa rahe hain')."
+    },
+    {
+      "id": "d2_04",
+      "lines": [
+        {"speaker": "Aman", "side": "left", "avatarBg": "bg-success text-white", "hindi": "क्या तुमने क्लाइंट का मैसेज देखा?", "roman": "Kya tumne client ka message dekha?"},
+        {"speaker": "Priya", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "हाँ देखा, लेकिन मुझे उनका ईमेल समझ में नहीं आया।", "roman": "Haan dekha, lekin mujhe unka email samajh mein nahin aaya."},
+        {"speaker": "Aman", "side": "left", "avatarBg": "bg-success text-white", "hindi": "अच्छा, कोई बात नहीं। मैं तुम्हें समझा देता हूँ।", "roman": "Achha, koi baat nahin. Main tumhe samjha deta hoon."},
+        {"speaker": "Priya", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "बहुत धन्यवाद! अब मैं सब समझ गई।", "roman": "Bahut dhanyawad! Ab main sab samajh gayi."}
+      ],
+      "options": [
+        "One colleague helping another understand a client's confusing email.",
+        "Two friends planning a weekend trip to Goa.",
+        "A teacher scolding a student for missing homework.",
+        "An IT technician installing new software on a computer."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Priya mentions not understanding the email ('samajh mein nahin aaya') and Aman offers to explain it ('main tumhe samjha deta hoon')."
+    },
+    {
+      "id": "d2_05",
+      "lines": [
+        {"speaker": "Rohan", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "नमस्ते शर्मा जी! आप कैसे हैं?", "roman": "Namaste Sharma ji! Aap kaise hain?"},
+        {"speaker": "Sharma Ji", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "नमस्ते रोहन! मैं ठीक हूँ, धन्यवाद। आपसे मिलकर खुशी हुई।", "roman": "Namaste Sharma ji! Main theek hoon, dhanyawad. Aapse milkar khushi hui."},
+        {"speaker": "Rohan", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "मुझे भी! सब ठीक है?", "roman": "Mujhe bhi! Sab theek hai?"},
+        {"speaker": "Sharma Ji", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "हाँ, बिल्कुल सब ठीक है। अब मैं चलता हूँ, फिर मिलेंगे!", "roman": "Haan, bilkul sab theek hai. Ab main chalta hoon, phir milenge!"}
+      ],
+      "options": [
+        "A warm, respectful exchange between acquaintances meeting briefly and taking their leave.",
+        "A formal interview process for a senior engineering job.",
+        "A dispute between two drivers after a minor car accident.",
+        "A financial negotiation for buying real estate."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Using 'Sharma Ji' shows respect, and the exchange ends with polite farewells ('Ab main chalta hoon, phir milenge')."
+    },
+     {
+      "id": "d2_06",
+      "lines": [
+        {"speaker": "Amit", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "अरे विक्रम! तुम यहाँ कैसे?", "roman": "Are Vikram! Tum yahan kaise?"},
+        {"speaker": "Vikram", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "बस यार, कुछ ज़रूरी सामान खरीदने आया था। तुम बताओ, कैसे हो?", "roman": "Bas yaar, kuch zaroori saaman kharene aaya tha. Tum batao, kaise ho?"},
+        {"speaker": "Amit", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "मैं भी ठीक हूँ। चलो, फिर कभी आराम से मिलते हैं।", "roman": "Main bhi theek hoon. Chalo, phir kabhi aaram se milte hain."},
+        {"speaker": "Vikram", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "हाँ बिल्कुल, मुझे कॉल करना!", "roman": "Haan bilkul, mujhe call karna!"}
+      ],
+      "options": [
+        "Two casual friends running into each other unexpectedly in a market.",
+        "A customer complaining to a store manager about defective goods.",
+        "An employer interviewing a candidate for a retail position.",
+        "A delivery agent confirming a home address drop-off."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Using casual terms like 'yaar' and running into someone unexpectedly points to an accidental meeting between friends[cite: 11]."
+    },
+    {
+      "id": "d2_07",
+      "lines": [
+        {"speaker": "Doctor", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "बताइए, आपको क्या तकलीफ़ है?", "roman": "Bataiye, aapko kya takleef hai?"},
+        {"speaker": "Patient", "side": "right", "avatarBg": "bg-success text-white", "hindi": "डॉक्टर साहब, मुझे कल से तेज़ बुखार और सिरदर्द है।", "roman": "Doctor sahab, mujhe kal se tez bukhar aur sirdard hai."},
+        {"speaker": "Doctor", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "अच्छा, मुँह खोलिए और जीभ दिखाइए। यह दवाइयाँ लिख रहा हूँ।", "roman": "Achha, munh kholiye aur jeebh dikhaiye. Yeh dawaiyan likh raha hoon."},
+        {"speaker": "Patient", "side": "right", "avatarBg": "bg-success text-white", "hindi": "धन्यवाद डॉक्टर साहब, दिन में कितनी बार खानी है?", "roman": "Dhanyawad doctor sahab, din mein kitni baar khani hai?"}
+      ],
+      "options": [
+        "A patient consulting a doctor in a clinic regarding fever and getting prescriptions.",
+        "A pharmacist ordering bulk medical supplies from a wholesaler.",
+        "A fitness trainer checking a client's workout routine.",
+        "A teacher reviewing a biology exam with a student."
+      ],
+      "correct": 0,
+      "explanation": "Correct! The dialogue features classic medical consultation phrases like describing symptoms ('tez bukhar') and writing prescriptions ('dawaiyan likh raha hoon')[cite: 11]."
+    },
+    {
+      "id": "d2_08",
+      "lines": [
+        {"speaker": "Shopkeeper", "side": "left", "avatarBg": "bg-secondary text-white", "hindi": "आइए, बताइए क्या चाहिए?", "roman": "Aaiye, bataiye kya chahiye?"},
+        {"speaker": "Customer", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "भैया, एक किलो चीनी और आधा लीटर दूध देना। कितना हुआ?", "roman": "Bhaiya, ek kilo cheeni aur aadha liter doodh dena. Kitna hua?"},
+        {"speaker": "Shopkeeper", "side": "left", "avatarBg": "bg-secondary text-white", "hindi": "कुल एक सौ दस रुपये हुए।", "roman": "Kul ek sau das rupaye hue."},
+        {"speaker": "Customer", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "यह लीजिए पैसे। धन्यवाद।", "roman": "Yeh lijiye paise. Dhanyawad."}
+      ],
+      "options": [
+        "A customer buying grocery items from a local shopkeeper.",
+        "A diner ordering a multi-course meal at a luxury hotel.",
+        "A passenger buying a railway ticket at a counter.",
+        "A banker counting cash for a savings account deposit."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Buying everyday essentials like sugar ('cheeni') and milk ('doodh') from a local vendor represents a grocery transaction[cite: 11]."
+    },
+    {
+      "id": "d2_09",
+      "lines": [
+        {"speaker": "Passenger", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "भैया, कश्मीरी गेट चलेंगे?", "roman": "Bhaiya, Kashmiri Gate chalenge?"},
+        {"speaker": "Auto Driver", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "हाँ चलेंगे, मीटर से चलोगे या तीन सौ रुपये लोगे?", "roman": "Haan chalenge, meter se chaloge ya teen sau rupaye loge?"},
+        {"speaker": "Passenger", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "दो सौ पचास रुपये दे दूंगा, बैठ जाओ।", "roman": "Do sau pachaas rupaye de dunga, baith jao."},
+        {"speaker": "Auto Driver", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "चलो ठीक है, बैठिए पीछे।", "roman": "Chalo theek hai, baithiye peechhe."}
+      ],
+      "options": [
+        "A commuter negotiating a fare with an auto-rickshaw driver.",
+        "A tourist checking room rates at a travel agency.",
+        "A driver booking a car service via a smartphone app.",
+        "A mechanic giving a price estimate for bike repairs."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Negotiating a destination ('Kashmiri Gate') and fare price with an auto driver is a typical urban street interaction[cite: 11]."
+    },
+    {
+      "id": "d2_10",
+      "lines": [
+        {"speaker": "Teacher", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "रोहन, तुमने कल होमवर्क क्यों नहीं किया?", "roman": "Rohan, tumne kal homework kyun nahi kiya?"},
+        {"speaker": "Student", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "मैम, कल मेरी तबीयत थोड़ी खराब थी, इसलिए नहीं कर पाया।", "roman": "Mam, kal meri tabiyat thodi kharab thi, isliye nahi kar paya."},
+        {"speaker": "Teacher", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "अच्छा, कोई बात नहीं। लेकिन कल तक हर हाल में पूरा हो जाना चाहिए।", "roman": "Achha, koi baat nahin. Lekin kal tak har haal mein pura ho jana chahiye."},
+        {"speaker": "Student", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "जी मैम, मैं कल ज़रूर जमा कर दूंगा।", "roman": "Ji mam, main kal zaroor jama kar dunga."}
+      ],
+      "options": [
+        "A school teacher addressing a student about incomplete homework due to illness.",
+        "A parent discussing a child's report card with an administrator.",
+        "A manager scolding an employee for a missed target deadline.",
+        "A coach explaining a training drill to a team member."
+      ],
+      "correct": 0,
+      "explanation": "Correct! The setting involves a teacher ('Mam') asking a student about missing homework and granting an extension due to health[cite: 11]."
+    },
+    {
+      "id": "d2_11",
+      "lines": [
+        {"speaker": "Rahul", "side": "left", "avatarBg": "bg-success text-white", "hindi": "भाई, ट्रेन कितने बजे है?", "roman": "Bhai, train kitne baje hai?"},
+        {"speaker": "Vikas", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "रात के दस बजे है, लेकिन अभी प्लेटफॉर्म नंबर तीन पर घोषणा हुई है कि ट्रेन एक घंटा लेट है।", "roman": "Raat ke das baje hai, lekin abhi platform number teen par ghoshna hui hai ki train ek ghanta late hai."},
+        {"speaker": "Rahul", "side": "left", "avatarBg": "bg-success text-white", "hindi": "चलो कोई बात नहीं, तब तक स्टेशन के बाहर चाय पीकर आते हैं।", "roman": "Chalo koi baat nahin, tab tak station ke bahar chai peekar aate hain."},
+        {"speaker": "Vikas", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "हाँ, यह ठीक रहेगा। सामान यहीं रख लेते हैं।", "roman": "Haan, yeh theek rahega. Saman yahin rakh lete hain."}
+      ],
+      "options": [
+        "Two friends discussing a delayed train schedule and deciding to get tea at a railway station.",
+        "Two passengers checking flight departure times at an airport lounge.",
+        "Two coworkers planning an evening dinner after finishing office tasks.",
+        "Two drivers talking about traffic blockages on a highway."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mentions of platforms, train delay announcements, and station context indicate a railway station setting."
+    },
+    {
+      "id": "d2_12",
+      "lines": [
+        {"speaker": "Manager", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "नमस्ते सर, हमारे होटल में आपका स्वागत है। आपकी बुकिंग किस नाम से है?", "roman": "Namaste sir, hamare hotel mein aapka swagat hai. Aapki booking kis naam se hai?"},
+        {"speaker": "Guest", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "नमस्ते, मेरी बुकिंग अमित शर्मा के नाम से है। यह रहा मेरा आईडी प्रूफ।", "roman": "Namaste, meri booking Amit Sharma ke naam se hai. Yeh raha mera ID proof."},
+        {"speaker": "Manager", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "शुक्रिया सर, यह लीजिए आपके कमरे की चाबी। तीसरी मंजिल पर कमरा नंबर 302 है।", "roman": "Shukriya sir, yeh lijiye aapke kamre ki chaabi. Teesri manzil par kamra number 302 hai."},
+        {"speaker": "Guest", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "धन्यवाद। क्या कोई मेरा सामान ऊपर पहुँचा देगा?", "roman": "Dhanyawad. Kya koi mera saman upar pahuncha dega?"}
+      ],
+      "options": [
+        "A hotel receptionist checking in a guest and providing room details.",
+        "A customer picking up a reserved table at a crowded restaurant.",
+        "A bank officer opening a fixed deposit account for a client.",
+        "An airline staff member issuing boarding passes at a check-in desk."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Terms like hotel booking, ID proof, room keys ('kamre ki chaabi'), and floor numbers point to a hotel check-in desk."
+    },
+    {
+      "id": "d2_13",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "भैया, इस टी-शर्ट का साइज़ बड़ा है, क्या यह बदल सकती है?", "roman": "Bhaiya, is T-shirt ka size bada hai, kya yeh badal sakti hai?"},
+        {"speaker": "Salesman", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "हाँ बिल्कुल, आप मीडियम साइज़ ले लीजिए। क्या आपके पास इसका बिल है?", "roman": "Haan bilkul, aap medium size le lijiye. Kya aapke paas iska bill hai?"},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "हाँ, यह रहा बिल।", "roman": "Haan, yeh raha bill."},
+        {"speaker": "Salesman", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "ठीक है, मैं आपको दूसरा पीस दे देता हूँ।", "roman": "Theek hai, main aapko doosra piece de deta hoon."}
+      ],
+      "options": [
+        "A customer exchanging an apparel item for a different size at a clothing store.",
+        "A buyer returning a broken electronic device to a service center.",
+        "A tailor measuring a customer for a custom-made formal suit.",
+        "A dry cleaner handing over finished clothes to a client."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Exchanging clothing sizes ('size bada hai') with a store bill points to a retail store exchange."
+    },
+    {
+      "id": "d2_14",
+      "lines": [
+        {"speaker": "Neha", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "यार, कल परीक्षा है और मैंने अभी तक कुछ नहीं पढ़ा!", "roman": "Yaar, kal pariksha hai aur maine abhi tak kuch nahi padha!"},
+        {"speaker": "Pooja", "side": "right", "avatarBg": "bg-success text-white", "hindi": "घबराओ मत, मेरे पास सारे नोट्स हैं। हम दोनों मिलकर रातभर में तैयारी कर लेंगे।", "roman": "Ghabrao mat, mere paas sare notes hain. Hum dono milkar raatbhar mein taiyari kar lenge."},
+        {"speaker": "Neha", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "सच में? तुम बहुत अच्छी हो! चलो जल्दी से शुरू करते हैं।", "roman": "Sach mein? Tum bahut achhi ho! Chalo jaldi se shuru karte hain."},
+        {"speaker": "Pooja", "side": "right", "avatarBg": "bg-success text-white", "hindi": "हाँ, पहले महत्वपूर्ण प्रश्न देख लेते हैं।", "roman": "Haan, pehle mahatvapurna prashn dekh lete hain."}
+      ],
+      "options": [
+        "Two students panicking about an exam and deciding to study together overnight using shared notes.",
+        "Two colleagues preparing an emergency presentation for a client meeting.",
+        "Two actors rehearsing their lines backstage before a drama performance.",
+        "Two programmers debugging code hours before a software deployment."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mention of an exam ('pariksha'), notes, and late-night studying describes student life before a test."
+    },
+    {
+      "id": "d2_15",
+      "lines": [
+        {"speaker": "Waiter", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "सर, आपका ऑर्डर क्या है?", "roman": "Sir, aapka order kya hai?"},
+        {"speaker": "Customer", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "एक पनीर टिक्का और दो नान ले आइए, और साथ में ठंडी पानी की बोतल।", "roman": "Ek paneer tikka aur do naan le aaiye, aur saath mein thandi paani ki botal."},
+        {"speaker": "Waiter", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "ठीक है सर, दस मिनट में खाना आ जाएगा।", "roman": "Theek hai sir, das minute mein khana aa jayega."},
+        {"speaker": "Customer", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "ठीक है, जल्दी लाना थोड़ी भूख लगी है।", "roman": "Theek hai, jaldi lana thodi bhookh lagi hai."}
+      ],
+      "options": [
+        "A customer ordering food from a waiter at a restaurant.",
+        "A person buying fast food packets from a street food vendor.",
+        "A guest requesting room service delivery at a hotel bedroom.",
+        "A chef teaching kitchen staff how to prepare traditional bread."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Ordering food items like paneer tikka and naan from a waiter represents a standard restaurant dining experience."
+    },
+    {
+      "id": "d2_16",
+      "lines": [
+        {"speaker": "Aman", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "হ্যালো, क्या मैं आकाश से बात कर सकता हूँ?", "roman": "Hello, kya main Aakash se baat kar sakta hoon?"},
+        {"speaker": "Voice on Phone", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "मैं ही आकाश बोल रहा हूँ, बताइए क्या बात है?", "roman": "Main hi Aakash bol raha hoon, bataiye kya baat hai?"},
+        {"speaker": "Aman", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "भाई, शाम को पाँच बजे मार्केट में मिलना, एक ज़रूरी काम है।", "roman": "Bhai, shaam ko paanch baje market mein milna, ek zaroori kaam hai."},
+        {"speaker": "Voice on Phone", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "ठीक है, मैं समय पर पहुँच जाऊँगा।", "roman": "Theek hai, main samay par pahunch jaunga."}
+      ],
+      "options": [
+        "A phone conversation between two friends fixing a meeting time at the market.",
+        "A customer calling a technical support helpline for a broken laptop.",
+        "An employer conducting a telephonic job interview with a candidate.",
+        "A delivery driver calling a customer to confirm a home address."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Starting with phone greeting conventions ('main hi... bol raha hoon') and fixing a personal meetup indicates a phone call between friends."
+    },
+    {
+      "id": "d2_17",
+      "lines": [
+        {"speaker": "Manager", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "सोहन, इस महीने की सेल्स रिपोर्ट अभी तक क्यों नहीं आई?", "roman": "Sohan, is mahine ki sales report abhi tak kyun nahi aai?"},
+        {"speaker": "Sohan", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "सर, कुछ डेटा अधूरा था इसलिए एक घंटा और लगेगा।", "roman": "Sir, kuch data adhoora tha isliye ek ghanta aur lagega."},
+        {"speaker": "Manager", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "ठीक है, लेकिन मीटिंग शुरू होने से पहले मेरे टेबल पर होनी चाहिए।", "roman": "Theek hai, lekin meeting shuru hone se pehle mere table par honi chahiye."},
+        {"speaker": "Sohan", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "जी सर, मैं समय पर दे दूंगा।", "roman": "Ji sir, main samay par de dunga."}
+      ],
+      "options": [
+        "A strict manager pushing an employee to finish a pending sales report before a meeting.",
+        "A store owner asking a delivery boy about grocery stock items.",
+        "A teacher scolding a student for failing to submit an assignment.",
+        "A customer complaining to a bank teller about delayed processing."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Asking for corporate sales reports, deadlines, and addressing someone as 'Sir' clearly marks a workplace office setting."
+    },
+    {
+      "id": "d2_18",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-success text-white", "hindi": "भैया, यह पैंट थोड़ी ढीली है, क्या यह बदल जाएगी?", "roman": "Bhaiya, yeh pant thodi dheeli hai, kya yeh badal jayegi?"},
+        {"speaker": "Shopkeeper", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "जी बिल्कुल, अगर आपके पास पक्का बिल है और टैग नहीं हटाया है तो बदल देंगे।", "roman": "Ji bilkul, agar aapke paas pakka bill hai aur tag nahi hataya hai toh badal denge."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-success text-white", "hindi": "हाँ, बिल भी है और टैग भी साथ में है।", "roman": "Haan, bill bhi hai aur tag bhi saath mein hai."},
+        {"speaker": "Shopkeeper", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "आइए, आपको छोटा साइज़ दे देता हूँ।", "roman": "Aaiye, aapko chhota size de deta hoon."}
+      ],
+      "options": [
+        "A retail store customer checking garment return and exchange policies using a bill and intact tags.",
+        "A tailor measuring pants dimensions for custom stitching.",
+        "A dry cleaner handling laundry garments for pressing.",
+        "A customer purchasing second-hand clothing items from a market stall."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Discussing bills, intact tags, and garment sizing points to a retail clothing exchange policy."
+    },
+    {
+      "id": "d2_19",
+      "lines": [
+        {"speaker": "Customer Care", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "नमस्कार, एयरटेल कस्टमर केयर में आपका स्वागत है। मैं आपकी क्या सहायता कर सकता हूँ?", "roman": "Namaskar, Airtel customer care mein aapka swagat hai. Main aapki kya sahayata kar sakta hoon?"},
+        {"speaker": "Caller", "side": "right", "avatarBg": "bg-info text-dark", "hindi": "नमस्ते, मेरे इंटरनेट का डेटा पैक खत्म हो गया है, नया पैक कैसे डलेगा?", "roman": "Namaste, mere internet ka data pack khatam ho gaya hai, naya pack kaise dalega?"},
+        {"speaker": "Customer Care", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "सर, आप हमारे ऐप के ज़रिए रिचार्ज कर सकते हैं या कोड डायल कर सकते हैं।", "roman": "Sir, aap hamare app ke zariye recharge kar sakte hain ya code dial kar sakte hain."},
+        {"speaker": "Caller", "side": "right", "avatarBg": "bg-info text-dark", "hindi": "ठीक है, मैं ऐप से देखता हूँ। धन्यवाद।", "roman": "Theek hai, main app se dekhta hoon. Dhanyawad."}
+      ],
+      "options": [
+        "A telephonic query between a mobile network customer care executive and a user needing internet recharge assistance.",
+        "An individual buying a new smartphone device at an electronics store.",
+        "A software developer troubleshooting network router issues at an office desk.",
+        "A customer paying an electricity bill via an online payment portal."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Using standard telecom customer care greeting phrases and discussing data packs indicates a service helpline interaction."
+    },
+    {
+      "id": "d2_20",
+      "lines": [
+        {"speaker": "Ravi", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "अरे भाई, इस रविवार को मूवी देखने का प्लान है, चलोगे क्या?", "roman": "Are bhai, is ravivar ko movie dekhne ka plan hai, chaloge kya?"},
+        {"speaker": "Karan", "side": "right", "avatarBg": "bg-success text-white", "hindi": "रविवार को? यार, उस दिन घर पर कुछ मेहमान आ रहे हैं, इसलिए मैं नहीं आ पाऊँगा।", "roman": "Ravivar ko? Yaar, us din ghar par kuch mehman aa rahe hain, isliye main nahi aa paunga."},
+        {"speaker": "Ravi", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "चलो कोई बात नहीं, फिर किसी और दिन चलेंगे।", "roman": "Chalo koi baat nahin, phir kisi aur din chalenge."},
+        {"speaker": "Karan", "side": "right", "avatarBg": "bg-success text-white", "hindi": "हाँ, डन! अगले हफ़्ते प्लान करते हैं।", "roman": "Haan, dan! Agle hafte plan karte hain."}
+      ],
+      "options": [
+        "Two friends discussing a weekend movie plan, where one declines due to incoming family guests.",
+        "Two colleagues scheduling a corporate client presentation for the weekend.",
+        "A manager refusing a leave request submitted by an office employee.",
+        "Two family members booking tickets online for an upcoming theatre show."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Casual plans between friends involving weekend movies and declining due to home guests represents an informal social chat."
+    },
+    {
+      "id": "d2_21",
+      "lines": [
+        {"speaker": "Ticket Clerk", "side": "left", "avatarBg": "bg-secondary text-white", "hindi": "बोलिए, कहाँ का टिकट चाहिए?", "roman": "Boliye, kahan ka ticket chahiye?"},
+        {"speaker": "Traveler", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "मुझे कल की पटना की ट्रेन का स्लीपर क्लास का एक टिकट देना।", "roman": "Mujhe kal ki Patna ki train ka sleeper class ka ek ticket dena."},
+        {"speaker": "Ticket Clerk", "side": "left", "avatarBg": "bg-secondary text-white", "hindi": "कल की गाड़ी में तो वेटिंग लिस्ट है, क्या आप राजधानी की टिकट लोगे?", "roman": "Kal ki gaadi mein toh waiting list hai, kya aap Rajdhani ki ticket loge?"},
+        {"speaker": "Traveler", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "नहीं, राजधानी का किराया ज़्यादा है, जनरल काउंटर देख लेता हूँ।", "roman": "Nahin, Rajdhani ka kiraya zyada hai, general counter dekh leta hoon."}
+      ],
+      "options": [
+        "A passenger booking railway tickets at a station counter and discussing availability and pricing.",
+        "A tourist booking a flight ticket online through a travel portal.",
+        "A commuter buying a daily metro card pass from an automated kiosk.",
+        "A driver checking toll tax rates at a highway checkpoint."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mention of railway booking counters, sleeper class, waiting lists, and train fares points to a railway ticket booking scenario."
+    },
+    {
+      "id": "d2_22",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "भैया, गाड़ी की सर्विसिंग करवानी है, कितना समय लगेगा?", "roman": "Bhaiya, gaadi ki servicing karwani hai, kitna samay lagega?"},
+        {"speaker": "Mechanic", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "शाम तक तैयार हो जाएगी सर, इंजन ऑयल और ब्रेक पैड भी बदलने पड़ेंगे।", "roman": "Shaam tak taiyar ho jayegi sir, engine oil aur break pad bhi badalne padenge."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "ठीक है, कुल कितना खर्चा आएगा?", "roman": "Theek hai, kul kitna kharcha aayega?"},
+        {"speaker": "Mechanic", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "करीब दो हज़ार रुपये लगेंगे।", "roman": "Kareeb do hazaar rupaye lagenge."}
+      ],
+      "options": [
+        "A vehicle owner discussing repair requirements, time duration, and cost estimates with a mechanic at a garage.",
+        "A driver paying a vehicle insurance policy premium at an office.",
+        "A cyclist buying spare safety accessories at a sports shop.",
+        "A passenger hiring a cab driver for a city sightseeing tour."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Servicing vehicles, changing engine oil and brake pads, and estimating repair costs describes a vehicle garage visit."
+    },
+    {
+      "id": "d2_23",
+      "lines": [
+        {"speaker": "Bank Officer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "आइए, बताइए क्या काम है?", "roman": "Aaiye, bataiye kya kaam hai?"},
+        {"speaker": "Customer", "side": "right", "avatarBg": "bg-info text-dark", "hindi": "मुझे अपने बचत खाते में दस हज़ार रुपये जमा करवाने हैं।", "roman": "Mujhe apne bachat khate mein das hazaar rupaye jama karwane hain."},
+        {"speaker": "Bank Officer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "यह जमा पर्ची (deposit slip) भर दीजिए और पैसे दे दीजिए।", "roman": "Yeh jama parchi bhar dijiye aur paise de dijiye."},
+        {"speaker": "Customer", "side": "right", "avatarBg": "bg-info text-dark", "hindi": "ठीक है, मैं अभी भरकर लाता हूँ।", "roman": "Theek hai, main abhi bharkar lata hoon."}
+      ],
+      "options": [
+        "A customer filling out a deposit slip to deposit cash into a savings account at a bank counter.",
+        "A client withdrawing cash from an automated ATM terminal on the street.",
+        "A business owner paying utility bills at an electricity board office.",
+        "A shopper paying cash for groceries at a local market stall."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Using terms like savings accounts ('bachat khata') and deposit slips ('jama parchi') points directly to a bank counter transaction."
+    },
+    {
+      "id": "d2_24",
+      "lines": [
+        {"speaker": "Ritu", "side": "left", "avatarBg": "bg-success text-white", "hindi": "माँ, आज खाने में क्या बनाया है?", "roman": "Maa, aaj khane mein kya banaya hai?"},
+        {"speaker": "Mother", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "आज तुम्हारी पसंद की दाल मखनी और रोटियाँ बनाई हैं।", "roman": "Aaj tumhari pasand ki dal makhni aur rotiyan banai hain."},
+        {"speaker": "Ritu", "side": "left", "avatarBg": "bg-success text-white", "hindi": "वाह! मज़ा आ गया, भूख भी बहुत तेज़ लगी है।", "roman": "Waah! Maza aa gaya, bhookh bhi bahut tez lagi hai."},
+        {"speaker": "Mother", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "चलो हाथ-पहुँ धोकर आ जाओ, मैं थाली लगाती हूँ।", "roman": "Chalo haath-muh dhokar aa jao, main thali lagati hoon."}
+      ],
+      "options": [
+        "A mother and daughter conversing at home about meals and food preparation.",
+        "A chef and a kitchen assistant planning dinner menus at a restaurant.",
+        "Two roommates deciding which food delivery app to order from.",
+        "A customer inquiring about menu items at a local dhaba."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Addressing someone as 'Maa' and discussing home-cooked food ('thali lagati hoon') reflects a domestic family setting."
+    },
+    {
+      "id": "d2_25",
+      "lines": [
+        {"speaker": "Interviewer", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "अपने बारे में कुछ बताइए और अपने पिछले अनुभव का ज़िक्र कीजिए।", "roman": "Apne bare mein kuch bataiye aur apne pichle anubhav ka zikr kijiye."},
+        {"speaker": "Candidate", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "सर, मैंने कंप्यूटर साइंस में पढ़ाई की है और दो साल सॉफ्टवेयर डेवलपर के रूप में काम किया है।", "roman": "Sir, maine computer science mein padhai ki hai aur do saal software developer ke roop mein kaam kiya hai."},
+        {"speaker": "Interviewer", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "बहुत बढ़िया। क्या आप हमारी टीम में जावा प्रोजेक्ट संभाल सकते हैं?", "roman": "Bahut badhiya. Kya aap hamari team mein Java project sambhal sakte hain?"},
+        {"speaker": "Candidate", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "जी हाँ, जावा मेरा मुख्य कौशल है।", "roman": "Ji haan, Java mera mukhya kaushal hai."}
+      ],
+      "options": [
+        "A formal job interview between an interviewer and a software developer candidate.",
+        "A college professor conducting an oral viva examination for a student.",
+        "Two programmers reviewing code architecture during a software sprint.",
+        "An IT consultant giving technical training to new company recruits."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Discussing academic background, past professional experience, and technical skills points to a formal corporate job interview."
+    },
+    {
+      "id": "d2_26",
+      "lines": [
+        {"speaker": "Librarian", "side": "left", "avatarBg": "bg-secondary text-white", "hindi": "यह किताब आपको अगले सात दिनों के भीतर वापस करनी होगी।", "roman": "Yeh kitab aapko agle saat dino ke bhitar wapas karni hogi."},
+        {"speaker": "Student", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "ठीक है मैम, अगर सात दिन में पूरी नहीं हुई तो क्या इसे आगे बढ़ाया जा सकता है?", "roman": "Theek hai mam, agar saat din mein puri nahi hui toh kya ise aage badhaya ja sakta hai?"},
+        {"speaker": "Librarian", "side": "left", "avatarBg": "bg-secondary text-white", "hindi": "हाँ, आप काउंटर पर आकर इसकी अवधि बढ़वा सकते हैं।", "roman": "Haan, aap counter par aakar iski avadhi badhwa sakte hain."},
+        {"speaker": "Student", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "धन्यवाद, मैं समय पर जमा करवा दूंगा।", "roman": "Dhanyawad, main samay par jama kar dunga."}
+      ],
+      "options": [
+        "A librarian explaining book return policies and loan extensions to a student.",
+        "A bookstore owner selling novels to a regular customer.",
+        "A teacher distributing textbooks to students in a school classroom.",
+        "A printing press operator handing over bound project files to a buyer."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Discussing book return deadlines, loan extensions, and addressing staff as 'Mam' in a book-lending context indicates a library."
+    },
+    {
+      "id": "d2_27",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "भैया, इस कुरकुरे पैकेट की एक्सपायरी डेट निकल चुकी है, यह पुराना है।", "roman": "Bhaiya, is kurkure packet ki expiry date nikal chuki hai, yeh purana hai."},
+        {"speaker": "Store Owner", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "अरे, सचमुच? माफ़ी चाहता हूँ भाई, गलती से काउंटर पर रह गया होगा, लाओ मैं बदल देता हूँ।", "roman": "Are, sachmuch? Maafi chahta hoon bhai, galti se counter par reh gaya hoga, lao main badal deta hoon."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "कोई बात नहीं, इसकी जगह दूसरा ताज़ा पैकेट दे दीजिए।", "roman": "Koi baat nahin, iski jagah doosra taza packet de dijiye."},
+        {"speaker": "Store Owner", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "यह लीजिए एकदम नया स्टॉक।", "roman": "Yeh lijiye ekdum naya stock."}
+      ],
+      "options": [
+        "A customer returning an expired food product to a store owner and getting a fresh replacement.",
+        "A restaurant patron complaining about cold food served by a waiter.",
+        "A wholesaler inspecting factory production batch numbers with a manager.",
+        "A food inspector checking warehouse sanitation standards."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Spotting expired product dates on snack packets at a local shop and exchanging them points to a store complaint context."
+    },
+    {
+      "id": "d2_28",
+      "lines": [
+        {"speaker": "Hostel Warden", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "रात के दस बज चुके हैं, कमरे की लाइट बंद करो और सो जाओ।", "roman": "Raat ke das baj chuke hain, kamre ki light band karo aur so jao."},
+        {"speaker": "Student", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "बस पाँच मिनट दीजिए सर, एक सवाल हल कर रहा हूँ।", "roman": "Bas paanch minute dijiye sir, ek sawal hal kar raha hoon."},
+        {"speaker": "Hostel Warden", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "ज़ीरो आवर के बाद पढ़ाई की अनुमति नहीं है, नियम तोड़ोगे तो जुर्माना लगेगा।", "roman": "Zero hour ke baad padhai ki anumati nahi hai, niyam todoge toh jurmana lagega."},
+        {"speaker": "Student", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "ठीक है सर, अभी बंद करता हूँ।", "roman": "Theek hai sir, abhi band karta hoon."}
+      ],
+      "options": [
+        "A strict hostel warden enforcing night curfew and study timing rules on a student.",
+        "A parent scolding a child for staying up late to play video games.",
+        "A security guard patrolling a corporate office building floor at night.",
+        "A librarian closing down reading hall facilities at closing time."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Enforcing late-night hostel curfews, lights-out rules, and penalty warnings reflects a student dormitory living arrangement."
+    },
+    {
+      "id": "d2_29",
+      "lines": [
+        {"speaker": "Gym Trainer", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "चलो, आज चेस्ट वर्कआउट करेंगे, अपनी पोजीशन लो।", "roman": "Chalo, aaj chest workout karenge, apni position lo."},
+        {"speaker": "Client", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "भैया, आज शोल्डर में थोड़ा दर्द है, क्या आज बेंच प्रेस छोड़ सकते हैं?", "roman": "Bhaiya, aaj shoulder mein thoda dard hai, kya aaj bench press chhod sakte hain?"},
+        {"speaker": "Gym Trainer", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "दर्द है तो ज़ोर मत लगाओ, आज हम सिर्फ लाइट स्ट्रेचिंग और कार्डियो करेंगे।", "roman": "Dard hai toh zor mat lagao, aaj hum sirf light stretching aur cardio karenge."},
+        {"speaker": "Client", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "ठीक है, वही ठीक रहेगा।", "roman": "Theek hai, wahi theek rahega."}
+      ],
+      "options": [
+        "A gym trainer modifying an exercise routine for a client experiencing shoulder pain.",
+        "A physiotherapist treating a patient recovering from a sports fracture.",
+        "A sports coach planning tactical drills for a football match.",
+        "A yoga instructor correcting breathing postures during a class."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Discussing workouts like chest training, bench presses, and modifying routines due to muscle pain points to a gym session."
+    },
+    {
+      "id": "d2_30",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "भैया, बालों की कटिंग थोड़ी छोटी करना और साइड से हल्की शेडिंग देना।", "roman": "Bhaiya, baalon ki cutting thodi choti karna aur side se halki shading dena."},
+        {"speaker": "Barber", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "ठीक है साहब, जैसी आपकी पसंद। दाढ़ी भी सेट करनी है क्या?", "roman": "Theek hai sahab, jaisi aapki pasand. Dadhi bhi set karni hai kya?"},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "हाँ, दाढ़ी ट्रिम कर देना और शेप ठीक रखना।", "roman": "Haan, dadhi trim kar dena aur shape theek rakhna."},
+        {"speaker": "Barber", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "बस पाँच मिनट में शुरू करता हूँ।", "roman": "Bas paanch minute mein shuru karta hoon."}
+      ],
+      "options": [
+        "A client explaining haircut styles and beard trimming preferences to a barber at a salon.",
+        "A makeup artist discussing wedding styling options with a customer.",
+        "A doctor examining scalp health issues in a dermatology clinic.",
+        "A clothing store tailor taking body measurements for adjustments."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Discussing hairstyles, fades/shading, and beard trimming instructions indicates a barber shop or salon environment."
+    },
+    {
+      "id": "d2_31",
+      "lines": [
+        {"speaker": "Electricity Officer", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "नमस्ते जी, आपका इस महीने का बिजली बिल सात सौ रुपये आया है।", "roman": "Namaste ji, aapka is mahine ka bijli bill saat sau rupaye aaya hai."},
+        {"speaker": "Consumer", "side": "right", "avatarBg": "bg-success text-white", "hindi": "ठीक है, मैं ऑनलाइन पेमेंट कर देता हूँ। क्या मीटर रीडिंग ठीक से ली गई है?", "roman": "Theek hai, main online payment kar deta hoon. Kya meter reading theek se li gayi hai?"},
+        {"speaker": "Electricity Officer", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "हाँ जी, बिल्कुल सही रीडिंग के हिसाब से बिल बना है।", "roman": "Haan ji, bilkul sahi reading ke hisaab se bill bana hai."},
+        {"speaker": "Consumer", "side": "right", "avatarBg": "bg-success text-white", "hindi": "शुक्रिया, मैं अभी भुगतान कर देता हूँ।", "roman": "Shukriya, main abhi bhugtan kar deta hoon."}
+      ],
+      "options": [
+        "A consumer discussing utility electricity bill amounts and meter readings with a service representative.",
+        "A bank worker reviewing loan account statements with a credit applicant.",
+        "A municipal worker checking water supply pipeline valves on a street.",
+        "A delivery agent collecting cash payment for a package delivery."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mentions of electricity bills ('bijli bill'), meter readings, and online payments describe a utility service interaction."
+    },
+    {
+      "id": "d2_32",
+      "lines": [
+        {"speaker": "Passenger", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "ड्राइवर साहब, जरा गाड़ी साइड में रोकना, मुझे यहाँ अर्जेंट उतरना है।", "roman": "Driver sahab, zara gaadi side mein rokna, mujhe yahan urgent utarna hai."},
+        {"speaker": "Bus Conductor", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "अगला बस स्टॉप दो सौ मीटर आगे है, वहीं उतरेगी गाड़ी। बीच सड़क पर नहीं रुक सकती।", "roman": "A gla bus stop do sau meter aage hai, wahin utregi gaadi. Beech sadak par nahi ruk sakti."},
+        {"speaker": "Passenger", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "अरे भाई, मुझे थोड़ा काम है, यहीं गेट खोल दो।", "roman": "Are bhai, mujhe thoda kaam hai, yahin gate khol do."},
+        {"speaker": "Bus Conductor", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "नियम के खिलाफ है, आप अगले स्टॉप पर ही उतरना।", "roman": "Niyam ke khilaf hai, aap agle stop par hi utarna."}
+      ],
+      "options": [
+        "A passenger arguing with a bus conductor about getting down before the designated bus stop.",
+        "A taxi passenger asking a driver to change routes during a trip.",
+        "A traffic police officer fining a motorist for unsafe parking.",
+        "A delivery rider asking a homeowner to collect a parcel at the gate."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Arguing with a bus conductor about stopping locations and safety rules represents a public transport bus ride."
+    },
+    {
+      "id": "d2_33",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "भैया, इस टी-वी में क्या वारंटी मिल रही है?", "roman": "Bhaiya, is TV mein kya warranty mil rahi hai?"},
+        {"speaker": "Salesman", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "सर, इस पर एक साल की पूरी वारंटी और पैनल पर दो साल की अतिरिक्त वारंटी है।", "roman": "Sir, is par ek saal ki poori warranty aur panel par do saal ki atirikt warranty hai."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "क्या होम डिलीवरी और इंस्टॉलेशन फ्री है?", "roman": "Kya home delivery aur installation free hai?"},
+        {"speaker": "Salesman", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "हाँ सर, दोनों बिल्कुल मुफ़्त हैं और कंपनी का आदमी आकर लगाएगा।", "roman": "Haan sir, dono bilkul muft hain aur company ka aadmi aakar lagayega."}
+      ],
+      "options": [
+        "A customer inquiring about warranty terms, delivery, and installation while purchasing an electronics appliance.",
+        "A repair technician fixing a broken television screen at a service center.",
+        "An insurance agent selling device protection plans to a store buyer.",
+        "A delivery worker unpacking household goods inside a new apartment."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Asking about product warranties, panels, home delivery, and free installation points to an electronics retail shop."
+    },
+    {
+      "id": "d2_34",
+      "lines": [
+        {"speaker": "Courier Boy", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "नमस्ते सर, आपका एक पार्सल आया है, ओटीपी बताइए।", "roman": "Namaste sir, aapka ek parcel aaya hai, OTP bataiye."},
+        {"speaker": "Resident", "side": "right", "avatarBg": "bg-success text-white", "hindi": "नमस्ते, ओटीपी है 4821। रुकिए, मैं लिफाफा चेक कर लेता हूँ कि ठीक से पैक है या नहीं।", "roman": "Namaste, OTP hai 4821. Rukiye, main lifafa check kar leta hoon ki theek se pack hai ya nahi."},
+        {"speaker": "Courier Boy", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "हाँ, बिल्कुल चेक कर लीजिए, कोई दिक्कत हो तो बताइएगा।", "roman": "Haan, bilkul check kar lijiye, koi dikkat ho toh bataiyega."},
+        {"speaker": "Resident", "side": "right", "avatarBg": "bg-success text-white", "hindi": "सब ठीक है, धन्यवाद।", "roman": "Sab theek hai, dhanyawad."}
+      ],
+      "options": [
+        "A resident verifying a package delivery and sharing an OTP confirmation with a courier agent.",
+        "A customer online shopping for grocery items through a mobile payment app.",
+        "A post office worker handing over registered letters to a local office clerk.",
+        "A store manager issuing a receipt to a home delivery executive."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mention of parcels, delivery OTP verification, and package checking describes a doorstep courier delivery."
+    },
+    {
+      "id": "d2_35",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "भैया, एक प्लेट छोले भटूरे पैक कर देना, मिर्च थोड़ी कम रखना।", "roman": "Bhaiya, ek plate chole bhature pack kar dena, mirch thodi kam rakhna."},
+        {"speaker": "Food Stall Owner", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "बस दो मिनट दीजिए बाबूजी, एकदम गरमा-गरम भटूरे सेक रहा हूँ।", "roman": "Bas do minute dijiye babuji, ekdum garma-garam bhature sek raha hoon."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "ठीक है, साथ में थोड़ा प्याज और अचार भी रख लेना।", "roman": "Theek hai, saath mein thoda pyaj aur achar bhi rakh lena."},
+        {"speaker": "Food Stall Owner", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "हाँ बिल्कुल, सब मिल जाएगा। यह लीजिए आपका पार्सल, अस्सी रुपये हुए।", "roman": "Haan bilkul, sab mil जाएगा. Yeh lijiye aapka parcel, assi rupaye hue."}
+      ],
+      "options": [
+        "A customer ordering street food (chole bhature) to-go from a local food stall vendor.",
+        "A guest ordering breakfast room service at a luxury hotel restaurant.",
+        "A cook preparing fast food items inside a commercial kitchen setup.",
+        "A shopper buying packaged snacks from a wholesale grocery distributor."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Ordering street snacks like chole bhature to be packed with onions and pickles points to a local street food stall."
+    },
+    {
+      "id": "d2_36",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "भैया, इस शर्ट पर ड्राई क्लीनिंग का कितना चार्ज लोगे?", "roman": "Bhaiya, is shirt par dry cleaning ka kitna charge loge?"},
+        {"speaker": "Laundry Man", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "साहब, एक शर्ट का साठ रुपया लगेगा और प्रेस का पंद्रह रुपया।", "roman": "Sahab, ek shirt ka saath rupaye lagega aur press ka pandrah rupaye."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "ठीक है, ये दो शर्टें रख लो, परसों शाम को ले आऊँगा।", "roman": "Theek hai, ye do shirtein rakh lo, parson shaam ko le aaunga."},
+        {"speaker": "Laundry Man", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "ठीक है साहब, ये लीजिए आपकी पर्ची।", "roman": "Theek hai sahab, ye lijiye aapki parchi."}
+      ],
+      "options": [
+        "A customer negotiating dry cleaning and ironing rates for clothes at a local laundry shop.",
+        "A tailor measuring shirts for custom alterations.",
+        "A retail store salesman selling readymade shirts to a buyer.",
+        "A worker sorting clothes at an industrial garment manufacturing factory."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Discussing dry cleaning rates, ironing charges, and collecting pickup slips indicates a local laundry service interaction."
+    },
+    {
+      "id": "d2_37",
+      "lines": [
+        {"speaker": "Rohan", "side": "left", "avatarBg": "bg-success text-white", "hindi": "पापा, क्या इस रविवार को हम लोग ज़ू (चिड़ियाघर) देखने चलेंगे?", "roman": "Papa, kya is ravivar ko hum log zoo (chidiya ghar) dekhne chalenge?"},
+        {"speaker": "Father", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "हाँ बेटा, बिल्कुल! बहुत दिन हो गए बाहर घूमने गए हुए। सुबह जल्दी तैयार हो जाना।", "roman": "Haan beta, bilkul! Bahut din ho gaye baahar ghumne gaye hue. Subah jaldi taiyar ho jana."},
+        {"speaker": "Rohan", "side": "left", "avatarBg": "bg-success text-white", "hindi": "यह हुई न बात! मैं अपने सारे दोस्तों को बताऊँगा।", "roman": "Yeh hui na baat! Main apne sare doston ko bataunga."},
+        {"speaker": "Father", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "ठीक है, पहले अपनी पढ़ाई पूरी कर लो फिर मंडे को प्लान पक्का करते हैं।", "roman": "Theek hai, pehle apni padhai puri kar lo phir Monday ko plan pakka karte hain."}
+      ],
+      "options": [
+        "A father and son planning a weekend family trip to the zoo after completing homework.",
+        "Two classmates discussing weekend school picnic logistics.",
+        "A teacher organizing an educational excursion for school kids.",
+        "A tourist booking sightseeing travel packages at an agency."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Addressing someone as 'Papa' and planning family weekend visits to recreational spots reflects a home conversation."
+    },
+    {
+      "id": "d2_38",
+      "lines": [
+        {"speaker": "Guest", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "भैया, रूम सर्विस से एक प्लेट पोहा और चाय भेजना रूम नंबर 412 में।", "roman": "Bhaiya, room service se ek plate poha aur chai bhejna room number 412 mein."},
+        {"speaker": "Front Desk", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "जी सर, पंद्रह मिनट के अंदर आपके कमरे में नाश्ता पहुँच जाएगा।", "roman": "Ji sir, pandrah minute ke andar aapke kamre mein nashta pahunch jayega."},
+        {"speaker": "Guest", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "ठीक है, बिल कमरे के खाते में जोड़ देना।", "roman": "Theek hai, bill kamre ke khaate mein jod dena."},
+        {"speaker": "Front Desk", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "ठीक है सर, धन्यवाद।", "roman": "Theek hai sir, dhanyawad."}
+      ],
+      "options": [
+        "A hotel guest ordering breakfast through room service and charging it to their room account.",
+        "A customer ordering breakfast at an outdoor street food cart.",
+        "An office employee asking a cafeteria worker for tea delivery at their desk.",
+        "A passenger buying snacks from a pantry car attendant on a train."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mention of room numbers, room service breakfast orders, and billing accounts points to a hotel guest interaction."
+    },
+    {
+      "id": "d2_39",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "chemist bhai, yeh doctor ki parchi hai, isme likhi sari dawaiyan dena.", "roman": "Chemist bhai, yeh doctor ki parchi hai, isme likhi sari dawaiyan dena."},
+        {"speaker": "Pharmacist", "side": "right", "avatarBg": "bg-success text-white", "hindi": "रुकिए भाई साहब, देखता हूँ स्टॉक में कौन सी दवाई उपलब्ध है। यह कफ सिरप खत्म हो गया है, इसका दूसरा ब्रांड दूँ?", "roman": "Rukiye bhai sahab, dekhta hoon stock mein kaun si dawai uplabdh hai. Yeh cough syrup khatam ho gaya hai, iska doosra brand doon?"},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "डॉक्टर से पूछकर बताऊँ या डॉक्टर साहब ने सॉल्ट वही लिखा है?", "roman": "Doctor se poochkar bataoon ya doctor sahab ne salt wahi likha hai?"},
+        {"speaker": "Pharmacist", "side": "right", "avatarBg": "bg-success text-white", "hindi": "सॉल्ट बिल्कुल वही है, असर एक जैसा ही होगा।", "roman": "Salt bilkul wahi hai, asar ek jaisa hi hoga."}
+      ],
+      "options": [
+        "A customer purchasing prescribed medicines from a pharmacy store and discussing alternative brands.",
+        "A patient discussing medication side effects with a hospital doctor.",
+        "A medical store wholesale supplier delivering stock boxes to a chemist.",
+        "A laboratory technician handing over blood test reports to a client."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Using medical prescriptions ('doctor ki parchi'), discussing drug stores, alternative brands, and medical salts describes a pharmacy visit."
+    },
+    {
+      "id": "d2_40",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "भैया, इस लैपटॉप की बैटरी बहुत जल्दी डिस्चार्ज हो जाती है, कल ही तो लिया था।", "roman": "Bhaiya, is laptop ki battery bahut jaldi discharge ho jaati hai, kal hi toh liya tha."},
+        {"speaker": "Store Manager", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "ऐसी बात है क्या? लाइए चेक करवा लेते हैं हमारे सर्विस इंजीनियर से। अगर कोई अंदरूनी खराबी होगी तो पीस बदल देंगे।", "roman": "Aisi baat hai kya? Laiye check karwa lete hain hamare service engineer se. Agar koi androoni kharabi hogi toh piece badal denge."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "ठीक है, जल्दी ठीक करके दीजिए, मेरा काम रुका हुआ है।", "roman": "Theek hai, jaldi theek karke dijiye, mera kaam ruka hua hai."},
+        {"speaker": "Store Manager", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "घबराइए मत, एक घंटे में दिखवा लेते हैं।", "roman": "Ghabraiye mat, ek ghante mein dikhwa lete hain."}
+      ],
+      "options": [
+        "A customer returning a newly purchased defective laptop to a store manager for testing and replacement.",
+        "A technician repairing a motherboard component at a computer service lab.",
+        "An office employee filing a hardware complaint ticket with corporate IT support.",
+        "A student buying academic textbooks and stationery supplies at a shop."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Complaining about a newly purchased laptop's battery life and requesting a store inspection or replacement describes electronic retail service."
+    },
+    {
+      "id": "d2_41",
+      "lines": [
+        {"speaker": "Traveler", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "भैया, एयरपोर्ट जाने के लिए टैक्सी का कितना किराया लोगे?", "roman": "Bhaiya, airport jaane ke liye taxi ka kitna kiraya loge?"},
+        {"speaker": "Taxi Driver", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "साहब, सात सौ रुपये लगेंगे, एसी गाड़ी है और टोल टैक्स भी उसी में शामिल है।", "roman": "Sahab, saat sau rupaye lagenge, AC gaadi hai aur toll tax bhi usi mein shamil hai."},
+        {"speaker": "Traveler", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "छः सौ रुपये दे दूंगा, चलना हो तो चलो।", "roman": "Chho sau rupaye de dunga, chalna ho toh chalo."},
+        {"speaker": "Taxi Driver", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "चलो ठीक है साहब, बैठिए गाड़ी में।", "roman": "Chalo theek hai sahab, baithiye gaadi mein."}
+      ],
+      "options": [
+        "A traveler negotiating cab fares with a taxi driver for an airport trip.",
+        "A passenger booking bus tickets online through a travel app.",
+        "A tourist checking hotel room availability with a receptionist.",
+        "A commuter buying metro token cards at a station ticket window."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Negotiating fares for airport drops with a taxi driver represents a cab booking interaction on the street."
+    },
+    {
+      "id": "d2_42",
+      "lines": [
+        {"speaker": "Anchor", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "नमस्ते दर्शकों, आज के समाचार में सबसे पहले बात करते हैं देश की ताज़ा राजनीतिक हलचल की।", "roman": "Namaste darshakon, aaj ke samachar mein sabse pehle baat karte hain desh ki taza rajneetik halchal ki."},
+        {"speaker": "Co-Anchor", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "बिल्कुल, और इसके साथ ही जानेंगे मौसम का हाल और खेल जगत की बड़ी खबरें।", "roman": "Bilkul, aur iske saath hi janenge mausam ka haal aur khel jagat ki badi khabrein."},
+        {"speaker": "Anchor", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "तो आइए शुरुआत करते हैं बिना किसी देरी के।", "roman": "Toh aaiye shuru karte hain bina kisi deri ke."},
+        {"speaker": "Co-Anchor", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "देखते रहिए हमारा खास कार्यक्रम।", "roman": "Dekhte rahiye hamara khaas karyakram."}
+      ],
+      "options": [
+        "Television news anchors broadcasting a live daily news program update.",
+        "Radio jockeys hosting an interactive music request show.",
+        "Public speakers presenting a university seminar thesis paper.",
+        "Corporate executives reviewing financial quarterly performance reports."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Addressing audiences ('darshakon') and presenting headlines about politics, weather, and sports points to a news broadcasting studio."
+    },
+    {
+      "id": "d2_43",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-success text-white", "hindi": "भैया, इस सूट पर फॉल-पिको करवाना है, कब तक मिल जाएगा?", "roman": "Bhaiya, is suit par fall-pico karwana hai, kab tak mil jayega?"},
+        {"speaker": "Tailor", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "शाम तक ले जाना बहन जी, पचास रुपये लगेंगे।", "roman": "Shaam tak le jana bahan ji, pachas rupaye lagenge."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-success text-white", "hindi": "ठीक है, शाम को ले जाऊँगी, काम पक्का साफ़-सुथरा होना चाहिए।", "roman": "Theek hai, shaam ko le jaungi, kaam pakka saaf-suthra hona chahiye."},
+        {"speaker": "Tailor", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "अरे आप बेफिक्र रहो, काम एकदम बेहतरीन मिलेगा।", "roman": "Are aap befikr raho, kaam ekdam behtareen milega."}
+      ],
+      "options": [
+        "A customer giving traditional garments for fall-pico work to a local tailor shop owner.",
+        "A retail store worker selling readymade sarees to a shopper.",
+        "A dry cleaner accepting laundry clothes for pressing services.",
+        "A boutique designer stitching custom wedding gowns for a client."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mention of ethnic clothing tasks like 'fall-pico' and discussing timelines with a tailor reflects a local tailoring shop."
+    },
+    {
+      "id": "d2_44",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "भैया, इस अकाउंट से पाँच हज़ार रुपये निकालना है, फॉर्म दीजिए।", "roman": "Bhaiya, is account se paanch hazaar rupaye nikalna hai, form dijiye."},
+        {"speaker": "Bank Cashier", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "यह लीजिए निकासी फॉर्म (withdrawal form), इसे भरकर अपनी पासबुक के साथ काउंटर पर दीजिए।", "roman": "Yeh lijiye nikasi form, ise bharkar apni passbook ke saath counter par dijiye."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "क्या इसके साथ हस्ताक्षर भी करने होंगे?", "roman": "Kya iske saath hastakshar bhi karne honge?"},
+        {"speaker": "Bank Cashier", "side": "right", "avatarBg": "bg-dark text-white", "hindi": "हाँ जी, पीछे हस्ताक्षर कर देना।", "roman": "Haan ji, peechhe hastakshar kar dena."}
+      ],
+      "options": [
+        "A bank customer filling out a cash withdrawal form and passbook verification at a bank teller desk.",
+        "A citizen paying municipal taxes at a government revenue counter.",
+        "A business client applying for corporate loan facilities with a bank manager.",
+        "An individual depositing savings cash in an ATM deposit slot."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Asking for withdrawal forms ('nikasi form'), passbooks, and signatures at bank counters indicates a bank teller transaction."
+    },
+    {
+      "id": "d2_45",
+      "lines": [
+        {"speaker": "Interviewer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "हेलो नेहा, आपकी आवाज़ थोड़ी कट रही है, क्या आप नेटवर्क वाली जगह पर जा सकती हैं?", "roman": "Hello Neha, aapki aawaz thodi kat rahi hai, kya aap network wali jagah par ja sakti hain?"},
+        {"speaker": "Candidate", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "जी सर, अब ठीक है? क्या अब आवाज़ साफ़ आ रही है?", "roman": "Ji sir, ab theek hai? Kya ab aawaz saaf aa rahi hai?"},
+        {"speaker": "Interviewer", "side": "left", "avatarBg": "bg-info text-dark", "hindi": "हाँ, अब बिल्कुल ठीक है। तो चलिए आपका टेलीफोनिक इंटरव्यू शुरू करते हैं।", "roman": "Haan, ab bilkul theek hai. Toh chaliye aapka telephonic interview shuru karte hain."},
+        {"speaker": "Candidate", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "धन्यवाद सर, मैं तैयार हूँ।", "roman": "Dhanyawad sir, main taiyar hoon."}
+      ],
+      "options": [
+        "An employer and job candidate resolving network issues before beginning a telephonic interview call.",
+        "Two friends checking phone line clarity while making a casual weekend chat call.",
+        "A customer care executive assisting a mobile subscriber with network signal complaints.",
+        "A delivery driver confirming a delivery address over a noisy cell phone connection."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Resolving connectivity issues specifically to conduct a scheduled telephonic interview represents a corporate hiring process."
+    },
+    {
+      "id": "d2_46",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "भैया, इस ब्रेड के पैकेट पर फंगस (फफूंदी) लगी है, यह खराब है।", "roman": "Bhaiya, is bread ke packet par fungus lagi hai, yeh kharab hai."},
+        {"speaker": "Grocer", "side": "right", "avatarBg": "bg-success text-white", "hindi": "ओह हो! सच में? पता नहीं कैसे ध्यान नहीं रहा, लाइए मैं दूसरा पैकेट दे देता हूँ।", "roman": "Oh ho! Sachmuch? Pata nahi kaise dhyaan nahi raha, laiye main doosra packet de deta hoon."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "थोड़ा देख कर माल रखा कीजिए भाई साहब।", "roman": "Thoda dekh kar maal rakha kijiye bhai sahab."},
+        {"speaker": "Grocer", "side": "right", "avatarBg": "bg-success text-white", "hindi": "माफ़ी चाहता हूँ, आगे से ध्यान रखूँगा।", "roman": "Maafi chahta hoon, aage se dhyaan rakhunga."}
+      ],
+      "options": [
+        "A customer returning a spoiled, moldy grocery product to a shopkeeper for exchange.",
+        "A restaurant manager complaining about bad food supplies delivered by a wholesaler.",
+        "A food hygiene inspector checking supermarket shelf inventory standards.",
+        "A chef teaching kitchen staff how to check food spoilage in ingredients."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Complaining about moldy food items ('fungus lagi hai') on grocery packets to a local store merchant describes a consumer complaint."
+    },
+    {
+      "id": "d2_47",
+      "lines": [
+        {"speaker": "Passenger", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "टीटीई साहब, मेरी सीट पर कोई दूसरा यात्री बैठा है, जरा देखिए।", "roman": "TTE sahab, meri seat par koi doosra yatri baitha hai, zara dekhiye."},
+        {"speaker": "TTE", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "अपना टिकट दिखाइए जरा। अरे भाई, आपकी सीट एस-4 में है, आप एस-3 में क्यों बैठे हैं?", "roman": "Apna ticket dikhaiye zara. Are bhai, aapki seat S-4 mein hai, aap S-3 mein kyun baithe hain?"},
+        {"speaker": "Passenger", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "ओह! गलती से मैं दूसरे कोच में आ गया था।", "roman": "Oh! Galti se main doosre coach mein aa gaya tha."},
+        {"speaker": "TTE", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "कोई बात नहीं, अपनी सही सीट पर चले जाइए।", "roman": "Koi baat nahin, apni sahi seat par chale jaiye."}
+      ],
+      "options": [
+        "A train ticket examiner (TTE) resolving a coach confusion issue raised by a passenger.",
+        "A flight attendant checking boarding passes for seat numbers inside an airplane cabin.",
+        "A bus conductor verifying valid passenger ticket passes during a journey.",
+        "A cinema hall usher guiding moviegoers to their reserved auditorium seats."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mention of train coach designations ('S-4', 'S-3') and interacting with a Train Ticket Examiner (TTE) points to a railway journey."
+    },
+    {
+      "id": "d2_48",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "भैया, इस फोन का टच स्क्रीन काम नहीं कर रहा है, रिपेयरिंग में कितना खर्चा आएगा?", "roman": "Bhaiya, is phone ka touch screen kaam nahi kar raha hai, repairing mein kitna kharcha aayega?"},
+        {"speaker": "Repair Technician", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "डिस्प्ले बदलना पड़ेगा साहब, कुल बारह सौ रुपये लगेंगे और आधे घंटे में फोन तैयार मिल जाएगा।", "roman": "Display badalna padega sahab, kul barah sau rupaye lagenge aur aadhe ghante mein phone taiyar mil jayega."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-warning text-dark", "hindi": "ठीक है, बदल दीजिए, डाटा तो सुरक्षित रहेगा ना?", "roman": "Theek hai, badal dijiye, data toh surakshit rahega na?"},
+        {"speaker": "Repair Technician", "side": "right", "avatarBg": "bg-secondary text-white", "hindi": "हाँ, डाटा सुरक्षित रहेगा, आपफिक्र मत कीजिए।", "roman": "Haan, data surakshit rahega, aapfikr mat kijiye."}
+      ],
+      "options": [
+        "A mobile phone user getting screen replacement estimates and data safety reassurances from a repair technician.",
+        "A customer buying a brand new smartphone device at a retail digital showroom.",
+        "An electronics store manager processing warranty claims for a defective tablet.",
+        "A tech support executive troubleshooting software bugs on a customer laptop."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Inquiring about touch screen repairs, display replacements, and repair costs at a repair stall describes mobile servicing."
+    },
+    {
+      "id": "d2_49",
+      "lines": [
+        {"speaker": "Teacher", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "बच्चों, कल का चैप्टर सबने पढ़ लिया है? किसी को कोई सवाल पूछना है?", "roman": "Bachon, kal ka chapter sabne padh liya hai? Kisi ko koi sawal poochhna hai?"},
+        {"speaker": "Student", "side": "right", "avatarBg": "bg-success text-white", "hindi": "मैम, मुझे आखिरी पैराग्राफ का मतलब समझ में नहीं आया, क्या आप दोबारा समझा सकती हैं?", "roman": "Mam, mujhe aakhiri paragraph ka matlab samajh mein nahi aaya, kya aap dobara samjha sakti hain?"},
+        {"speaker": "Teacher", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "बिल्कुल! ध्यान से सुनो, इस नियम का मतलब यह होता है...", "roman": "Bilkul! Dhyan se suno, is niyam ka matlab yeh hota hai..."},
+        {"speaker": "Student", "side": "right", "avatarBg": "bg-success text-white", "hindi": "ठीक है मैम, अब समझ आ गया। धन्यवाद।", "roman": "Theek hai mam, ab samajh aa gaya. Dhanyawad."}
+      ],
+      "options": [
+        "A school teacher clarifying chapter doubts for a student inside a classroom setting.",
+        "A corporate trainer answering presentation questions from company trainees.",
+        "A private tutor reviewing homework exercises with a child at home.",
+        "A librarian helping a student locate reference books in a study hall."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Addressing students, reviewing textbook chapters, and explaining concepts in a classroom environment reflects school education."
+    },
+    {
+      "id": "d2_50",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "भैया, दो समोसे और एक प्लेट ब्रेड पकोड़ा देना, साथ में चटनी थोड़ी ज़्यादा रखना।", "roman": "Bhaiya, do samose aur ek plate bread pakoda dena, saath mein chatni thodi zyada rakhna."},
+        {"speaker": "Vendor", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "अभी गरमा-गरम लगाता हूँ बाबूजी, मीठी और हरी दोनों चटनी डाल दूँ?", "roman": "Abhi garma-garam lagata hoon babuji, meethi aur hari dono chatni daal doon?"},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "हाँ, दोनों मिला कर देना। कितने पैसे हुए?", "roman": "Haan, dono mila kar dena. Kitne paise hue?"},
+        {"speaker": "Vendor", "side": "right", "avatarBg": "bg-danger text-white", "hindi": "कुल चालीस रुपये हुए बाबूजी।", "roman": "Kul chaalis rupaye hue babuji."}
+      ],
+      "options": [
+        "A customer ordering evening snacks like samosas and bread pakoras from a street food vendor.",
+        "A diner ordering appetizers from a waiter at a fine dining restaurant.",
+        "A home cook preparing fried snacks for family guests in the kitchen.",
+        "A catering manager planning party snack menus with a client."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Ordering fried street snacks like samosas and bread pakoras with extra chutney points to a local street food stall."
+    },
+    {
+      "id": "d2_51",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-secondary text-white", "hindi": "भैया, एक नया सिम कार्ड लेना है, क्या प्रक्रिया है?", "roman": "Bhaiya, ek naya sim card lena hai, kya prakriya hai?"},
+        {"speaker": "Store Assistant", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "साहब, अपना आधार कार्ड लाना होगा, बायोमेट्रिक फिंगरप्रिंट लगेगा और दस मिनट में एक्टिवेट हो जाएगा।", "roman": "Sahab, apna Aadhaar card lana hoga, biometric fingerprint lagega aur das minute mein activate ho jayega."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-secondary text-white", "hindi": "ठीक है, मेरे पास आधार कार्ड है, पोर्ट करवाना है या नया नंबर लेना है?", "roman": "Theek hai, mere paas Aadhaar card hai, port karwana hai ya naya number lena hai?"},
+        {"speaker": "Store Assistant", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "आप नया नंबर भी ले सकते हैं या पुराना नंबर भी पोर्ट कर सकते हैं।", "roman": "Aap naya number bhi le sakte hain ya purana number bhi port kar sakte hain."}
+      ],
+      "options": [
+        "A customer buying a new mobile SIM card or porting numbers using Aadhaar biometric verification at a telecom store.",
+        "A bank applicant opening a savings account using identity proofs.",
+        "A traveler purchasing local tourist train tickets at a station counter.",
+        "A job seeker submitting resume verification files to a hiring officer."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Mention of Aadhaar cards, biometric fingerprints, and SIM card activation or porting describes a mobile telecom retail store."
+    },
+    {
+      "id": "d2_52",
+      "lines": [
+        {"speaker": "Patient", "side": "left", "avatarBg": "bg-success text-white", "hindi": "डेंटिस्ट साहब, मेरे दाँत में बहुत तेज़ दर्द है, क्या आज दिखाना पड़ेगा?", "roman": "Dentist sahab, mere daant mein bahut tez dard hai, kya aaj dikhana padega?"},
+        {"speaker": "Clinic Receptionist", "side": "right", "avatarBg": "bg-info text-dark", "hindi": "डॉक्टर साहब अभी सर्जरी में व्यस्त हैं, आप शाम को पाँच बजे आ जाइए, आपका अपॉइंटमेंट लिख लेती हूँ।", "roman": "Doctor sahab abhi surgery mein vyast hain, aap shaam ko paanch baje aa jaiye, aapka appointment likh leti hoon."},
+        {"speaker": "Patient", "side": "left", "avatarBg": "bg-success text-white", "hindi": "ठीक है, शाम को पाँच बजे पक्का देख लेंगे ना?", "roman": "Theek hai, shaam ko paanch baje pakka dekh lenge na?"},
+        {"speaker": "Clinic Receptionist", "side": "right", "avatarBg": "bg-info text-dark", "hindi": "हाँ जी, समय पर आ जाना।", "roman": "Haan ji, samay par aa jana."}
+      ],
+      "options": [
+        "A patient with toothache booking a dental clinic appointment with a receptionist.",
+        "A customer buying medical prescription drugs from a local pharmacy store.",
+        "A person consulting a general physician for fever symptoms at a hospital.",
+        "A beauty salon client booking skin treatment slots over the phone."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Dealing with tooth pain and scheduling dentist appointments with clinic reception staff describes a dental clinic visit."
+    },
+    {
+      "id": "d2_53",
+      "lines": [
+        {"speaker": "Lokesh", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "भाई, अगले महीने मेरा बर्थडे है, पार्टी किधर है फिर?", "roman": "Bhai, agle mahine mera birthday hai, party kidhar hai phir?"},
+        {"speaker": "Vikas", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "पार्टी इस बार किसी अच्छे रेस्टोरेंट में होगी, तू बता क्या खाना है?", "roman": "Party is baar kisi acche restaurant mein hogi, tu bata kya khana hai?"},
+        {"speaker": "Lokesh", "side": "left", "avatarBg": "bg-danger text-white", "hindi": "चाइनीज़ और नॉर्थ इंडियन दोनों होने चाहिए, मजा आ जाएगा!", "roman": "Chinese aur North Indian dono hone chahiye, maza aa jayega!"},
+        {"speaker": "Vikas", "side": "right", "avatarBg": "bg-warning text-dark", "hindi": "ठीक है, बजट के हिसाब से जगह फाइनल करके तुझे बताता हूँ।", "roman": "Theek hai, budget ke hisaab se jagah final karke tujhe batata hoon."}
+      ],
+      "options": [
+        "Two friends casually planning birthday party venues and food menu preferences.",
+        "Two event managers coordinating wedding banquet logistics for a client.",
+        "Two coworkers discussing office cafeteria lunch options during a break.",
+        "Two family members booking catering services for a religious festival."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Casual planning between friends regarding birthday parties and food options represents a social chat."
+    },
+    {
+      "id": "d2_54",
+      "lines": [
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "भैया, इस बक्से में दो किलो आम पैक कर देना, मीठे वाले देना.", "roman": "Bhaiya, is bakse mein do kilo aam pack kar dena, meethe wale dena."},
+        {"speaker": "Fruit Vendor", "side": "right", "avatarBg": "bg-success text-white", "hindi": "बाबूजी, एकदम मक्खन जैसे मीठे लंगड़ा आम हैं, तौलकर दे रहा हूँ।", "roman": "Babuji, ekdum makkhan jaise meethe langra aam hain, toulkar de raha hoon."},
+        {"speaker": "Customer", "side": "left", "avatarBg": "bg-primary text-white", "hindi": "ठीक है, वजन पूरा होना चाहिए, पैसे ऑनलाइन ले लोगे या कैश?", "roman": "Theek hai, wajan pura hona chahiye, paise online le loge ya cash?"},
+        {"speaker": "Fruit Vendor", "side": "right", "avatarBg": "bg-success text-white", "hindi": "ऑनलाइन स्कैनर रखा है, उस पर कर देना।", "roman": "Online scanner rakha hai, us par kar dena."}
+      ],
+      "options": [
+        "A customer buying fresh mangoes from a street fruit vendor and discussing payment methods.",
+        "A grocery store clerk billing packed juice cartons at a supermarket counter.",
+        "A farmer selling wholesale agricultural produce at a rural mandi market.",
+        "A chef inspecting fruit quality parameters inside a hotel kitchen storage room."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Buying weighed fruit varieties like 'Langra aam' from street vendors points to a fruit market stall transaction."
+    },
+    {
+      "id": "d2_55",
+      "lines": [
+        {"speaker": "Citizen", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "नमस्ते बाबू जी, मुझे अपना मूल निवास प्रमाण पत्र बनवाना है, कौन सा फॉर्म भरना होगा?", "roman": "Namaste babu ji, mujhe apna mool niwas praman patra banwana hai, kaun sa form bharna hoga?"},
+        {"speaker": "Government Clerk", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "सामने काउंटर से तीन नंबर फॉर्म ले लीजिए, उसके साथ आधार कार्ड और बिजली बिल की कॉपी लगेगी।", "roman": "Samne counter se teen number form le lijiye, uske saath Aadhaar card aur bijli bill ki copy lagegi."},
+        {"speaker": "Citizen", "side": "left", "avatarBg": "bg-dark text-white", "hindi": "ठीक है, कितने दिन में बनकर मिल जाएगा?", "roman": "Theek hai, kitne din mein banakar mil jayega?"},
+        {"speaker": "Government Clerk", "side": "right", "avatarBg": "bg-primary text-white", "hindi": "हफ़्ता भर लगेगा, सत्यापन के बाद मिल जाएगा।", "roman": "Hafta bhar lagega, satyapan ke baad mil jayega."}
+      ],
+      "options": [
+        "A citizen applying for residential domicile certificates at a government tehsil office counter.",
+        "A bank applicant submitting loan documents to a financing officer.",
+        "A student requesting school transfer certificates from an institutional office clerk.",
+        "A taxpayer filing annual income returns at a tax revenue department desk."
+      ],
+      "correct": 0,
+      "explanation": "Correct! Applying for residential domicile certificates ('mool niwas praman patra') at government desks describes a administrative public office visit."
+    }
+  ]
+}

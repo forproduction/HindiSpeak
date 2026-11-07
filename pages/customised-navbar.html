@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm border-bottom border-secondary border-opacity-25 py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Typing Motivation / Shloka Ticker (Center Space) -->
+        <div class="d-none d-md-flex flex-grow-1 justify-content-center align-items-center text-center px-3" style="    white-space: nowrap;">
+    <span id="typingTicker" class="text-light fw-medium fs-6 fst-italic opacity-75" style="letter-spacing: 0.5px;"></span>
+    <span class="typing-cursor text-warning fw-bold ms-1" style="font-size: 1.1rem; animation: blink 0.8s infinite;">|</span>
+</div>  
+    </div>
+</nav>
+
+<!-- Typewriter Motivation Ticker Script (Included right inside so it works automatically) -->
+<script>
+    // const wisdomQuotes = [
+    //     "\"कर्मण्येवाधिकारस्ते मा wedjjdjwnjdjwndkwskdnkasdjnsdjn फलेषु कदाचन।\" — Bhagavad Gita",
+    //     "\"You have a right to your prescribed duty, but never to the fruits of action.\"",
+    //     "\"परित्राणाय साधूनां विनाशाय च दुष्कृताम्।\" — Lord Krishna",
+    //     "\"A man is made by his beliefs. As he believes, so he is.\"",
+    //     "\"उद्धरेत्आत्मना आत्मानम्\" — Elevate yourself through your own mind.",
+    //     "\"यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।\" — Bhagavad Gita"
+    // ];
+
+    const wisdomQuotes = [
+    "\"You have a right to your prescribed duty, but never to the fruits of action.\" — Bhagavad Gita",
+    "\"A man is made by his beliefs. As he believes, so he is.\"",
+    "\"Elevate yourself through your own mind and do not degrade yourself.\"",
+    "\"Whenever challenges and bugs prevail, focus solely on the code, not the fear of failure.\"",
+    "\"Set your heart upon your learning, but never let obstacles stop your momentum.\"",
+    "\"When focus is mastered, your mind becomes unwavering like the flame of a lamp in a windless room.\"",
+    "\"Every complex system is mastered step by step; patience and persistence conquer all errors.\"",
+    "\"Peace and clarity come from within through problem-solving. Do not seek easy shortcuts without effort.\"",
+    "\"There is no room for doubt or giving up for one who is dedicated to building and creating.\"",
+    "\"He who has control over his focus remains calm through difficult bugs, hard code, and heavy workloads.\"",
+    "\"Great mastery is born from relentless repetition, deep focus, and refusing to back down from a challenge.\"",
+    "\"Every error in your code is just a teacher pointing you toward a deeper understanding.\""
+];
+
+    let quoteIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typingSpeed = 70;
+    const deletingSpeed = 40;
+    const delayBetweenQuotes = 3000;
+
+    function typeWriterEffect() {
+        const currentQuote = wisdomQuotes[quoteIndex];
+        const tickerElement = document.getElementById("typingTicker");
+        if (!tickerElement) return;
+
+        if (isDeleting) {
+            tickerElement.textContent = currentQuote.substring(0, charIndex - 1);
+            charIndex--;
+        } else {
+            tickerElement.textContent = currentQuote.substring(0, charIndex + 1);
+            charIndex++;
+        }
+
+        let typeSpeed = isDeleting ? deletingSpeed : typingSpeed;
+        if (!isDeleting && charIndex === currentQuote.length) {
+            typeSpeed = delayBetweenQuotes;
+            isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            quoteIndex = (quoteIndex + 1) % wisdomQuotes.length;
+            typeSpeed = 500;
+        }
+        setTimeout(typeWriterEffect, typeSpeed);
+    }
+
+    setTimeout(typeWriterEffect, 500);
+</script>

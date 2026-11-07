@@ -1,0 +1,606 @@
+{
+  "category": "Situational Context Matcher",
+  "description": "Scenarios evaluating individual Hindi phrases based on pragmatic usage, formality, and social context.",
+  "questions": [
+    {
+      "id": "s1_01",
+      "scenario": "You are arriving at a corporate office meeting in the morning and greeting your manager formally.",
+      "hindi": "नमस्ते, सुप्रभातम!",
+      "roman": "Namaste, suprabhatam!",
+      "meaning": "Hello, good morning!",
+      "options": [
+        "A casual greeting used only between close teenage friends at night.",
+        "A formal and respectful morning greeting suitable for professional or general use.",
+        "An apology for showing up late to a meeting.",
+        "A way of saying goodbye at the end of the workday."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Namaste' combined with 'suprabhatam' sets a polite, professional morning tone."
+    },
+    {
+      "id": "s1_02",
+      "scenario": "You accidentally arrived twenty minutes late to an important client discussion.",
+      "hindi": "माफ़ कीजिए, मुझे देर हो गई है।",
+      "roman": "Maaf kijiye, mujhe der ho gayi hai.",
+      "meaning": "Sorry, I am late.",
+      "options": [
+        "Expressing excitement about meeting the client.",
+        "Asking for the price of a file or document.",
+        "Apologizing formally for being late.",
+        "Stating that everything is completely fine."
+      ],
+      "correct": 2,
+      "explanation": "Correct! 'Maaf kijiye' (Excuse me/Sorry) paired with 'der ho gayi hai' is the standard professional apology."
+    },
+    {
+      "id": "s1_03",
+      "scenario": "A colleague explains a complex project guideline, and you want to confirm you completely grasped it.",
+      "hindi": "हाँ, मैं समझ गया हूँ।",
+      "roman": "Haan, main samajh gaya hoon.",
+      "meaning": "Yes, I have understood.",
+      "options": [
+        "I don't know anything about this.",
+        "Can you repeat this instruction?",
+        "Yes, I have understood it.",
+        "Where is the meeting room?"
+      ],
+      "correct": 2,
+      "explanation": "Correct! 'Samajh gaya hoon' confirms that you have processed and understood the information."
+    },
+    {
+      "id": "s1_04",
+      "scenario": "Your peer asks if an urgent report is finalized and ready to submit.",
+      "hindi": "यह बिल्कुल सही है।",
+      "roman": "Yeh bilkul sahi hai.",
+      "meaning": "This is absolutely correct.",
+      "options": [
+        "This is absolutely correct and confirmed.",
+        "Maybe it will rain tomorrow.",
+        "Who is handling this task?",
+        "I am from Mumbai."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Bilkul sahi hai' validates that data or work is completely correct."
+    },
+    {
+      "id": "s1_05",
+      "scenario": "You are making a polite request to a senior colleague who is speaking too quickly during a presentation.",
+      "hindi": "कृपया थोड़ा धीरे बोलिए।",
+      "roman": "Kripya thoda dheere boliye.",
+      "meaning": "Please speak a little slowly.",
+      "options": [
+        "Asking them to speak faster so you can leave.",
+        "Politely asking them to speak a little slower for clarity.",
+        "Telling them to stop talking immediately.",
+        "Complimenting their presentation style."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Kripya' (Please) with 'thoda dheere boliye' (speak a little slowly) is a polite request for pace reduction."
+    },
+    {
+      "id": "s1_06",
+      "scenario": "A coworker apologizes to you for a minor mistake on a draft document.",
+      "hindi": "कोई बात नहीं, चिंता मत कीजिए।",
+      "roman": "Koi baat nahin, chinta mat kijiye.",
+      "meaning": "No problem, do not worry.",
+      "options": [
+        "Expressing anger over the mistake.",
+        "Reassuring them politely that it's no problem and not to worry.",
+        "Asking them to redo the entire project by tonight.",
+        "Telling them that you don't know how to fix it."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Koi baat nahin' (No problem) + 'chinta mat kijiye' (don't worry) is an empathetic reassurance."
+    },
+    {
+      "id": "s1_07",
+      "scenario": "You are introduced to a new team member at work for the first time.",
+      "hindi": "आपसे मिलकर बहुत खुशी हुई।",
+      "roman": "Aapse milkar bahut khushi hui.",
+      "meaning": "Very pleased to meet you.",
+      "options": [
+        "Asking what time the meeting finishes.",
+        "Expressing polite pleasure upon meeting someone new.",
+        "Telling them that you are leaving the office.",
+        "Asking for their personal phone number."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Aapse milkar bahut khushi hui' translates directly to 'Very pleased to meet you'."
+    },
+    {
+      "id": "s1_08",
+      "scenario": "You are asking a coworker about the scheduled timing of an upcoming team sync.",
+      "hindi": "यह मीटिंग कब है?",
+      "roman": "Yeh meeting kab hai?",
+      "meaning": "When is this meeting?",
+      "options": [
+        "Asking for the location of the meeting room.",
+        "Inquiring about the scheduled time of the meeting.",
+        "Asking who will be attending the meeting.",
+        "Canceling the meeting altogether."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Kab' means 'When', making this an inquiry about time."
+    },
+    {
+      "id": "s1_09",
+      "scenario": "You are leaving the office for the day and saying goodbye to your teammates.",
+      "hindi": "अलविदा, कल फिर मिलेंगे।",
+      "roman": "Alvida, kal phir milenge.",
+      "meaning": "Goodbye, see you again tomorrow.",
+      "options": [
+        "Greeting them good morning.",
+        "Saying goodbye and looking forward to seeing them tomorrow.",
+        "Asking them to join you for lunch right now.",
+        "Apologizing for leaving work early."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Alvida' (Goodbye) + 'kal phir milenge' (see you again tomorrow) is the standard end-of-day sign-off."
+    },
+    {
+      "id": "s1_10",
+      "scenario": "A manager asks if you can take responsibility for an urgent client task.",
+      "hindi": "ज़रूर, मैं अभी करता हूँ।",
+      "roman": "Zaroor, main abhi karta hoon.",
+      "meaning": "Sure, I am doing it right now.",
+      "options": [
+        "Refusing the task due to lack of time.",
+        "Confidently accepting the task and committing to do it immediately.",
+        "Asking someone else to take over the work.",
+        "Stating that you don't understand the task."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Zaroor' (Sure) combined with 'main abhi karta hoon' shows prompt willingness to assist."
+    },
+        {
+      "id": "s1_11",
+      "scenario": "You walk into a local store and want to ask the price of a fruit box.",
+      "hindi": "इसकी कीमत कितनी है?",
+      "roman": "Iski keemat kitni hai?",
+      "meaning": "How much does this cost?",
+      "options": [
+        "Asking for directions to the nearest hospital.",
+        "Inquiring about the price of an item.",
+        "Complaining about bad quality produce.",
+        "Asking the store owner for their name."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Kitni hai' combined with 'keemat' is used to ask for the price or cost of an item."
+    },
+    {
+      "id": "s1_12",
+      "scenario": "You are boarding an office cab and want to tell the driver your destination city area.",
+      "hindi": "मुझे कनाट प्लेस जाना है।",
+      "roman": "Mujhe Connaught Place jana hai.",
+      "meaning": "I want to go to Connaught Place.",
+      "options": [
+        "Telling the driver you want to get down immediately.",
+        "Stating your intended destination location to the driver.",
+        "Asking the driver how much money they make.",
+        "Complaining about heavy traffic jams."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Mujhe [Location] jana hai' is the standard way to declare your destination to transport drivers."
+    },
+    {
+      "id": "s1_13",
+      "scenario": "A friend asks if you want to grab a cup of coffee together after office hours.",
+      "hindi": "हाँ, ज़रूर चलें।",
+      "roman": "Haan, zaroor chalein.",
+      "meaning": "Yes, let's definitely go.",
+      "options": [
+        "Politely rejecting the invitation to stay home.",
+        "Enthusiastically accepting an invitation to go somewhere.",
+        "Asking where the coffee shop is located.",
+        "Saying that you hate drinking coffee."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Haan, zaroor' shows strong agreement and enthusiasm for a plan or invitation."
+    },
+    {
+      "id": "s1_14",
+      "scenario": "You are standing at a busy intersection and trying to find the nearest metro station.",
+      "hindi": "पास में मेट्रो स्टेशन कहाँ है?",
+      "roman": "Paas mein metro station kahan hai?",
+      "meaning": "Where is the nearby metro station?",
+      "options": [
+        "Asking for the time of the next train.",
+        "Inquiring about the location of the nearest metro station.",
+        "Complaining about closed station gates.",
+        "Buying a token ticket from an attendant."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Kahan hai' asks for location, and 'paas mein' specifies proximity ('nearby')."
+    },
+    {
+      "id": "s1_15",
+      "scenario": "You receive help from a stranger who helps you pick up your dropped documents.",
+      "hindi": "आपका बहुत-बहुत धन्यवाद।",
+      "roman": "Aapka bahut-bahut dhanyawad.",
+      "meaning": "Thank you very much.",
+      "options": [
+        "Expressing deep gratitude and thanks for someone's assistance.",
+        "Asking them to help you with more office work.",
+        "Apologizing for dropping your papers on the floor.",
+        "Saying goodbye before walking away."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Bahut-bahut dhanyawad' emphasizes a heartfelt and heavy expression of thanks."
+    },
+    {
+      "id": "s1_16",
+      "scenario": "You are explaining to a foreign colleague that you can speak both English and Hindi.",
+      "hindi": "मैं अंग्रेजी और हिंदी दोनों बोल सकता हूँ।",
+      "roman": "Main Angrezi aur Hindi dono bol sakta hoon.",
+      "meaning": "I can speak both English and Hindi.",
+      "options": [
+        "Saying you can only read books in English.",
+        "Stating your capability to speak both English and Hindi languages.",
+        "Asking someone else to translate your conversation.",
+        "Expressing difficulty in learning new languages."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Dono bol sakta hoon' explicitly states bilingual speaking capability."
+    },
+    {
+      "id": "s1_17",
+      "scenario": "You want to check if a specific restaurant table or seat is vacant for use.",
+      "hindi": "क्या यह सीट खाली है?",
+      "roman": "Kya yeh seat khaali hai?",
+      "meaning": "Is this seat empty?",
+      "options": [
+        "Asking if a seat or table is unoccupied before sitting down.",
+        "Complaining that the chair is broken.",
+        "Ordering food from the restaurant waiter.",
+        "Asking for the restaurant bill."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Khaali hai' means 'is it empty/vacant', which is polite to ask before occupying a space."
+    },
+    {
+      "id": "s1_18",
+      "scenario": "You want to order one cup of hot tea at a roadside tea stall.",
+      "hindi": "भैया, एक कप चाय देना।",
+      "roman": "Bhaiya, ek cup chai dena.",
+      "meaning": "Brother, please give one cup of tea.",
+      "options": [
+        "Ordering cold water from a vendor.",
+        "Placing an order for one cup of tea with a vendor.",
+        "Asking how much a cup of tea costs.",
+        "Complaining that the tea is too hot."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Ek cup chai dena' is the direct, standard way to place an order at a beverage stall."
+    },
+    {
+      "id": "s1_19",
+      "scenario": "You are letting your teammate know that you are stepping out for a brief lunch break.",
+      "hindi": "मैं थोड़ी देर में वापस आता हूँ।",
+      "roman": "Main thodi der mein wapas aata hoon.",
+      "meaning": "I will be back in a little while.",
+      "options": [
+        "Stating that you are leaving the office for the rest of the day.",
+        "Informing someone that you will return shortly after a brief absence.",
+        "Asking when your coworker is going out for lunch.",
+        "Telling them you forgot your laptop at home."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Thodi der mein wapas aata hoon' indicates a temporary absence with a quick return."
+    },
+    {
+      "id": "s1_20",
+      "scenario": "You want to ask a shopkeeper if they accept digital UPI payments.",
+      "hindi": "क्या आप ऑनलाइन पेमेंट लेते हैं?",
+      "roman": "Kya aap online payment lete hain?",
+      "meaning": "Do you accept online payments?",
+      "options": [
+        "Asking if they only accept cash money.",
+        "Inquiring if digital online payments or UPI are accepted by the vendor.",
+        "Asking for a discount on your purchase total.",
+        "Complaining that your internet network is down."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Online payment lete hain' checks whether digital transactions are supported at the store."
+    },
+    {
+      "id": "s1_21",
+      "scenario": "You want to politely ask a stranger if they know the correct time.",
+      "hindi": "माफ़ कीजिए, क्या समय हुआ है?",
+      "roman": "Maaf kijiye, kya samay hua hai?",
+      "meaning": "Excuse me, what time is it?",
+      "options": [
+        "Asking someone for the current time politely[cite: 12].",
+        "Asking for directions to the railway station[cite: 12].",
+        "Apologizing for arriving late to an appointment[cite: 12].",
+        "Inquiring about store operating hours[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Maaf kijiye' (Excuse me) combined with 'kya samay hua hai' is the polite way to ask for the time[cite: 12]."
+    },
+    {
+      "id": "s1_22",
+      "scenario": "You are sitting in a meeting room and want to ask if the window can be opened for fresh air.",
+      "hindi": "क्या मैं खिड़की खोल सकता हूँ?",
+      "roman": "Kya main khidki khol sakta hoon?",
+      "meaning": "Can I open the window?",
+      "options": [
+        "Asking for permission to close the office door[cite: 12].",
+        "Asking for permission to open the window[cite: 12].",
+        "Complaining about cold air coming inside[cite: 12].",
+        "Asking someone to clean the glass panes[cite: 12]."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Kya main... khol sakta hoon' is the standard way to request permission to open something like a window[cite: 12]."
+    },
+    {
+      "id": "s1_23",
+      "scenario": "You want to tell someone that you do not understand a particular point they made.",
+      "hindi": "मुझे यह बात समझ में नहीं आई।",
+      "roman": "Mujhe yeh baat samajh mein nahi aai.",
+      "meaning": "I did not understand this point.",
+      "options": [
+        "Stating clearly that you have fully understood the instruction[cite: 12].",
+        "Expressing that a specific point or statement is not clear to you[cite: 12].",
+        "Asking the speaker to repeat their full name[cite: 12].",
+        "Refusing to participate in the conversation[cite: 12]."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Samajh mein nahi aai' politely indicates confusion or lack of clarity regarding a topic[cite: 12]."
+    },
+    {
+      "id": "s1_24",
+      "scenario": "You want to ask a colleague to say a phrase again because you missed it.",
+      "hindi": "क्या आप इसे दोहरा सकते हैं?",
+      "roman": "Kya aap ise dohra sakte hain?",
+      "meaning": "Can you repeat this?",
+      "options": [
+        "Asking someone to write down an email address[cite: 12].",
+        "Politely requesting someone to repeat what they just said[cite: 12].",
+        "Telling someone to stop speaking immediately[cite: 12].",
+        "Asking for a translation of a document[cite: 12]."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Dohra sakte hain' translates directly to 'can you repeat/iterate this'[cite: 12]."
+    },
+    {
+      "id": "s1_25",
+      "scenario": "You are wishing your friend a speedy recovery after hearing they caught a fever.",
+      "hindi": "जल्दी से ठीक हो जाओ!",
+      "roman": "Jaldi se theek ho jao!",
+      "meaning": "Get well soon!",
+      "options": [
+        "Congratulating someone on their promotion[cite: 12].",
+        "Wishing someone a speedy recovery from an illness[cite: 12].",
+        "Telling someone to hurry up for a meeting[cite: 12].",
+        "Saying goodbye before going to sleep[cite: 12]."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Jaldi se theek ho jao' is the standard warm wish for someone who is sick[cite: 12]."
+    },
+    {
+      "id": "s1_26",
+      "scenario": "You want to ask someone where they live or which city they are from.",
+      "hindi": "आप कहाँ रहते हैं?",
+      "roman": "Aap kahan rehte hain?",
+      "meaning": "Where do you live?",
+      "options": [
+        "Inquiring about someone's residential city or location[cite: 12].",
+        "Asking for directions to a restaurant[cite: 12].",
+        "Asking someone where they left their car keys[cite: 12].",
+        "Inquiring about office seating arrangements[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Kahan rehte hain' asks directly about where a person resides[cite: 12]."
+    },
+    {
+      "id": "s1_27",
+      "scenario": "You want to express that you are feeling very happy today.",
+      "hindi": "आज मैं बहुत खुश हूँ।",
+      "roman": "Aaj main bahut khush hoon.",
+      "meaning": "Today I am very happy.",
+      "options": [
+        "Stating that you are feeling tired and sleepy[cite: 12].",
+        "Expressing a joyful and happy mood for the day[cite: 12].",
+        "Complaining about bad weather conditions[cite: 12].",
+        "Expressing frustration over delayed work[cite: 12]."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Bahut khush hoon' clearly communicates a state of happiness[cite: 12]."
+    },
+    {
+      "id": "s1_28",
+      "scenario": "You want to ask a friend about their family members and how everyone is doing.",
+      "hindi": "घर पर सब कैसे हैं?",
+      "roman": "Ghar par sab kaise hain?",
+      "meaning": "How is everyone at home?",
+      "options": [
+        "Asking about the well-being of family members at home[cite: 12].",
+        "Inquiring about household grocery expenses[cite: 12].",
+        "Asking if anyone is home right now[cite: 12].",
+        "Asking for directions to a family member's office[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Ghar par sab kaise hain' is a customary polite inquiry about family health and well-being[cite: 12]."
+    },
+    {
+      "id": "s1_29",
+      "scenario": "You want to let someone know that you will call them later in the evening.",
+      "hindi": "मैं आपको बाद में कॉल करता हूँ।",
+      "roman": "Main aapko baad mein call karta hoon.",
+      "meaning": "I will call you later.",
+      "options": [
+        "Telling someone you are calling them right now[cite: 12].",
+        "Informing someone that you will initiate a phone call later[cite: 12].",
+        "Asking someone to delete your phone number[cite: 12].",
+        "Complaining about poor mobile phone network signals[cite: 12]."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Baad mein call karta hoon' communicates an intention to connect at a later time[cite: 12]."
+    },
+    {
+      "id": "s1_30",
+      "scenario": "You want to ask a shopkeeper if they have a specific item in stock.",
+      "hindi": "क्या यह सामान मिल जाएगा?",
+      "roman": "Kya yeh saaman mil jayega?",
+      "meaning": "Will this item be available?",
+      "options": [
+        "Asking if a particular item or product is available in the store[cite: 12].",
+        "Asking for a refund on a broken product[cite: 12].",
+        "Inquiring about store opening timings[cite: 12].",
+        "Asking the price of a delivered parcel[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Saaman mil jayega' checks product availability at a shop[cite: 12]."
+    },
+    {
+      "id": "s1_31",
+      "scenario": "You want to ask someone if they need any help with their heavy bags.",
+      "hindi": "क्या मैं आपकी मदद कर सकता हूँ?",
+      "roman": "Kya main aapki madad kar sakta hoon?",
+      "meaning": "Can I help you?",
+      "options": [
+        "Asking someone if they require assistance or help[cite: 12].",
+        "Asking someone to help you carry your own luggage[cite: 12].",
+        "Refusing help offered by a colleague[cite: 12].",
+        "Asking for directions to the help desk[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Madad kar sakta hoon' is the standard polite offer to assist someone[cite: 12]."
+    },
+    {
+      "id": "s1_32",
+      "scenario": "You want to express that you are extremely busy with work today.",
+      "hindi": "आज मैं बहुत व्यस्त हूँ।",
+      "roman": "Aaj main bahut vyast hoon.",
+      "meaning": "Today I am very busy.",
+      "options": [
+        "Stating that you have a completely free day[cite: 12].",
+        "Informing someone that you are currently very busy with tasks[cite: 12].",
+        "Asking someone to keep you busy with work[cite: 12].",
+        "Complaining about boredom at the office[cite: 12]."
+      ],
+      "correct": 1,
+      "explanation": "Correct! 'Bahut vyast hoon' means 'I am very busy'[cite: 12]."
+    },
+    {
+      "id": "s1_33",
+      "scenario": "You want to ask a friend what plans they have for the upcoming weekend.",
+      "hindi": "इस weekend क्या प्लान है?",
+      "roman": "Is weekend kya plan hai?",
+      "meaning": "What is the plan for this weekend?",
+      "options": [
+        "Asking about someone's schedule or plans for the weekend[cite: 12].",
+        "Talking about what happened last weekend[cite: 12].",
+        "Asking for office holiday notifications[cite: 12].",
+        "Canceling a weekend movie trip[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Kya plan hai' combined with 'weekend' inquires about upcoming leisure activities[cite: 12]."
+    },
+    {
+      "id": "s1_34",
+      "scenario": "You want to suggest to your friend that you should meet soon.",
+      "hindi": "हमें जल्द ही मिलना चाहिए।",
+      "roman": "Humein jald hi milna chahiye.",
+      "meaning": "We should meet soon.",
+      "options": [
+        "Suggesting that you and someone should catch up or meet soon[cite: 12].",
+        "Stating that you never want to see someone again[cite: 12].",
+        "Asking someone why they are avoiding you[cite: 12].",
+        "Saying goodbye at the airport terminal[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Jald hi milna chahiye' expresses a desire to meet up in the near future[cite: 12]."
+    },
+    {
+      "id": "s1_35",
+      "scenario": "You want to tell someone to take care of themselves as you part ways.",
+      "hindi": "अपना ख्याल रखना।",
+      "roman": "Apna khyal rakhna.",
+      "meaning": "Take care of yourself.",
+      "options": [
+        "Telling someone to take good care of themselves[cite: 12].",
+        "Asking someone to look after your belongings[cite: 12].",
+        "Reminding someone to pay their medical bills[cite: 12].",
+        "Complaining about poor health conditions[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Apna khyal rakhna' is a warm parting phrase meaning 'take care'[cite: 12]."
+    },
+    {
+      "id": "s1_36",
+      "scenario": "You want to ask someone if they like drinking tea or coffee.",
+      "hindi": "आपको चाय पसंद है या कॉफ़ी?",
+      "roman": "Aapko chai pasand hai ya coffee?",
+      "meaning": "Do you like tea or coffee?",
+      "options": [
+        "Asking someone to choose between tea or coffee preferences[cite: 12].",
+        "Telling someone that you hate both tea and coffee[cite: 12].",
+        "Ordering beverages for a business meeting[cite: 12].",
+        "Asking how to brew coffee beans[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Pasand hai ya coffee' asks about beverage preferences[cite: 12]."
+    },
+    {
+      "id": "s1_37",
+      "scenario": "You want to tell someone that you don't know the answer to their question.",
+      "hindi": "मुझे इसके बारे में नहीं पता।",
+      "roman": "Mujhe iske bare mein nahi pata.",
+      "meaning": "I don't know about this.",
+      "options": [
+        "Stating clearly that you have no information or knowledge about a topic[cite: 12].",
+        "Explaining a complex topic in detail[cite: 12].",
+        "Asking someone to teach you something new[cite: 12].",
+        "Denying involvement in a mistake[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Nahi pata' indicates a lack of awareness or knowledge about a matter[cite: 12]."
+    },
+    {
+      "id": "s1_38",
+      "scenario": "You want to wish someone good luck before they go into an interview.",
+      "hindi": "आपको शुभकामनाएँ!",
+      "roman": "Aapko shubhkaamnaayein!",
+      "meaning": "Best wishes to you!",
+      "options": [
+        "Offering best wishes and good luck for an upcoming endeavor[cite: 12].",
+        "Congratulating someone after winning a lottery[cite: 12].",
+        "Saying happy birthday to a colleague[cite: 12].",
+        "Expressing condolences for a loss[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Shubhkaamnaayein' translates directly to good wishes[cite: 12]."
+    },
+    {
+      "id": "s1_39",
+      "scenario": "You want to ask someone how their day at work went.",
+      "hindi": "आपका दिन कैसा रहा?",
+      "roman": "Aapka din kaisa raha?",
+      "meaning": "How was your day?",
+      "options": [
+        "Inquiring how someone's day went or progressed[cite: 12].",
+        "Asking what time the workday ends[cite: 12].",
+        "Complaining about a long working day[cite: 12].",
+        "Asking about tomorrow's office schedule[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Din kaisa raha' is a friendly way to ask about someone's daily experience[cite: 12]."
+    },
+    {
+      "id": "s1_40",
+      "scenario": "You want to tell someone that you completely agree with their opinion.",
+      "hindi": "मैं आपसे सहमत हूँ।",
+      "roman": "Main aapse sehmat hoon.",
+      "meaning": "I agree with you.",
+      "options": [
+        "Expressing full agreement with someone's point or opinion[cite: 12].",
+        "Stating a strong disagreement during a debate[cite: 12].",
+        "Asking someone to change their mind[cite: 12].",
+        "Telling someone that you don't understand their view[cite: 12]."
+      ],
+      "correct": 0,
+      "explanation": "Correct! 'Sehmat hoon' means 'I am in agreement with you'[cite: 12]."
+    }
+  ]
+}

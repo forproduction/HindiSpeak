@@ -164,7 +164,6 @@ footer {
 /* =========================================
    Lessons Page Styles
    ========================================= */
-
 .lesson-sidebar {
     background: #ffffff;
     border: 1px solid #e2e8f0;
@@ -173,6 +172,43 @@ footer {
     position: sticky;
     top: 90px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+    /* Removed max-height and overflow from here so border/header stay clean */
+}
+
+/* New inner scrollable container */
+.lesson-scroll-container {
+    max-height: calc(100vh - 180px);
+    overflow-y: auto;
+    padding-right: 6px;
+    margin-right: -6px; /* Compensates for padding to keep alignment sharp */
+}
+
+/* Custom Webkit Scrollbar Styling */
+.lesson-scroll-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.lesson-scroll-container::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 4px 0;
+}
+
+.lesson-scroll-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.lesson-scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 991px) {
+    .lesson-sidebar {
+        position: static;
+    }
+    .lesson-scroll-container {
+        max-height: none; /* Disables scroll constraint on mobile viewports */
+    }
 }
 
 .lesson-list-item {
@@ -311,6 +347,7 @@ footer {
 @media (max-width: 991px) {
     .lesson-sidebar {
         position: static;
+        max-height: none; /* Removes fixed max-height restriction on small screens/mobile layout */
     }
 }
 
@@ -443,4 +480,49 @@ footer {
 .notepad-body textarea:focus {
     border-color: #6366f1;
     box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* For Notepad */
+
+/* Vibrant Electric Cyan-Blue Floating Notepad Button */
+.hindispeak-notepad-toggle {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1050;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%); /* Bright Sky to Electric Blue gradient */
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 6px 20px rgba(14, 165, 233, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.35rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: notepad-pulse 2s infinite;
+}
+
+/* Hover State */
+.hindispeak-notepad-toggle:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.7);
+    background: linear-gradient(135deg, #38bdf8 0%, #1d4ed8 100%);
+    color: #ffffff;
+}
+
+/* Glowing Pulse Animation */
+@keyframes notepad-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.6);
+    }
+    70% {
+        box-shadow: 0 0 0 14px rgba(14, 165, 233, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(14, 165, 233, 0);
+    }
 }

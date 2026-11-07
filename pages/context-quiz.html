@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Context Trainer | HindiSpeak</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="bg-light">
+
+    <!-- Navigation Bar -->
+    <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm border-bottom border-secondary border-opacity-25 py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4 d-flex align-items-center gap-2" href="../index.html">
+                <span
+                    class="brand-icon d-inline-flex align-items-center justify-content-center rounded-3 bg-gradient text-white"
+                    style="width: 36px; height: 36px; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);">
+                    <i class="bi bi-translate"></i>
+                </span>
+                <span class="brand-text">Hindi<span class="text-warning">Speak</span></span>
+            </a>
+            <!-- Navbar Placeholder -->
+            <div id="navbar-placeholder"></div>
+
+            <a class="btn btn-outline-light btn-sm rounded-pill px-3 fw-medium d-inline-flex align-items-center gap-2"
+                href="../index.html">
+                <i class="bi bi-house-door"></i> Home
+            </a>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+
+        <!-- Header -->
+        <div class="text-center mb-4 p-4 rounded-4 bg-white shadow-sm border position-relative overflow-hidden">
+            <span
+                class="badge bg-primary-subtle text-primary fw-bold px-3 py-1 rounded-pill text-uppercase tracking-wider mb-2">Situational
+                Intelligence</span>
+            <h2 class="fw-bold fs-2 text-dark mb-1">Context & Pragmatics Learning</h2>
+            <p class="text-muted mb-0">Choose a training mode to test your situational awareness and dialogue
+                comprehension.</p>
+        </div>
+
+        <!-- Section Switcher Tabs -->
+        <div class="d-flex justify-content-center gap-3 mb-4">
+            <button id="tabBtn1" class="btn btn-primary rounded-pill px-4 py-2 fw-bold shadow-sm"
+                onclick="switchSection(1)">
+                <i class="bi bi-lightbulb-fill me-2"></i> Section 1: Scenario Matcher
+            </button>
+            <button id="tabBtn2" class="btn btn-outline-secondary rounded-pill px-4 py-2 fw-bold shadow-sm"
+                onclick="switchSection(2)">
+                <i class="bi bi-chat-dots-fill me-2"></i> Section 2: Dialogue Analysis
+            </button>
+        </div>
+
+        <!-- ================= SECTION 1: SCENARIO MATCHER ================= -->
+        <div id="section1Container" class="card p-4 p-md-5 rounded-4 shadow-sm border bg-white mx-auto"
+            style="max-width: 750px;">
+            <div class="d-flex align-items-center justify-content-between mb-4 pb-3 border-bottom">
+                <h5 class="fw-bold mb-0 text-dark d-flex align-items-center gap-2">
+                    <i class="bi bi-lightbulb-fill text-warning"></i> Scenario Test
+                </h5>
+                <div class="d-flex align-items-center gap-2">
+                    <button id="bookmarkBtn1" class="btn btn-outline-warning btn-sm rounded-pill px-3 py-1 fw-semibold d-flex align-items-center gap-1" onclick="trainer1.toggleBookmark()" title="Next time, questions will open from this bookmarked spot.">
+                        <i class="bi bi-bookmark-star"></i> <span id="bookmarkLabel1">Bookmark</span>
+                    </button>
+                    <span id="quizCounter1"
+                        class="badge bg-secondary-subtle text-dark fw-semibold px-3 py-2 rounded-pill">Loading...</span>
+                </div>
+            </div>
+
+            <div class="p-3 rounded-4 bg-dark text-white mb-4">
+                <span class="small text-warning text-uppercase tracking-wider fw-bold d-block mb-1">Real-World
+                    Scenario</span>
+                <p id="scenarioText1" class="mb-0 fs-6 fw-medium">Loading...</p>
+            </div>
+
+            <div class="p-4 rounded-4 bg-light border mb-4 text-center">
+                <span class="small text-muted text-uppercase tracking-wider d-block mb-2 fw-semibold">Spoken
+                    Expression</span>
+                <h3 id="hindiPrompt1" class="fw-bold fs-2 text-dark mb-2">...</h3>
+                <p id="romanPrompt1" class="text-primary fw-semibold mb-3 fs-5">...</p>
+                <button
+                    class="btn btn-outline-dark btn-sm rounded-pill px-3 py-2 fw-medium shadow-sm d-inline-flex align-items-center gap-2"
+                    onclick="trainer1.playAudio()">
+                    <i class="bi bi-volume-up-fill text-primary fs-6"></i> Play Audio
+                </button>
+            </div>
+
+            <h6 class="fw-bold text-dark mb-3">What is the correct contextual meaning or usage?</h6>
+            <div id="optionsContainer1" class="d-flex flex-column gap-3 mb-4"></div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center pt-3 border-top gap-3">
+                <div id="quizFeedback1" class="fw-semibold text-secondary small text-center text-sm-start">Select an option above.</div>
+                <div class="d-flex align-items-center gap-2 flex-wrap justify-content-center">
+                    <!-- Previous Question Button -->
+                    <button id="prevBtn1" class="btn btn-outline-secondary rounded-pill px-3 py-2 fw-medium shadow-sm"
+                        onclick="trainer1.prevQuestion()">
+                        <i class="bi bi-arrow-left me-1"></i> Prev
+                    </button>
+                    <!-- Skip / Change Question Button -->
+                    <button id="skipBtn1" class="btn btn-outline-secondary rounded-pill px-3 py-2 fw-medium shadow-sm"
+                        onclick="trainer1.nextQuestion()">
+                        Change Question <i class="bi bi-arrow-repeat ms-1"></i>
+                    </button>
+                    <!-- Next Scenario Button -->
+                    <button id="nextBtn1" class="btn btn-primary rounded-pill px-4 py-2 fw-bold shadow-sm d-none"
+                        onclick="trainer1.nextQuestion()">
+                        Next <i class="bi bi-arrow-right ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= SECTION 2: DIALOGUE ANALYSIS ================= -->
+        <div id="section2Container" class="card p-4 p-md-5 rounded-4 shadow-sm border bg-white mx-auto d-none"
+            style="max-width: 780px;">
+            <div class="d-flex align-items-center justify-content-between mb-4 pb-3 border-bottom">
+                <h5 class="fw-bold mb-0 text-dark d-flex align-items-center gap-2">
+                    <i class="bi bi-chat-quote-fill text-primary"></i> Dialogue Context Analysis
+                </h5>
+                <div class="d-flex align-items-center gap-2">
+                    <button id="bookmarkBtn2" class="btn btn-outline-warning btn-sm rounded-pill px-3 py-1 fw-semibold d-flex align-items-center gap-1" onclick="trainer2.toggleBookmark()" title="Next time, questions will open from this bookmarked spot.">
+                        <i class="bi bi-bookmark-star"></i> <span id="bookmarkLabel2">Bookmark</span>
+                    </button>
+                    <span id="quizCounter2"
+                        class="badge bg-primary-subtle text-primary fw-semibold px-3 py-2 rounded-pill">Loading...</span>
+                </div>
+            </div>
+
+            <!-- Sleek Interactive Chat Interface -->
+            <div class="p-4 rounded-4 bg-dark-subtle border mb-4 shadow-inner" style="background-color: #f8fafc;">
+                <div class="d-flex align-items-center justify-content-between mb-3 border-bottom pb-2">
+                    <span class="small text-secondary text-uppercase tracking-wider fw-bold">
+                        <i class="bi bi-chat-left-text me-1"></i> Conversation Transcript
+                    </span>
+                    <!-- <button
+                        class="btn btn-sm btn-outline-primary rounded-pill px-3 py-1 fw-semibold d-inline-flex align-items-center gap-1"
+                        onclick="trainer2.playAllAudio()">
+                        <i class="bi bi-play-circle-fill"></i> Read Conversation
+                    </button> -->
+                </div>
+
+                <div id="dialogueBox" class="d-flex flex-column gap-3">
+                    <!-- Dynamic chat bubbles injected here -->
+                </div>
+            </div>
+
+            <h6 class="fw-bold text-dark mb-3"><i class="bi bi-question-circle me-1 text-primary"></i> Based on this
+                conversation, what is the core context or conclusion?</h6>
+            <div id="optionsContainer2" class="d-flex flex-column gap-3 mb-4">
+                <!-- Dynamically injected options -->
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center pt-3 border-top gap-3">
+                <div id="quizFeedback2" class="fw-semibold text-secondary small text-center text-sm-start">Select an option above.</div>
+                <div class="d-flex align-items-center gap-2 flex-wrap justify-content-center">
+                    <!-- Previous Dialogue Button -->
+                    <button id="prevBtn2" class="btn btn-outline-secondary rounded-pill px-3 py-2 fw-medium shadow-sm"
+                        onclick="trainer2.prevQuestion()">
+                        <i class="bi bi-arrow-left me-1"></i> Prev
+                    </button>
+                    <!-- Skip / Change Dialogue Button -->
+                    <button id="skipBtn2" class="btn btn-outline-secondary rounded-pill px-3 py-2 fw-medium shadow-sm"
+                        onclick="trainer2.nextQuestion()">
+                        Change <i class="bi bi-arrow-repeat ms-1"></i>
+                    </button>
+                    <!-- Next Dialogue Button -->
+                    <button id="nextBtn2" class="btn btn-primary rounded-pill px-4 py-2 fw-bold shadow-sm d-none"
+                        onclick="trainer2.nextQuestion()">
+                        Next <i class="bi bi-arrow-right ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white-50 border-top border-secondary border-opacity-25 mt-5">
+        <div class="container">
+            <p class="mb-0 small">© 2026 HindiSpeak | Built with care for friends to learn & grow together <span
+                    class="opacity-100 text-white">🚀📈</span></p>
+        </div>
+    </footer>
+
+    <!-- Shared Notepad Script -->
+    <script src="../js/notepad.js"></script>
+
+    <script>
+        fetch('../pages/customised-navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+                const scripts = document.getElementById('navbar-placeholder').querySelectorAll('script');
+                scripts.forEach(script => {
+                    const newScript = document.createElement('script');
+                    newScript.textContent = script.textContent;
+                    document.body.appendChild(newScript);
+                });
+            });
+    </script>
+
+    <!-- Section Switching Logic -->
+    <script>
+        function switchSection(sectionNumber) {
+            const sec1 = document.getElementById("section1Container");
+            const sec2 = document.getElementById("section2Container");
+            const btn1 = document.getElementById("tabBtn1");
+            const btn2 = document.getElementById("tabBtn2");
+
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+
+            if (sectionNumber === 1) {
+                sec1.classList.remove("d-none");
+                sec2.classList.add("d-none");
+                btn1.className = "btn btn-primary rounded-pill px-4 py-2 fw-bold shadow-sm";
+                btn2.className = "btn btn-outline-secondary rounded-pill px-4 py-2 fw-bold shadow-sm";
+            } else {
+                sec2.classList.remove("d-none");
+                sec1.classList.add("d-none");
+                btn2.className = "btn btn-primary rounded-pill px-4 py-2 fw-bold shadow-sm";
+                btn1.className = "btn btn-outline-secondary rounded-pill px-4 py-2 fw-bold shadow-sm";
+            }
+        }
+    </script>
+
+    <!-- Main Application Script with Bookmark & Resume Functionality -->
+    <script>
+        const BOOKMARK_KEY_SEC1 = "hindiSpeakCompletedLessons_1";
+        const BOOKMARK_KEY_SEC2 = "hindiSpeakCompletedLessons_2";
+
+        // --- SECTION 1 TRAINER: Scenario Context Matcher ---
+        class ScenarioTrainer {
+            constructor() {
+                this.questions = [];
+                this.currentIndex = 0;
+                this.initTrainer();
+            }
+
+            async initTrainer() {
+                try {
+                    const response = await fetch('../data/context/scenarios.json');
+                    if (!response.ok) throw new Error("Failed to load scenarios.json");
+                    const data = await response.json();
+                    this.questions = data.questions || [];
+
+                    if (this.questions.length > 0) {
+                        // Check for saved bookmark index
+                        const savedBookmark = localStorage.getItem(BOOKMARK_KEY_SEC1);
+                        if (savedBookmark !== null && !isNaN(savedBookmark)) {
+                            const index = parseInt(savedBookmark, 10);
+                            if (index >= 0 && index < this.questions.length) {
+                                this.currentIndex = index;
+                            }
+                        }
+                        this.loadQuestion();
+                    } else {
+                        document.getElementById("scenarioText1").textContent = "No scenarios found in data file.";
+                    }
+                } catch (error) {
+                    console.error("Error loading scenarios:", error);
+                    document.getElementById("scenarioText1").textContent = "Error loading scenario dataset.";
+                }
+            }
+
+            loadQuestion() {
+                if (this.questions.length === 0) return;
+                const q = this.questions[this.currentIndex];
+
+                document.getElementById("quizCounter1").textContent = `Question ${this.currentIndex + 1} of ${this.questions.length}`;
+                document.getElementById("scenarioText1").textContent = q.scenario;
+                document.getElementById("hindiPrompt1").textContent = q.hindi;
+                document.getElementById("romanPrompt1").textContent = q.roman;
+                document.getElementById("quizFeedback1").textContent = "Select the most accurate situational context.";
+                document.getElementById("quizFeedback1").className = "fw-semibold text-secondary small text-center text-sm-start";
+
+                this.updateBookmarkUI();
+
+                // Toggle Previous button visibility/disabled state
+                const prevBtn = document.getElementById("prevBtn1");
+                if (this.currentIndex === 0) {
+                    prevBtn.disabled = true;
+                    prevBtn.classList.add("disabled", "opacity-50");
+                } else {
+                    prevBtn.disabled = false;
+                    prevBtn.classList.remove("disabled", "opacity-50");
+                }
+
+                // Reset buttons for new question
+                document.getElementById("nextBtn1").classList.add("d-none");
+                document.getElementById("skipBtn1").classList.remove("d-none");
+
+                const container = document.getElementById("optionsContainer1");
+                container.innerHTML = "";
+
+                q.options.forEach((opt, index) => {
+                    const btn = document.createElement("button");
+                    btn.className = "btn btn-outline-secondary text-start p-3 rounded-3 fw-medium shadow-sm";
+                    btn.textContent = opt;
+                    btn.onclick = () => this.selectOption(index, btn);
+                    container.appendChild(btn);
+                });
+            }
+
+            toggleBookmark() {
+                const savedBookmark = localStorage.getItem(BOOKMARK_KEY_SEC1);
+                if (savedBookmark !== null && parseInt(savedBookmark, 10) === this.currentIndex) {
+                    localStorage.removeItem(BOOKMARK_KEY_SEC1);
+                } else {
+                    localStorage.setItem(BOOKMARK_KEY_SEC1, this.currentIndex);
+                    Swal.fire({
+                        title: 'Bookmarked!',
+                        text: `Question ${this.currentIndex + 1} saved. Section 1 will open from here next time.`,
+                        icon: 'success',
+                        timer: 1500,
+                        showConfirmButton: false
+                    });
+                }
+                this.updateBookmarkUI();
+            }
+
+            updateBookmarkUI() {
+                const savedBookmark = localStorage.getItem(BOOKMARK_KEY_SEC1);
+                const btn = document.getElementById("bookmarkBtn1");
+                const label = document.getElementById("bookmarkLabel1");
+
+                if (savedBookmark !== null && parseInt(savedBookmark, 10) === this.currentIndex) {
+                    btn.className = "btn btn-warning btn-sm rounded-pill px-3 py-1 fw-bold d-flex align-items-center gap-1 text-dark";
+                    btn.innerHTML = `<i class="bi bi-star-fill"></i> Bookmarked`;
+                    btn.title = "Currently bookmarked! Next time, questions will open from this spot.";
+                } else {
+                    btn.className = "btn btn-outline-warning btn-sm rounded-pill px-3 py-1 fw-semibold d-flex align-items-center gap-1";
+                    btn.innerHTML = `<i class="bi bi-star"></i> Bookmark`;
+                    btn.title = "Next time, questions will open from this bookmarked spot.";
+                }
+            }
+
+            playAudio() {
+                if (!('speechSynthesis' in window) || this.questions.length === 0) return;
+                window.speechSynthesis.cancel();
+                const text = this.questions[this.currentIndex].hindi;
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'hi-IN';
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            }
+
+            selectOption(selectedIndex, buttonElement) {
+                const q = this.questions[this.currentIndex];
+                const allButtons = document.querySelectorAll("#optionsContainer1 button");
+                allButtons.forEach(b => b.disabled = true);
+
+                const feedbackEl = document.getElementById("quizFeedback1");
+
+                if (selectedIndex === q.correct) {
+                    buttonElement.classList.remove("btn-outline-secondary");
+                    buttonElement.classList.add("btn-success", "text-white");
+                    feedbackEl.textContent = q.explanation;
+                    feedbackEl.className = "fw-bold text-success small text-center text-sm-start";
+                } else {
+                    buttonElement.classList.remove("btn-outline-secondary");
+                    buttonElement.classList.add("btn-danger", "text-white");
+                    allButtons[q.correct].classList.remove("btn-outline-secondary");
+                    allButtons[q.correct].classList.add("btn-success", "text-white");
+                    feedbackEl.textContent = "Incorrect. The highlighted option is the correct context.";
+                    feedbackEl.className = "fw-bold text-danger small text-center text-sm-start";
+                }
+
+                document.getElementById("skipBtn1").classList.add("d-none");
+                document.getElementById("nextBtn1").classList.remove("d-none");
+            }
+
+            prevQuestion() {
+                if (this.currentIndex > 0) {
+                    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+                    this.currentIndex--;
+                    this.loadQuestion();
+                }
+            }
+
+            nextQuestion() {
+                if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+                this.currentIndex++;
+                if (this.currentIndex < this.questions.length) {
+                    this.loadQuestion();
+                } else {
+                    document.getElementById("section1Container").innerHTML = `
+                        <div class="text-center py-5">
+                            <div class="mb-3 text-success fs-1"><i class="bi bi-patch-check-fill"></i></div>
+                            <h3 class="fw-bold mb-2">Section 1 Completed!</h3>
+                            <p class="text-muted mb-4">You have mastered single expression contexts.</p>
+                            <button class="btn btn-primary rounded-pill px-5 py-2 fw-bold" onclick="switchSection(2)">Switch to Section 2</button>
+                        </div>
+                    `;
+                }
+            }
+        }
+
+
+        // --- SECTION 2 TRAINER: Dialogue Context Analysis ---
+        class DialogueTrainer {
+            constructor() {
+                this.dialogues = [];
+                this.currentIndex = 0;
+                this.initTrainer();
+            }
+
+            async initTrainer() {
+                try {
+                    const response = await fetch('../data/context/dialogues.json');
+                    if (!response.ok) throw new Error("Failed to load dialogues.json");
+                    const data = await response.json();
+                    this.dialogues = data.dialogues || [];
+
+                    if (this.dialogues.length > 0) {
+                        // Check for saved bookmark index
+                        const savedBookmark = localStorage.getItem(BOOKMARK_KEY_SEC2);
+                        if (savedBookmark !== null && !isNaN(savedBookmark)) {
+                            const index = parseInt(savedBookmark, 10);
+                            if (index >= 0 && index < this.dialogues.length) {
+                                this.currentIndex = index;
+                            }
+                        }
+                        this.loadDialogue();
+                    } else {
+                        document.getElementById("dialogueBox").innerHTML = "<p class='text-center text-muted'>No dialogues found in data file.</p>";
+                    }
+                } catch (error) {
+                    console.error("Error loading dialogues:", error);
+                    document.getElementById("dialogueBox").innerHTML = "<p class='text-center text-danger'>Error loading dialogue dataset.</p>";
+                }
+            }
+
+            loadDialogue() {
+                if (this.dialogues.length === 0) return;
+                const d = this.dialogues[this.currentIndex];
+
+                document.getElementById("quizCounter2").textContent = `Dialogue ${this.currentIndex + 1} of ${this.dialogues.length}`;
+                document.getElementById("quizFeedback2").textContent = "Analyze the conversation and choose the correct context.";
+                document.getElementById("quizFeedback2").className = "fw-semibold text-secondary small text-center text-sm-start";
+
+                this.updateBookmarkUI();
+
+                // Toggle Previous button visibility/disabled state
+                const prevBtn = document.getElementById("prevBtn2");
+                if (this.currentIndex === 0) {
+                    prevBtn.disabled = true;
+                    prevBtn.classList.add("disabled", "opacity-50");
+                } else {
+                    prevBtn.disabled = false;
+                    prevBtn.classList.remove("disabled", "opacity-50");
+                }
+
+                // Reset buttons for new dialogue
+                document.getElementById("nextBtn2").classList.add("d-none");
+                document.getElementById("skipBtn2").classList.remove("d-none");
+
+                // Render Chat Bubble Interface
+                const box = document.getElementById("dialogueBox");
+                box.innerHTML = "";
+
+                d.lines.forEach(line => {
+                    const isRight = line.side === "right";
+                    const bubbleWrapper = document.createElement("div");
+                    bubbleWrapper.className = `d-flex align-items-start gap-2 ${isRight ? 'flex-row-reverse' : ''}`;
+
+                    const avatar = document.createElement("div");
+                    avatar.className = `rounded-circle d-flex align-items-center justify-content-center fw-bold shadow-sm text-white ${line.avatarBg || 'bg-secondary'}`;
+                    avatar.style.width = "40px";
+                    avatar.style.height = "40px";
+                    avatar.style.flexShrink = "0";
+                    avatar.style.fontSize = "14px";
+                    avatar.textContent = line.speaker.substring(0, 2).toUpperCase();
+
+                    const content = document.createElement("div");
+                    content.className = `p-3 rounded-4 shadow-sm border ${isRight ? 'bg-primary text-white border-primary' : 'bg-white text-dark border-light-subtle'}`;
+                    content.style.maxWidth = "80%";
+
+                    content.innerHTML = `
+                        <div class="d-flex align-items-center justify-content-between mb-1 gap-3">
+                            <span class="fw-bold ${isRight ? 'text-warning' : 'text-primary'}" style="font-size: 0.85rem;">${line.speaker}</span>
+                            <i class="bi bi-volume-up-fill opacity-75" style="cursor: pointer;" onclick="trainer2.playSingleLine('${line.hindi.replace(/'/g, "\\'")}')"></i>
+                        </div>
+                        <p class="mb-1 fw-bold fs-6">${line.hindi}</p>
+                        <p class="mb-0 small ${isRight ? 'text-white-50' : 'text-muted'} fst-italic">${line.roman}</p>
+                    `;
+
+                    bubbleWrapper.appendChild(avatar);
+                    bubbleWrapper.appendChild(content);
+                    box.appendChild(bubbleWrapper);
+                });
+
+                // Render Options
+                const container = document.getElementById("optionsContainer2");
+                container.innerHTML = "";
+                d.options.forEach((opt, index) => {
+                    const btn = document.createElement("button");
+                    btn.className = "btn btn-outline-secondary text-start p-3 rounded-3 fw-medium shadow-sm";
+                    btn.textContent = opt;
+                    btn.onclick = () => this.selectOption(index, btn);
+                    container.appendChild(btn);
+                });
+            }
+
+            toggleBookmark() {
+                const savedBookmark = localStorage.getItem(BOOKMARK_KEY_SEC2);
+                if (savedBookmark !== null && parseInt(savedBookmark, 10) === this.currentIndex) {
+                    localStorage.removeItem(BOOKMARK_KEY_SEC2);
+                } else {
+                    localStorage.setItem(BOOKMARK_KEY_SEC2, this.currentIndex);
+                    Swal.fire({
+                        title: 'Bookmarked!',
+                        text: `Dialogue ${this.currentIndex + 1} saved. Section 2 will open from here next time.`,
+                        icon: 'success',
+                        timer: 1500,
+                        showConfirmButton: false
+                    });
+                }
+                this.updateBookmarkUI();
+            }
+
+            updateBookmarkUI() {
+                const savedBookmark = localStorage.getItem(BOOKMARK_KEY_SEC2);
+                const btn = document.getElementById("bookmarkBtn2");
+
+                if (savedBookmark !== null && parseInt(savedBookmark, 10) === this.currentIndex) {
+                    btn.className = "btn btn-warning btn-sm rounded-pill px-3 py-1 fw-bold d-flex align-items-center gap-1 text-dark";
+                    btn.innerHTML = `<i class="bi bi-star-fill"></i> Bookmarked`;
+                    btn.title = "Currently bookmarked! Next time, dialogues will open from this spot.";
+                } else {
+                    btn.className = "btn btn-outline-warning btn-sm rounded-pill px-3 py-1 fw-semibold d-flex align-items-center gap-1";
+                    btn.innerHTML = `<i class="bi bi-star"></i> Bookmark`;
+                    btn.title = "Next time, dialogues will open from this bookmarked spot.";
+                }
+            }
+
+            playSingleLine(text) {
+                if (!('speechSynthesis' in window)) return;
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'hi-IN';
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            }
+
+            playAllAudio() {
+                if (!('speechSynthesis' in window) || this.dialogues.length === 0) return;
+                window.speechSynthesis.cancel();
+                const lines = this.dialogues[this.currentIndex].lines;
+
+                lines.forEach((line) => {
+                    const utterance = new SpeechSynthesisUtterance(line.hindi);
+                    utterance.lang = 'hi-IN';
+                    utterance.rate = 0.85;
+                    window.speechSynthesis.speak(utterance);
+                });
+            }
+
+            selectOption(selectedIndex, buttonElement) {
+                const d = this.dialogues[this.currentIndex];
+                const allButtons = document.querySelectorAll("#optionsContainer2 button");
+                allButtons.forEach(b => b.disabled = true);
+
+                const feedbackEl = document.getElementById("quizFeedback2");
+
+                if (selectedIndex === d.correct) {
+                    buttonElement.classList.remove("btn-outline-secondary");
+                    buttonElement.classList.add("btn-success", "text-white");
+                    feedbackEl.textContent = d.explanation;
+                    feedbackEl.className = "fw-bold text-success small text-center text-sm-start";
+                } else {
+                    buttonElement.classList.remove("btn-outline-secondary");
+                    buttonElement.classList.add("btn-danger", "text-white");
+                    allButtons[d.correct].classList.remove("btn-outline-secondary");
+                    allButtons[d.correct].classList.add("btn-success", "text-white");
+                    feedbackEl.textContent = "Incorrect. The highlighted option is the correct context.";
+                    feedbackEl.className = "fw-bold text-danger small text-center text-sm-start";
+                }
+
+                document.getElementById("skipBtn2").classList.add("d-none");
+                document.getElementById("nextBtn2").classList.remove("d-none");
+            }
+
+            prevQuestion() {
+                if (this.currentIndex > 0) {
+                    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+                    this.currentIndex--;
+                    this.loadDialogue();
+                }
+            }
+
+            nextQuestion() {
+                if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+                this.currentIndex++;
+                if (this.currentIndex < this.dialogues.length) {
+                    this.loadDialogue();
+                } else {
+                    document.getElementById("section2Container").innerHTML = `
+                        <div class="text-center py-5">
+                            <div class="mb-3 text-success fs-1"><i class="bi bi-patch-check-fill"></i></div>
+                            <h3 class="fw-bold mb-2">Dialogue Analysis Completed!</h3>
+                            <p class="text-muted mb-4">You have successfully evaluated full Hindi conversation contexts.</p>
+                            <a href="../index.html" class="btn btn-primary rounded-pill px-5 py-2 fw-bold">Return Home</a>
+                        </div>
+                    `;
+                }
+            }
+        }
+
+        // Initialize trainers on page load
+        const trainer1 = new ScenarioTrainer();
+        const trainer2 = new DialogueTrainer();
+    </script>
+</body>
+
+</html>

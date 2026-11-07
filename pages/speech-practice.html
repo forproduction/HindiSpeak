@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spoken Practice | HindiSpeak</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom Project CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="bg-light">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm border-bottom border-secondary border-opacity-25 py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4 d-flex align-items-center gap-2" href="../index.html">
+                <span class="brand-icon d-inline-flex align-items-center justify-content-center rounded-3 bg-gradient text-white" style="width: 36px; height: 36px; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);">
+                    <i class="bi bi-translate"></i>
+                </span>
+                <span class="brand-text">Hindi<span class="text-warning">Speak</span></span>
+            </a>
+            <!-- Navbar Placeholder -->
+            <div id="navbar-placeholder"></div>
+            <a class="btn btn-outline-light btn-sm rounded-pill px-3 fw-medium d-inline-flex align-items-center gap-2" href="../index.html">
+                <i class="bi bi-house-door"></i> Home
+            </a>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+
+        <!-- Page Header (Progress Bar Removed) -->
+        <div class="mb-4 p-4 rounded-4 bg-white shadow-sm border text-center">
+            <span class="badge bg-danger-subtle text-danger fw-bold px-3 py-1 rounded-pill text-uppercase tracking-wider mb-2">Interactive Training</span>
+            <h2 class="fw-bold fs-3 mb-1 text-dark">Spoken Hindi Pronunciation Practice</h2>
+            <p class="text-muted mb-0">Listen to native audio, practice speaking sentences loaded directly from your lesson files, and test your accuracy.</p>
+        </div>
+
+        <!-- Practice Widget Card -->
+        <div class="card p-4 p-md-5 rounded-4 shadow-sm border bg-white mx-auto" style="max-width: 750px;">
+            <div class="d-flex align-items-center justify-content-between mb-4 pb-3 border-bottom">
+                <h5 class="fw-bold mb-0 text-dark d-flex align-items-center gap-2">
+                    <i class="bi bi-mic-fill text-danger"></i> Voice Verification
+                </h5>
+                <div class="d-flex align-items-center gap-2">
+                    <span id="completionBadge" class="badge bg-success-subtle text-success fw-semibold px-3 py-2 rounded-pill d-none">
+                        <i class="bi bi-check-circle-fill me-1"></i> Mastered
+                    </span>
+                    <span id="counterBadge" class="badge bg-primary-subtle text-primary fw-semibold px-3 py-2 rounded-pill">Loading sentences...</span>
+                </div>
+            </div>
+            
+            <p class="text-muted small mb-4">Click <strong>"Listen to Audio"</strong> to hear the correct pronunciation, then click <strong>"Start Speaking"</strong> to test your voice against the target sentence.</p>
+            <!-- Target Sentence Display Box -->
+            <div class="p-4 rounded-4 bg-light border mb-4 text-center">
+                <span class="small text-muted text-uppercase tracking-wider d-block mb-2 fw-semibold">Target Sentence</span>
+                <h3 id="targetHindi" class="fw-bold fs-2 text-dark mb-2">Loading...</h3>
+                <p id="targetRoman" class="text-primary fw-semibold mb-1 fs-5">---</p>
+                <p id="targetMeaning" class="text-secondary small fst-italic mb-3">Meaning: "---"</p>
+
+                <!-- System Pronunciation Audio Button -->
+                <button class="btn btn-outline-dark btn-sm rounded-pill px-3 py-2 fw-medium shadow-sm d-inline-flex align-items-center gap-2" onclick="trainer.speakTarget()">
+                    <i class="bi bi-volume-up-fill text-primary fs-6"></i> Listen to Audio
+                </button>
+            </div>
+
+            <!-- Controls -->
+            <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
+                <button class="btn btn-outline-secondary rounded-pill px-4 py-3 fw-medium shadow-sm" onclick="trainer.prevSentence()">
+                    <i class="bi bi-arrow-left me-1"></i> Previous
+                </button>
+                <button id="startMicBtn" class="btn btn-primary rounded-pill px-4 py-3 fw-bold shadow-sm" onclick="trainer.startListening()">
+                    <i class="bi bi-mic me-2"></i> Start Speaking
+                </button>
+                <button id="masterBtn" class="btn btn-outline-success rounded-pill px-4 py-3 fw-bold shadow-sm" onclick="trainer.toggleMastered()">
+                    <i class="bi bi-check2-circle me-1"></i> Mark Mastered
+                </button>
+                <button class="btn btn-outline-secondary rounded-pill px-4 py-3 fw-medium shadow-sm" onclick="trainer.nextSentence()">
+                    Next <i class="bi bi-arrow-right ms-1"></i>
+                </button>
+            </div>
+
+            <p id="speechStatus" class="text-secondary small fw-medium mb-4 text-center">Microphone ready.</p>
+            
+            <div class="row g-3 text-center">
+                <div class="col-md-6">
+                    <div class="p-3 rounded-4 bg-light border h-100 d-flex flex-column justify-content-center">
+                        <span class="small text-muted d-block mb-1 fw-semibold">System Transcript</span>
+                        <span id="userSpokenText" class="fw-bold text-dark fs-5">---</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 rounded-4 bg-light border h-100 d-flex flex-column justify-content-center align-items-center">
+                        <span class="small text-muted d-block mb-1 fw-semibold">Evaluation Status</span>
+                        <div id="speechFeedback"><span class="text-muted small">Awaiting speech input...</span></div>
+                    </div>
+                </div>
+                <p class="text-muted small mb-0">Sometimes <strong>"Evalution Status"</strong> may evalute wrong so see the  <strong>"System Transcript"</strong> to test your voice against the target sentence.</p>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white-50 border-top border-secondary border-opacity-25 mt-5">
+        <div class="container">
+            <p class="mb-0 small">© 2026 HindiSpeak | Built with care for friends to learn & grow together <span class="opacity-100 text-white">🚀📈</span></p>
+        </div>
+    </footer>
+
+    <!-- Shared Notepad Script -->
+    <script src="../js/notepad.js"></script>
+
+    <script>
+        fetch('../pages/customised-navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+                const scripts = document.getElementById('navbar-placeholder').querySelectorAll('script');
+                scripts.forEach(script => {
+                    const newScript = document.createElement('script');
+                    newScript.textContent = script.textContent;
+                    document.body.appendChild(newScript);
+                });
+            });
+    </script>
+
+    <!-- Speech Practice & JSON Fetching Logic using hindiSpeakCompletedLessons -->
+    <script>
+        const STORAGE_KEY = "hindiSpeakCompletedLessons";
+
+        class SpeechPracticeTrainer {
+            constructor() {
+                this.sentences = [];
+                this.currentIndex = 0;
+                this.recognition = null;
+                this.initSpeechAPI();
+                this.loadSentencesFromJson();
+            }
+
+            getCompletedItems() {
+                return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+            }
+
+            saveCompletedItems(completedList) {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(completedList));
+            }
+
+            initSpeechAPI() {
+                const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                if (!SpeechRecognition) {
+                    alert("Speech Recognition API is not supported in this browser. Please use Google Chrome.");
+                    return;
+                }
+
+                this.recognition = new SpeechRecognition();
+                this.recognition.lang = 'hi-IN';
+                this.recognition.interimResults = false;
+                this.recognition.maxAlternatives = 1;
+
+                this.recognition.onresult = (event) => {
+                    const spokenText = event.results[0][0].transcript.trim();
+                    this.evaluateSpeech(spokenText);
+                };
+
+                this.recognition.onerror = (event) => {
+                    this.updateStatus(`Recognition error: ${event.error}. Please try again.`, "text-danger");
+                    this.resetButton();
+                };
+
+                this.recognition.onspeechend = () => {
+                    this.recognition.stop();
+                    this.resetButton();
+                };
+            }
+
+            async loadSentencesFromJson() {
+                try {
+                    const jsonFiles = [
+                        '../data/lessons/beginner.json',
+                        '../data/grammar/basics.json',
+                        '../data/grammar/grammar-level-1.json',
+                        '../data/vocabulary/vocabulary-1.json'
+                    ];
+
+                    const promises = jsonFiles.map(file => fetch(file).then(res => {
+                        if (!res.ok) throw new Error(`Failed to load ${file}`);
+                        return res.json();
+                    }));
+
+                    const allData = await Promise.all(promises);
+                    this.sentences = [];
+
+                    allData.forEach(data => {
+                        if (data.lessons && Array.isArray(data.lessons)) {
+                            data.lessons.forEach(lesson => {
+                                if (lesson.sentences && Array.isArray(lesson.sentences)) {
+                                    lesson.sentences.forEach(s => {
+                                        this.sentences.push({
+                                            id: `speech_${lesson.id}_${s.hindi}`,
+                                            hindi: s.hindi,
+                                            roman: s.roman,
+                                            meaning: s.meaning
+                                        });
+                                    });
+                                }
+                            });
+                        }
+
+                        if (data.topics && Array.isArray(data.topics)) {
+                            data.topics.forEach(topic => {
+                                if (topic.lesson && topic.lesson.points) {
+                                    topic.lesson.points.forEach(point => {
+                                        if (point.examples && Array.isArray(point.examples)) {
+                                            point.examples.forEach(ex => {
+                                                this.sentences.push({
+                                                    id: `speech_topic_${ex.hindi}`,
+                                                    hindi: ex.hindi,
+                                                    roman: ex.roman,
+                                                    meaning: ex.english
+                                                });
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+                        }
+                    });
+
+                    if (this.sentences.length > 0) {
+                        // Automatically jump to the first uncompleted sentence based on local storage
+                        const completed = this.getCompletedItems();
+                        const firstIncompleteIndex = this.sentences.findIndex(s => !completed.includes(s.id));
+                        if (firstIncompleteIndex !== -1) {
+                            this.currentIndex = firstIncompleteIndex;
+                        }
+
+                        this.loadTargetSentence();
+                    } else {
+                        document.getElementById("targetHindi").textContent = "No sentences found in JSON files.";
+                    }
+                } catch (error) {
+                    console.error("Error loading JSON files:", error);
+                    document.getElementById("targetHindi").textContent = "Error loading lesson data files.";
+                }
+            }
+
+            speakTarget() {
+                if (!('speechSynthesis' in window)) {
+                    alert("Text-to-speech is not supported by your browser.");
+                    return;
+                }
+                if (this.sentences.length === 0) return;
+                window.speechSynthesis.cancel();
+                const targetText = this.sentences[this.currentIndex].hindi;
+                const utterance = new SpeechSynthesisUtterance(targetText);
+                utterance.lang = 'hi-IN';
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            }
+
+            loadTargetSentence() {
+                if (!this.sentences || this.sentences.length === 0) return;
+                const target = this.sentences[this.currentIndex];
+                
+                document.getElementById("targetHindi").textContent = target.hindi;
+                document.getElementById("targetRoman").textContent = target.roman;
+                document.getElementById("targetMeaning").textContent = `Meaning: "${target.meaning}"`;
+                document.getElementById("counterBadge").textContent = `Sentence ${this.currentIndex + 1} of ${this.sentences.length}`;
+                document.getElementById("speechFeedback").innerHTML = `<span class="text-muted small">Awaiting speech input...</span>`;
+                document.getElementById("userSpokenText").textContent = "---";
+
+                this.updateSentenceStatusUI();
+            }
+
+            updateSentenceStatusUI() {
+                const completed = this.getCompletedItems();
+                const currentId = this.sentences[this.currentIndex].id;
+                const isCompleted = completed.includes(currentId);
+                const badge = document.getElementById("completionBadge");
+                const masterBtn = document.getElementById("masterBtn");
+
+                if (isCompleted) {
+                    badge.classList.remove("d-none");
+                    masterBtn.innerHTML = `<i class="bi bi-check2-all me-1"></i> Mastered ✓`;
+                    masterBtn.classList.replace("btn-outline-success", "btn-success");
+                } else {
+                    badge.classList.add("d-none");
+                    masterBtn.innerHTML = `<i class="bi bi-check2-circle me-1"></i> Mark Mastered`;
+                    masterBtn.classList.replace("btn-success", "btn-outline-success");
+                }
+            }
+
+            markCurrentCompleted() {
+                const completed = this.getCompletedItems();
+                const currentId = this.sentences[this.currentIndex].id;
+                if (!completed.includes(currentId)) {
+                    completed.push(currentId);
+                    this.saveCompletedItems(completed);
+                }
+                this.updateSentenceStatusUI();
+            }
+
+            toggleMastered() {
+                const completed = this.getCompletedItems();
+                const currentId = this.sentences[this.currentIndex].id;
+                const existsIndex = completed.indexOf(currentId);
+
+                if (existsIndex > -1) {
+                    completed.splice(existsIndex, 1);
+                    this.saveCompletedItems(completed);
+                } else {
+                    completed.push(currentId);
+                    this.saveCompletedItems(completed);
+                    Swal.fire({
+                        title: 'Great job!',
+                        text: 'Sentence marked as mastered.',
+                        icon: 'success',
+                        timer: 1500,
+                        showConfirmButton: false
+                    });
+                }
+                this.updateSentenceStatusUI();
+            }
+
+            startListening() {
+                if (!this.recognition) {
+                    alert("Speech recognition is unavailable in this environment.");
+                    return;
+                }
+                try {
+                    this.recognition.start();
+                    this.updateStatus("Listening... Speak the target sentence clearly in Hindi 🎙️", "text-danger");
+                    const micBtn = document.getElementById("startMicBtn");
+                    micBtn.classList.add("btn-danger");
+                    micBtn.classList.remove("btn-primary");
+                } catch (e) {
+                    console.error(e);
+                }
+            }
+
+            evaluateSpeech(spoken) {
+                const target = this.sentences[this.currentIndex].hindi;
+                const spokenEl = document.getElementById("userSpokenText");
+                const feedbackEl = document.getElementById("speechFeedback");
+
+                if (!spoken || spoken.trim() === "") {
+                    spokenEl.textContent = `"(No speech detected)"`;
+                    feedbackEl.innerHTML = `<span class="badge bg-warning text-dark px-3 py-2 fs-6">⚠️ Try speaking again.</span>`;
+                    this.resetButton();
+                    return;
+                }
+
+                spokenEl.textContent = `"${spoken}"`;
+
+                const cleanSpoken = spoken.replace(/[.?!|]/g, '').trim();
+                const cleanTarget = target.replace(/[.?!|]/g, '').trim();
+
+                if (cleanSpoken === cleanTarget || cleanTarget.includes(cleanSpoken)) {
+                    feedbackEl.innerHTML = `<span class="badge bg-success px-3 py-2 fs-6">🎯 Spot On! Great Pronunciation.</span>`;
+                    this.markCurrentCompleted();
+                } else {
+                    feedbackEl.innerHTML = `<span class="badge bg-warning text-dark px-3 py-2 fs-6">💡 Try pronouncing more clearly.</span>`;
+                }
+                this.resetButton();
+            }
+
+            prevSentence() {
+                if (this.sentences.length === 0) return;
+                window.speechSynthesis.cancel();
+                this.currentIndex = (this.currentIndex - 1 + this.sentences.length) % this.sentences.length;
+                this.loadTargetSentence();
+                this.updateStatus("Microphone ready.", "text-secondary");
+            }
+
+            nextSentence() {
+                if (this.sentences.length === 0) return;
+                window.speechSynthesis.cancel();
+                this.currentIndex = (this.currentIndex + 1) % this.sentences.length;
+                this.loadTargetSentence();
+                this.updateStatus("Microphone ready.", "text-secondary");
+            }
+
+            updateStatus(msg, className) {
+                const statusEl = document.getElementById("speechStatus");
+                statusEl.className = `small fw-medium mb-4 text-center ${className}`;
+                statusEl.textContent = msg;
+            }
+
+            resetButton() {
+                const micBtn = document.getElementById("startMicBtn");
+                if (micBtn) {
+                    micBtn.classList.remove("btn-danger");
+                    micBtn.classList.add("btn-primary");
+                }
+            }
+        }
+
+        const trainer = new SpeechPracticeTrainer();
+    </script>
+</body>
+</html>
